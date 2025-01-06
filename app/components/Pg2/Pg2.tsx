@@ -126,7 +126,7 @@ const Pg2 = () => {
                 {t('100')}
               </div>
               <div className = {style.fnameinp}>
-                <input type="tel"   name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
+                <input type="text"   name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
               </div>
             </div>
             </div>
