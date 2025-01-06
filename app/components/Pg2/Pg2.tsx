@@ -49,7 +49,7 @@ const Pg2 = () => {
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-    const response = await fetch('https://hooks.zapier.com/hooks/catch/1132476/2zudfr7/', {
+    const response = await fetch('https://cupidmess.pythonanywhere.com/api/form/?', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
