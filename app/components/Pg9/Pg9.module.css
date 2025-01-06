@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SemiConReg';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SemiConBoldFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.main {
+  font-family: "Font", sans-serif;
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-right: 13rem;
+}
+.heading{
+  font-family: "SemiBold", sans-serif;
+  color: #433878;
+  font-size: 42px;
+}
+.underline{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  width: 30%;
+}
+.h1{
+  color: #433878;
+  font-family: "SemiBold", sans-serif;
+  font-size:25px;
+  margin-top: 2rem;
+}
+.txt{
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+  font-size: 18px;
+  width: 60%;
+}
+.txt2,.txt3{
+  margin-top: 0.5rem;
+  font-size: 18px;
+}
+.txt3{
+  width: 30%;
+}
+.listh{
+  margin-top: 0.5rem;
+  color: #433878;
+  font-family: "SemiBold", sans-serif;
+  font-size:21px;
+
+}
+.list {
+  list-style-type: disc; /* Ensures bullets are displayed */
+  margin-left: 15px; /* Adds space to the left for better alignment */
+  padding-left: 20px; /* Optional: Adds padding */
+  font-size: 18px;
+}
+.text{
+  margin-top: 1rem;
+  font-size: 18px;
+}
+.text4{
+  margin-top: 1rem;
+  font-size: 18px;
+}
+@media (min-width:1450px){
+  .main{
+    width: 1440px;
+    margin: auto;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+  }
+}
+@media (max-width:786px){
+  .main {
+    font-family: "Font", sans-serif;
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .heading{
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 35px;
+  }
+  .underline{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 30%;
+  }
+  .h1{
+    color: #433878;
+    font-family: "SemiBold", sans-serif;
+    font-size:22px;
+    margin-top: 2rem;
+  }
+  .txt{
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    font-size: 15px;
+    width: 100%;
+  }
+  .txt2,.txt3{
+    margin-top: 0.5rem;
+    font-size: 15px;
+  }
+  .txt3{
+    width: 100%;
+  }
+  .listh{
+    color: #433878;
+    font-family: "SemiBold", sans-serif;
+    font-size:18px;
+  
+  }
+  .list {
+    list-style-type: disc; /* Ensures bullets are displayed */
+    margin-left: 15px; /* Adds space to the left for better alignment */
+    padding-left: 20px; /* Optional: Adds padding */
+    font-size: 15px;
+  }
+  .text{
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+  .text4{
+    margin-top: 1rem;
+    font-size: 15px;
+  }
+}

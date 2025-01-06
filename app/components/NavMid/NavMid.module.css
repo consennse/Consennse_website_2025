@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.t {
+  font-family: 'SemiBold', sans-serif;
+  color:#FDFDFD ;
+  padding: 2.5rem;
+}
+.t1{ 
+
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 20%;
+  width: 80%;
+}
+.t2{
+  font-family: "Regular", sans-serif;
+  font-size: 25px;
+  width: 55%;
+}
+@media (max-width: 768px) {
+  .t {
+    color:#FDFDFD ;
+
+  }
+  .t1{ 
+    font-size: 38px;
+    font-weight: 700;
+    margin-top: 25%;
+    width: 70%;
+  }
+  .t2{
+    width: 70%;
+    font-size: 17px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media (min-width: 1600px) {
+  .main{
+    width: 100%;
+  }
+  .t {
+    width: 1440px;
+    margin: auto;
+    color:#FDFDFD ;
+
+  }
+  .t1{ 
+    font-size: 98px;
+    font-weight: 700;
+    margin-top: 15%;
+    width: 100%;
+  }
+  .t2{
+    width: 75%;
+    font-size: 37px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}

@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+.maincon{
+  width: max-content;
+  padding-top: 8rem;
+  font-family: 'Font', sans-serif;
+  padding-left: 7rem;
+  padding-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 70rem; */
+}
+.right31mob{
+  display: none;
+}
+.maintop{
+  color: #433878;
+  width: max-content;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+
+.form{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: max-content;
+  padding: 3rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+  margin-bottom:7rem;
+}
+.leftf{
+  width: 50%;
+}
+.rightf{
+
+  width: 50%;
+}
+.img1{
+  width: auto;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.l1,.l3{
+  display: flex;
+  flex-direction: row;
+}
+.finput1,.finput3{
+  width: 260px;
+  padding: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color: #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.finput3{
+  width: 190%;
+}
+.comp{
+  display: flex;
+  flex-direction: row;
+}
+.op{
+  margin-left: 0.25rem;
+}
+.finput2 {
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 13rem;
+  padding-top: 1rem;
+  text-align: left; /* Ensures text and cursor start from the left */
+  vertical-align: top; /* Ensures text starts at the top */
+  resize: none; /* Prevents resizing if it's a textarea */
+}
+.righttxt,.righttxt1,.righttxt2,.righttxt3{
+display: flex;
+flex-direction: row;
+}
+.right2{
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+.rt1,.rt2{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+.righttxt1{
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.lbutt1{
+  background-color: #433878;
+  color: white;
+  width: 190%;
+  padding-top: 1rem;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  padding-left: 80%;
+}
+.ice{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+@media (max-width :768px){
+
+.bod{
+  background-color: #F7F4FA;
+} 
+.maincon{
+  padding-top:6rem;
+  font-family: 'Font', sans-serif;
+  padding-left: 1.7rem;
+  padding-right: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 70rem; */
+}
+.maintop{
+  color: #433878;
+  font-size: 36px;
+  font-weight: 600;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.leftf{
+  width: 50%;
+}
+.rightf{
+
+  width: 50%;
+}
+.img1{
+  display: none;
+  width: auto;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.l1,.l3{
+  display: flex;
+  flex-direction: column;
+}
+.finput1,.finput3{
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color: #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.finput3{
+  width: 190%;
+}
+.comp{
+  display: flex;
+  flex-direction: row;
+}
+.op{
+  margin-left: 0.25rem;
+}
+.right31mob{
+  display: block;
+}
+.righttxt3{
+  display: flex;
+  flex-direction: column;
+}
+.righttxt31,.righttxt32,.righttxt33{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.rt31,.rt32,.rt33{
+  margin-left: 0.5rem;
+}
+.finput2 {
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 13rem;
+  padding-top: 1rem;
+  text-align: left; /* Ensures text and cursor start from the left */
+  vertical-align: top; /* Ensures text starts at the top */
+  resize: none; /* Prevents resizing if it's a textarea */
+}
+.righttxt,.righttxt1,.righttxt2,.righttxt3{
+display: flex;
+flex-direction: row;
+}
+.righttxt31{
+  margin-top: 1.7rem;
+}
+@media (max-width: 768px) {
+  .popupss {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%; /* Occupy most of the viewport width */
+    max-width: 90vw; /* Ensure it doesn't exceed the viewport width */
+  }
+}
+.right2{
+  display: none;
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+.rt1,.rt2{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+.righttxt1{
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.lbutt1{
+  background-color: #433878;
+  color: white;
+  width: 190%;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  padding-left: 65%;
+}
+}
+@media (min-width:1600px){
+
+  .maincon{
+    width: 1440px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,262 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+  @font-face {
+    font-family: 'SemiBold';
+    src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+.Lp3{
+  background-color: #f7f4fa;
+  font-family: 'Font', sans-serif ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: max-content;
+  align-items: center;
+  padding-top: 3rem;
+}
+.lpleft3{
+  height: max-content;
+  background-color: #433878;
+  color: white;
+  padding: 2rem;
+  padding-bottom: 3rem;
+}
+.lpright3{
+  background-image: url('/images/image-6.svg');
+  height: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+}
+.left3T{ 
+  text-transform:uppercase;
+  font-family: 'Noto Sans', sans-serif;
+  font-stretch: condensed;
+  font-weight: 1000;
+  font-size: 13px;
+  transform: scale(1, 1.2);
+  margin-bottom: 3rem;
+}
+.left3T1{
+  font-family: "BoldFont", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.leftline{
+  width: 450px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color:white;
+  border-left: none;
+  border-right:none;
+  border-bottom: none;
+}
+.left3T2{ 
+  font-size: 16px;
+  width: 70%;
+}
+.left3T22{ 
+  margin-top: 1.5rem;
+}
+.lpbox{ 
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  margin-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  margin-top: 2.5rem;
+}
+.boxtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34%;
+  color: #433878;
+
+}
+.boxst{
+  font-family:"BoldFont", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+
+}
+.boxlt{ 
+  font-size: 14px;
+  opacity: 0.8;
+}
+.boxline { 
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  opacity: 0.7;
+  height: 45px;
+  margin-top: 1.2rem;
+}
+@media (max-width: 768px) {
+.Lp3{
+  background-color: #f7f4fa;
+  font-family: 'Font', sans-serif ;
+  padding-top: 3rem;
+  width: 100%;
+  display: flex;
+}
+.lpleft3{
+  height: max-content;
+  background-color: #433878;
+  color: white;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+.lpright3{
+  background-image: url('/images/image-6.svg');
+  height: 100%;
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  display: none;
+}
+.left3T{ 
+  text-transform:uppercase;
+  font-family: 'Noto Sans', sans-serif;
+  font-stretch: condensed;
+  font-weight: 1000;
+  font-size: 13px;
+  transform: scale(1, 1.2);
+  margin-bottom: 3rem;
+
+}
+.left3T1{
+  font-family: "BoldFont", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+
+}
+.leftline{
+  width: 50%;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color:white;
+  border-left: none;
+  border-right:none;
+  border-bottom: none;
+}
+.left3T2{ 
+  font-size: 14px;
+  width: 97%;
+}
+.left3T22{ 
+  margin-top: 1.5rem;
+}
+.lpbox{ 
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 5px;
+  margin-top: 2.5rem;
+}
+.boxtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34%;
+  color: #433878;
+
+}
+.boxst{
+  font-family:"BoldFont", sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+
+}
+.boxlt{ 
+  font-size: 12px;
+  opacity: 0.8;
+}
+.boxline { 
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  opacity: 0.7;
+  height: 35px;
+  margin-top: 0.3rem;
+}
+}

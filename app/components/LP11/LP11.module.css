@@ -1,0 +1,251 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraCond';
+  src: url('/fonts/NotoSans_ExtraCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+.mainish{
+  background-color: #f7f7fa;
+  padding-bottom: 3rem;
+}
+.main11{
+  background-color: white;
+  font-family: 'Font', sans-serif;
+  display: flex;
+  flex-direction: row;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  padding: 2rem;
+  padding-bottom: 2rem;
+  border: 0.5px;
+  border-radius: 16px;
+  border-style: solid;
+  border-color: #433878;
+  height: 325.8px;
+
+}
+.left11{
+  width: 50%;
+  height: max-content;
+
+}
+.righttop11{
+  color: #433878;
+  font-family: "ConBoldFont",sans-serif;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin-bottom: 0.8rem;
+}
+.righttit11 {
+  font-size:43px;
+  font-weight: 800;
+  color: #433878;
+  margin-bottom: 0.5rem;
+}
+.right11{
+  width: 45%;
+}
+.left11{
+  width: 50%;
+  padding-left: 5rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+.llime{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.mainline{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  height: 260px;
+  margin-right: 3%;
+  margin-left: 5%;
+}
+.ofc{
+  height: 260px;
+  width: auto;
+ margin: auto;
+}
+.rightmc11 {
+  font-family: "Regular", sans-serif;
+  font-size: 17px;
+  width: 85%;
+  opacity: 0.75;
+  margin-bottom: 2rem;
+}
+.rightbut11{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 200px;
+  height: 50px;
+  padding-left: 2.5rem;
+  border-radius: 5px;
+}
+@media (max-width: 768px){
+  .mainish{
+    background-color: #f7f7fa;
+    padding-bottom: 3rem;
+  }
+  .main11{
+    background-color: white;
+    font-family: 'Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    padding: 2rem;
+    padding-bottom: 2rem;
+    border: 0.5px;
+    border-radius: 16px;
+    border-style: solid;
+    border-color: #433878;
+    height: 551px;
+  
+  }
+  .left11{
+    width: 100%;
+    height: max-content;
+    padding-left: 0;
+    border: 0;
+  
+  }
+  .righttop11{
+    color: #433878;
+    font-family: "ConBoldFont",sans-serif;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 0.8rem;
+  }
+  .righttit11 {
+    font-size:33px;
+    font-weight: 800;
+    color: #433878;
+    margin-bottom: 0.5rem;
+  }
+  .right11{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .left11{
+    width: 100%;
+  }
+  .llime{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .mainline{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    height: 260px;
+    margin-right: 3%;
+    margin-left: 5%;
+    display: none;
+  }
+  .ofc{
+    width: 250px;
+    height: auto;
+    margin-left: 0%;
+  }
+  .rightmc11 {
+    font-size: 13px;
+    width: 85%;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+  }
+  .righttop11{
+    margin-top: 0.5rem;
+  }
+  .rightbut11{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    padding-left: 2.5rem;
+    border-radius: 5px;
+  }
+}

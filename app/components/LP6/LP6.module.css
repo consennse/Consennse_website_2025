@@ -1,0 +1,306 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiCondFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;}
+
+  @font-face {
+    font-family: 'SemiBold';
+    src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+.leftwa{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.rightwa{
+  width: 50%;
+}
+.backimg{
+  height: 100%;
+}
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+
+.body6{
+  background-color: #f7f4fa;
+  font-family: 'Font' , sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.left6{ 
+  padding-top: 2.5rem;
+  padding-left: 2.5rem;
+  background-color: #433878;
+  height:max-content;
+  width: 100%;
+  color: white;
+  margin-right: 2.5rem; 
+  padding-bottom: 1.9rem;
+}
+.lt1{
+  font-family: "SemiConBold", sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  margin-bottom: 2rem;
+  width: 80%;
+}
+.lt2{
+  font-family: "SemiBold", sans-serif;
+  font-size: 54px;
+  width: 90%;
+}
+.sline {
+  border-color: white;
+  border:0.1px;
+  border-style: solid;
+  width: 70%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.lt3{
+  font-family: "Regular", sans-serif;
+  width: 75%;
+  font-size: 19px;
+  opacity: 0.8;
+  margin-bottom: 3rem;
+}
+.button6{
+  font-family: "Medium", sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 1000;
+  width: 260px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding-left: 5%;
+  margin-left: 2rem;
+}
+.but1{
+  margin-bottom: 7rem;
+}
+.right6{
+  background-color: #f7f4fa;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 20px;
+  padding-bottom: 3rem;
+}
+.rgrid1{
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-columns: auto; /* Rows adjust to content height */
+  gap: 15px; /* Space between grid items */
+  height: max-content;
+  margin-left:2rem;
+  margin-right: 2rem;
+  width: 85%;
+}
+.rgrid2{ 
+  display: grid;
+  grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
+  grid-template-columns: auto; /* Rows adjust to content height */
+  gap: 15px; /* Space between grid items */
+  height: max-content;
+  margin-right: 2rem;
+  width: 85%;
+}
+.ic2{
+  font-size: 15px;
+  margin-left: 0.5rem;
+}
+
+.ctxt2 {
+  font-family: "Regular", sans-serif
+  ;
+  font-size: 17px;
+}
+.ctxt1{ 
+  color: #433878;
+  font-family: "BoldFont", sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 23px;
+}
+.mainish{
+  background-color: #f7f4fa;
+}
+@media (max-width: 768px) {
+  .mainish{
+    background-color: #f7f4fa;
+  }
+  .body6{
+    background-color: #f7f4fa;
+    /* margin-right: 2.5rem; */
+    display: flex;
+    flex-direction: column;
+    margin-right:0 ;
+  }
+  .right6{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0rem;
+
+  }
+  .rgrid2{
+
+    margin-left: 2rem;
+  
+  }
+  .left6{ 
+    padding-top: 2.5rem;
+    padding-left: 2.5rem;
+    background-color: #433878;
+    height:max-content;
+    width: 100%;
+    border-radius: 7px;
+    color: white;
+    margin-right:0; 
+    margin-bottom: 0rem;
+  }
+  .leftwa{
+    width: 100%;
+  }
+  .lt1{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+  .lt2{
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 0.4in;
+    width: 88%;
+  }
+  .sline {
+    border-color: white;
+    border:0.1px;
+    border-style: solid;
+    width: 70%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .lt3{
+    width: 70%;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 2rem;
+  }
+  .but12{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: #433878;
+    font-size: 12px;
+    font-weight: 500;
+    width: max-content;
+    height: 32px;
+    padding-left: 2.4rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+  }
+  .but1{
+    margin-bottom: 3rem;
+  }
+  
+    .button6{
+      width: max-content;
+      padding-right: 3rem;
+      padding-left: 3rem;
+     margin-left: 20%;
+    }
+
+  .ctxt2 {
+    font-size: 13px;
+    line-height: 0.17in;
+    opacity: 0.8;
+    width: 100%;
+    text-align: justify;
+  }
+  .ctxt1{ 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-size: 19px;
+  }
+  .backimg{
+    display: none;
+  }
+}

@@ -1,0 +1,27 @@
+.but {
+  background-color: #433878;
+  width: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 4rem;
+  text-align: center;
+  padding-right: 0;
+}
+@media (max-width:768px){
+  .but {
+    background-color: #433878;
+    width: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
+    margin-left: 6rem;
+    margin-right: 1rem;
+  }
+}

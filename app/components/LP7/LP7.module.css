@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraCond';
+  src: url('/fonts/NotoSans_ExtraCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+.main7 {
+  background-color: #f7f4fa;
+  font-family: 'Font', sans-serif;
+  display: flex;
+  flex-direction: row;
+
+  padding-bottom: 5rem;
+}
+.left7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 2.5rem;
+  width: 50%;
+  padding-left: 2.5rem;
+  background-color: #433878;
+  color: white;
+  height: 100%;
+  padding-top: 2rem;
+  padding-bottom: 3.2rem;
+}
+
+.leftbut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width:max-content;
+  text-align: justify;
+  height: 50px;
+  padding-left: 2.5rem;
+  border-radius: 5px;
+}
+.left7top{
+  font-family:"ConBoldFont", sans-serif;
+  color: white;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.left7txt {
+  font-family:"SemiConBold";
+  font-size: 50px;
+
+  color: white;
+  margin-bottom: 1rem;
+}
+.left7txt1,.left7txt2{
+  font-size: 18px;
+
+}
+.left7txt2{
+  margin-bottom: 1.4rem;
+}
+
+.imgbox{
+  height: 100%;
+}
+.brimg{
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.right7 {
+  width: 50%;
+}
+
+@media (max-width: 768px){
+  .main7 {
+    background-color: #f7f4fa;
+    font-family: 'Font', sans-serif;
+    display: flex;
+    flex-direction: column;
+  
+    padding-bottom: 5rem;
+  }
+  .left7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 2.5rem;
+    width: 100%;
+    padding-left: 2.5rem;
+    background-color: #433878;
+    color: white;
+    height: 100%;
+    padding-top: 2rem;
+    padding-bottom: 3.2rem;
+  }
+  
+  .leftbut {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    width:max-content;
+    text-align: justify;
+    height: 50px;
+    padding-left: 2.5rem;
+    border-radius: 5px;
+  }
+  .left7top{
+    font-family:"ConBoldFont", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+  .left7txt {
+    font-family:"SemiConBold";
+    font-size: 50px;
+  
+    color: white;
+    margin-bottom: 1rem;
+  }
+  .left7txt1,.left7txt2{
+    font-size: 18px;
+
+  }
+  .left7txt2{
+    margin-bottom: 1.4rem;
+  }
+  
+  .imgbox{
+    height: 100%;
+  }
+  .right7 {
+    width: 100%;
+  }
+  
+}

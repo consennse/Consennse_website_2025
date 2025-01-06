@@ -1,0 +1,198 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConBold';
+  src: url('/fonts/NotoSans_SemiCondensed-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ShortBold';
+  src: url('/fonts/NotoSans-Black.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraCond';
+  src: url('/fonts/NotoSans_ExtraCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ExtraBold';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraBold.ttf') format('truetype');
+  font-weight: 1000;
+  font-style: normal;
+}
+.main8 {
+  background-color: #f7f4fa;
+  font-family: 'Font' , sans-serif;
+  display: flex;
+  flex-direction: row;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.gridbox{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: auto;
+}
+.left8{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+
+}
+.tit8 {
+  font-family: "SemiConBold",sans-serif;
+  font-size: 50px;
+  color: #433878;
+  margin-bottom: 1rem;
+}
+.right8 {
+  width: 50%;
+  margin-top: 3rem;
+}
+.imgbox8{ 
+  position: absolute;
+  margin-right: 5rem;
+}
+.rightbox8 { 
+  background-color: #433878;
+  border-radius: 5px;
+  margin-left: 19rem;
+  position: absolute;
+  width: 20rem;
+  margin-right: 2.5rem;
+  margin-top: 17rem;
+  height: 19rem;
+}
+.mc1{
+  color: #433878;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.mc18{ 
+  font-size: 14px;
+  margin-bottom: 1.8rem;
+}
+.button6{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #433878;
+  color: white;
+  font-size: 18px;
+  font-weight: 1000;
+  width: 260px;
+  height: 60px;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding-left: 27%;
+}
+.ic2{
+  font-size: 16px;
+  margin-left: 0.5rem;
+}
+@media (max-width: 768px){
+  .main8 {
+    font-family: 'Font' , sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+  }
+  .left8{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-right: 0;
+  }
+  .button6{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 18px;
+    font-weight: 1000;
+    width: 200px;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding-left: 22%;
+  }
+
+  .tit8 {
+    font-family: "SemiConBold",sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    color: #433878;
+    margin-bottom: 1rem;
+  }
+  .right8 {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .gridbox{
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .mc1{
+    color: #433878;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+  }
+  .mc18{ 
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 1.8rem;
+    text-align: justify;
+  }
+}

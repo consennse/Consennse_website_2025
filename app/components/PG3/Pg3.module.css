@@ -1,0 +1,417 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+.mainish{
+  background-color: #F7F4FA;
+}
+.right31mob{
+
+  display: none;
+
+}
+.bod{
+  background-color: #F7F4FA;
+  padding-bottom: 7rem;
+}
+.rt3{
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+.compi1{
+  width: 190%;
+  margin-top: 0.5rem;
+  font-size: 12px;
+  display:flex;
+  flex-direction: row;
+  margin-bottom: 1rem;
+
+}
+.compi2{
+
+  font-size: 12.5px;
+  margin-top: 0.7rem;
+
+}
+.radioInput {
+  margin-right: 0.3rem;
+}
+.option2{
+  margin-left:3.2rem;
+}
+.option4{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.option1,.option2,.option3,.option4,.option5{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.arrow {
+  border: 1px solid black;
+  border-radius: 50%; /* Makes it circular */
+  height: 20px; /* Adjust size */
+  width: 20px;
+  margin-right: 0.4rem;
+  cursor: pointer;
+  display: inline-block;
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.arrow.change {
+  border: 3px solid #433878; /* Highlighted border */
+  background-color: #433878; /* Filled color when selected */
+}
+
+.radioInput {
+  display: none; /* Hide the default radio button */
+}
+
+.option {
+  margin-left: 0.6rem;
+  display: flex; /* Align the circle and text */
+  align-items: center;
+  margin-bottom: 0.5rem; /* Add spacing between options */
+  cursor: pointer;
+}
+
+.option:hover .arrow {
+  border-color: #433878; /* Optional: Change color on hover */
+}
+
+
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+.bod{
+  background-color: #F7F4FA;
+} 
+.maincon{
+  padding-top: 6rem;
+  font-family: 'Font', sans-serif;
+  padding-left: 7rem;
+  padding-bottom: 5rem;
+  padding-right: 7rem;
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  /* margin-bottom: 70rem; */
+}
+.maintop{
+  color: #433878;
+  font-size: 46px;
+  font-weight: 600;
+  width: max-content;
+}
+
+@media (min-width:1600px) {
+  .maincon{
+    width: 1440px;
+    margin: auto;
+    overflow-x: hidden;
+  }
+
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: max-content;
+  padding: 3rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.leftf{
+  width: 50%;
+}
+.rightf{
+
+  width: 50%;
+}
+.img1{
+  width: auto;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+
+.l1,.l3{
+  display: flex;
+  flex-direction: row;
+}
+.finput1,.finput3{
+  width: 260px;
+  padding: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color: #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.finput3{
+  width: 190%;
+}
+.comp{
+
+  display: flex;
+  flex-direction: row;
+}
+.op{
+  margin-left: 0.25rem;
+}
+.finput2 {
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 0rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 13rem;
+  padding-top: 1rem;
+  text-align: left; /* Ensures text and cursor start from the left */
+  vertical-align: top; /* Ensures text starts at the top */
+  resize: none; /* Prevents resizing if it's a textarea */
+}
+.righttxt,.righttxt1,.righttxt2,.righttxt3{
+display: flex;
+flex-direction: row;
+}
+.right2{
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+.rt1,.rt2{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+.righttxt1{
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.lbutt1{
+  background-color: #433878;
+  color: white;
+  width: 190%;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  padding-left: 80%;
+}
+.ice{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+@media (max-width :786px){
+
+.bod{
+  background-color: #F7F4FA;
+} 
+.maincon{
+  padding-top:6rem;
+  font-family: 'Font', sans-serif;
+  padding-left: 1rem;
+  padding-right: 0rem;
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 70rem; */
+}
+.maintop{
+  color: #433878;
+  font-size: 36px;
+  font-weight: 600;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  width: 100%;
+  padding: 2rem;
+  border-radius: 32px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+.leftf{
+  width: 50%;
+}
+
+.rightf{
+
+  width: 50%;
+}
+.img1{
+  display: none;
+  width: auto;
+  height: 40rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.l1,.l3{
+  display: flex;
+  flex-direction: column;
+}
+.finput1,.finput3{
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px;
+  border-style: solid;
+  border-color: #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.7rem;
+  margin-bottom: 1.5rem;
+}
+.finput3{
+  width: 190%;
+}
+.comp{
+  display: flex;
+  flex-direction: row;
+}
+.op{
+  margin-left: 0.25rem;
+}
+.right31mob{
+  display: block;
+}
+@media (max-width: 768px) {
+  .popupss {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 90%; /* Occupy most of the viewport width */
+    max-width: 90vw; /* Ensure it doesn't exceed the viewport width */
+  }
+}
+.righttxt3{
+  display: flex;
+  flex-direction: column;
+}
+.righttxt31,.righttxt32,.righttxt33{
+  display: flex;
+  flex-direction: row;
+  width: max-content;
+  font-size: 14px;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.righttxt31{
+  margin-top: 1.7rem;
+}
+.rt31,.rt32,.rt33{
+  margin-left: 0.5rem;
+}
+.finput2 {
+  width: 190%;
+  padding: 0.5rem;
+  border: 1px solid #8b8b8b;
+  border-radius: 10px;
+  font-size: 14px;
+  padding-left: 1rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  height: 13rem;
+  padding-top: 1rem;
+  text-align: left; /* Ensures text and cursor start from the left */
+  vertical-align: top; /* Ensures text starts at the top */
+  resize: none; /* Prevents resizing if it's a textarea */
+}
+.righttxt,.righttxt1,.righttxt2,.righttxt3{
+display: flex;
+flex-direction: row;
+}
+.right2{
+  display: none;
+  margin-left: 2.5rem;
+  margin-top: 1.5rem;
+}
+.rt1,.rt2{
+  font-size: 14px;
+  margin-left: 0.5rem;
+}
+.righttxt1{
+  margin-right: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.lbutt1{
+  background-color: #433878;
+  color: white;
+  width: 190%;
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 18px;
+  padding-bottom: 1rem;
+  border-radius: 10px;
+  padding-left: 65%;
+}
+
+.comp{
+  margin-bottom: 0.8rem;
+  margin-top: 0.5rem;
+}
+.compi1{
+  width: 190%;
+  margin-top: 0rem;
+  font-size: 12px;
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 0rem;
+
+}
+.compi2{
+
+  font-size: 12.5px;
+  margin-top: 0.7rem;
+
+}
+.radioInput {
+  margin-right: 0.3rem;
+}
+.option2{
+  margin-left:3.2rem;
+}
+.option4{
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+.option1,.option2,.option3,.option4,.option5{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+}

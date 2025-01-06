@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.m {
+  background-color: #f7f4fa;
+  font-family: "Font", sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  height: max-content;
+  align-items: center;
+  font-family: 'Font', sans-serif;
+  padding-top: 2.5rem;
+}
+.l{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.lboxt{
+  background-color: white;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  border-radius: 12px;
+  border-color: none;
+}
+
+.im1{
+  height : auto;
+  width: 110px;
+  margin-bottom: 1.2rem;
+}
+.im2{
+  height: 45px;
+  width: auto;
+  margin-bottom: 2.5rem;
+  border: none;
+}
+.lb1,.lb2{
+  width: 80%;
+}
+@media (max-width:768px){
+  .l{
+    display: flex;
+    flex-direction: column;
+  }
+}
