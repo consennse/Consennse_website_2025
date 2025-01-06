@@ -49,23 +49,24 @@ const Pg2 = () => {
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-    const response = await fetch('https://cupidmess.pythonanywhere.com/api/form/?', {
+    const response = await fetch('https://hooks.zapier.com/hooks/catch/1132476/2zudfr7/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(formData), // Send form data as JSON
     });
-    console.log(response); 
-    // Show the popup
-    setPopupVisible(true);
+    console.log(formData);
+    // console.log(response); 
+    // // Show the popup
+    // setPopupVisible(true);
 
-    // Wait for 2 seconds before hiding popup and navigating to home
-    setTimeout(() => {
-      setPopupVisible(false); // Hide the popup after 2 seconds
-      setIsLoading(false); // Set loading state to false (hide "Loading..." text)
-      window.location.href = '/'; // Redirect to the home page
-    }, 2000); // 2 seconds delay
+    // // Wait for 2 seconds before hiding popup and navigating to home
+    // setTimeout(() => {
+    //   setPopupVisible(false); // Hide the popup after 2 seconds
+    //   setIsLoading(false); // Set loading state to false (hide "Loading..." text)
+    //   window.location.href = '/'; // Redirect to the home page
+    // }, 2000); // 2 seconds delay
   };
   const closePopup = () => {
     setPopupVisible(false); // Hide the popup
