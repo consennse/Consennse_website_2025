@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Consennse",
-  description: "",
+  description: "Your Propertybase Full Service Provider",
 };
 
 export default function RootLayout({
