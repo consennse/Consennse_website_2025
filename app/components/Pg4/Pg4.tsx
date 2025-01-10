@@ -181,13 +181,15 @@ Platinum
     </div>
 </div>
 </div>
-<Link href = '/users/Page2'>
-<button className = {style.butt1}>{t('144')} 
-<FaChevronRight className={style.ic2}/>
-</button>
-</Link>
 
 <div className = {style.st}>* Guaranteed response time for emergencies</div>
+<div className = {style.lastpage}>
+          <div className = {style.lasttit}>{t('317')}</div>
+          <div className = {style.con5}>{t('318')}</div>
+          <Link href = '/users/Page1'>
+          <button className = {style.but5}>{t('38')} <FaChevronRight className={style.iconlast}/> </button>
+          </Link>
+        </div>
       </div>
       </div>
       </div>

@@ -188,11 +188,13 @@ const Pg5 = () => {
   </div>
 </div>
          </div>
-         <Link href = "/users/Page1">
-         <button className = {style.button15}>Get Started
-         <FaChevronRight className={style.ic1}/>
-         </button>
-         </Link>
+         <div className = {style.lastpage}>
+          <div className = {style.lasttit}>{t('317')}</div>
+          <div className = {style.con5}>{t('318')}</div>
+          <Link href = '/users/Page1'>
+          <button className = {style.but5}>{t('38')} <FaChevronRight className={style.iconlast}/> </button>
+          </Link>
+        </div>
          </div>
          </div>
     <Footer/>

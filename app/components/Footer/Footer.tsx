@@ -29,13 +29,34 @@ const Footer = () => {
       <div className = {st12.bottombox2}>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>Services</div>
-        <div className = {st12.bots223}>{t('82')}</div>
-        <div className = {st12.bots224}>{t('81A')}</div>
+        <div className = {st12.bots223}>
+          <Link href = '/users/Page4'>
+          {t('82')}
+          </Link>
+          </div> 
+        <div className = {st12.bots224}>
+        <Link href = '/users/Page4'>
+          {t('81A')}
+          </Link>
+          </div>
       </div>
       <div className={st12.bot22}>
         <div className = {st12.bots21}>{t('83')}</div>
-        <div className = {st12.bots22}>{t('84')}</div>
-        <div className = {st12.bots22}>EXPOSE for Propertybase</div>
+        <div className = {st12.bots22}>
+          <Link href = '/users/SwissEdition'>
+          {t('84')}
+          </Link>
+          </div>
+        <div className = {st12.bots22}>
+          <Link href = '/users/WebOffice'>
+          {t('84A')}
+          </Link>
+          </div>
+        <div className = {st12.bots22}>
+          <Link href = '/users/Expose'>
+          EXPOSE for Propertybase
+          </Link>
+          </div>
       </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('85')}</div>
