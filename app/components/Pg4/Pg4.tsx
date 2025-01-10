@@ -167,6 +167,10 @@ Platinum
     </div>
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={25}/>
+        <div className = {style.tick1}>{t('141')}</div>
+    </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('142')}</div>
     </div>
     <div className  = {style.l1}>
@@ -183,7 +187,7 @@ Platinum
 </button>
 </Link>
 
-<div className = {style.st}>*Guaranteed response time for emergencies</div>
+<div className = {style.st}>* Guaranteed response time for emergencies</div>
       </div>
       </div>
       </div>

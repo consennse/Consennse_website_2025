@@ -96,6 +96,7 @@
 .righttxt,.righttxt1,.righttxt2,.righttxt3{
 display: flex;
 flex-direction: row;
+align-items: center;
 }
 .right2{
   margin-left: 2.5rem;

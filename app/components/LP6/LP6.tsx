@@ -54,7 +54,7 @@ const LP6 = () => {
           </div>
         </div>
         <Link href = '/users/Page4/'>
-        <button className = {st6.button6}>Get Started
+        <button className = {st6.button6}>{t('144')}
           <FaChevronRight className={st6.ic2}/>
           </button>
           </Link>

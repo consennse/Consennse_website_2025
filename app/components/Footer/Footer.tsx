@@ -19,7 +19,12 @@ const Footer = () => {
       Switzerland
       </div>
       <div className = {st12.bots2}>info@consennse.com</div>
-      <div className = {st12.img12} > <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/></div>
+      <div className = {st12.img12} >
+      <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
+        rel="noopener noreferrer">
+         <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/>
+         </Link>
+         </div>
       </div>
       <div className = {st12.bottombox2}>
       <div className={st12.bot2}>
@@ -34,7 +39,16 @@ const Footer = () => {
       </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('85')}</div>
-        <div className = {st12.bots23}>{t('86')}</div>
+        <div className = {st12.bots23}>
+        <Link href = "https://www.propertybase.com/"   target="_blank" 
+        rel="noopener noreferrer">
+          {t('86')} </Link></div>
+        <div className = {st12.bots23}>
+        <Link href = "  https://www.salesforce.com/"   target="_blank" 
+        rel="noopener noreferrer">
+          {t('87B')}
+          </Link>
+          </div>
       </div>
       </div>
       </div>

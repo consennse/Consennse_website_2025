@@ -153,11 +153,9 @@ line-height: 0.25in;
   font-size: 13px;
   width: 100%;
 }
-.footdiv1{
-  font-family: "BoldFont", sans-serif;
-}
+
 .footdiv2{
-  font-family: "BoldFont", sans-serif;
+ 
   margin-left: auto;
 }
 @media (max-width: 768px){
