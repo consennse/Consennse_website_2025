@@ -104,9 +104,10 @@
   padding-bottom: 1rem;
   font-size: 18px;
   border-radius: 6px;
-  width: 260px;
+  width: 245px;
+  height: 55px;
   text-align: center;
-  padding-left: 3rem;
+  padding-left: 3.5rem;
   margin-top: 2rem;
 
 }
@@ -217,7 +218,7 @@
     padding-bottom: 1rem;
     font-size: 18px;
     border-radius: 6px;
-    width: 260px;
+    width: 210px;
     text-align: center;
     padding-left: 3rem;
     margin-top: 2rem;

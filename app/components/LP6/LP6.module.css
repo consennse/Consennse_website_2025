@@ -96,7 +96,7 @@
   padding-top: 2.5rem;
   padding-left: 2.5rem;
   background-color: #433878;
-  height:max-content;
+  height:100%;
   width: 100%;
   color: white;
   margin-right: 2.5rem; 
@@ -282,6 +282,7 @@
       padding-right: 3rem;
       padding-left: 3rem;
      margin-left: 20%;
+     margin-top: 2rem;
     }
 
   .ctxt2 {

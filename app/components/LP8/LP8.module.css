@@ -123,14 +123,13 @@
   background-color: #433878;
   color: white;
   font-size: 18px;
-  font-weight: 1000;
-  width: 260px;
-  height: 60px;
+  width: 245px;
+  height: 55px;
   align-items: center;
   text-align: center;
   border-radius: 5px;
   margin-top: 2rem;
-  padding-left: 27%;
+  padding-left: 3.5rem;
 }
 .ic2{
   font-size: 16px;

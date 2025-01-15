@@ -37,7 +37,7 @@ const Pg4 = () => {
       </div>
       <div className = {style.bottom}>
         <div className = {style.botup}>
-        <div className = {style.bottop}>TAILORED TO YOUR NEEDS</div>
+        <div className = {style.bottop}>{t('7A')}</div>
         <div className = {style.botmid}>{t('121')}</div>
         <div className = {style.botbox}>
         </div>
@@ -182,7 +182,7 @@ Platinum
 </div>
 </div>
 
-<div className = {style.st}>* Guaranteed response time for emergencies</div>
+<div className = {style.st}>{t('182')}</div>
 <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>

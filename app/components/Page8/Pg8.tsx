@@ -168,11 +168,11 @@ const Pg8 = () => {
                   <div className={style.fboxmaincon31}>
                   {t('276')}
                   </div>
-                  <div className={style.fboxtit31}>Practical Application</div>
+                  <div className={style.fboxtit31}>{t('285A')}</div>
                   <div className={style.fboxmaincon31}>
                   {t('275A')}
                   </div>
-                  <div className={style.fboxtit31}>Behind the Scenes</div>
+                  <div className={style.fboxtit31}>{t('279A')}</div>
                   <div className={style.fboxmaincon31}>
                   {t('276A')}
                   </div>
@@ -198,7 +198,7 @@ const Pg8 = () => {
                   <div className={style.fboxmaincon31}>
                   {t('279')}
                   </div>
-                  <div className={style.fboxtit31}>Practical Application</div>
+                  <div className={style.fboxtit31}>{t('285A')}</div>
                   <div className={style.fboxmaincon31}>
                   {t('279C')}
                   </div>
@@ -228,7 +228,7 @@ const Pg8 = () => {
                   <div className={style.fboxmaincon31}>
                   {t('282')}
                   </div>
-                  <div className={style.fboxtit31}>Practical Application</div>
+                  <div className={style.fboxtit31}>{t('285A')}</div>
                   <div className={style.fboxmaincon31}>
                   {t('282C')}
                   </div>
@@ -416,7 +416,7 @@ const Pg8 = () => {
           <div className = {style.lasttit}>{t('317')} </div>
           <div className = {style.con5}>{t('318')} </div>
           <Link href = '/users/Page1'>
-          <button className = {style.but5}>Get Started <FaChevronRight className={style.iconlast}/> </button>
+          <button className = {style.but5}>{t('6A')}<FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>
       </div>
