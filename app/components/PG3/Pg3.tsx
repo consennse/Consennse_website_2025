@@ -35,29 +35,36 @@ const Pg3 = () => {
       [name]: value,
     }));
   };
-
+  const handleOptionChange = (option:string) => {
+    setSelectedOption(option);
+    setFormData((prevData) => ({
+      ...prevData,
+      option: option,
+    }));
+  };
+  
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     setIsLoading(true); // Set loading state to true when submitting
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-    // const response = await fetch('http://localhost:8000/api/form/', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Content-Type': 'application/json',
-    //   },
-    //   body: JSON.stringify(formData), // Send form data as JSON
-    // });
-    // console.log(response); 
-    // // Show the popup
-    // setPopupVisible(true);
+    const response = await fetch('https://shreyabhoir.pythonanywhere.com/api/form/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData), // Send form data as JSON
+    });
+    console.log(response); 
+    // Show the popup
+    setPopupVisible(true);
 
-    // // Wait for 2 seconds before hiding popup and navigating to home
-    // setTimeout(() => {
-    //   setPopupVisible(false); // Hide the popup after 2 seconds
-    //   setIsLoading(false); // Set loading state to false (hide "Loading..." text)
-    //   window.location.href = '/'; // Redirect to the home page
-    // }, 2000); // 2 seconds delay
+    // Wait for 2 seconds before hiding popup and navigating to home
+    setTimeout(() => {
+      setPopupVisible(false); // Hide the popup after 2 seconds
+      setIsLoading(false); // Set loading state to false (hide "Loading..." text)
+      window.location.href = '/'; // Redirect to the home page
+    }, 2000); // 2 seconds delay
   };
 
 
@@ -115,7 +122,7 @@ const Pg3 = () => {
                 {t('100')}
               </div>
               <div className = {style.fnameinp}>
-                <input type="tel"   pattern="[0-9]{10}"  name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
+                <input type="text"   name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
               </div>
             </div>
             </div>
@@ -124,7 +131,7 @@ const Pg3 = () => {
             <div className = {style.comp}>{t('112')}
               </div>
               <div className={style.compi1}>
-  <div className={`${style.option}`} onClick={() => setSelectedOption("option1")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("option1")}>
     <span
       className={`${style.arrow} ${
         selectedOption === "option1" ? style.change : ""
@@ -137,12 +144,12 @@ const Pg3 = () => {
       name="option"
       value={t("113")}
       checked={selectedOption === "option1"}
-      onChange={handleChange}
+      onChange={() => handleOptionChange("option1")}
     />
     {t("113")}
   </div>
 
-  <div className={`${style.option}`} onClick={() => setSelectedOption("option2")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("option2")}>
     <span
       className={`${style.arrow} ${
         selectedOption === "option2" ? style.change : ""
@@ -155,13 +162,13 @@ const Pg3 = () => {
       name="option"
       value={t("114")}
       checked={selectedOption === "option2"}
-      onChange={handleChange}
+      onChange={() => handleOptionChange("option2")}
     />
     {t("114")}
   </div>
 </div>
 <div className={style.compi1}>
-<div className={`${style.option}`} onClick={() => setSelectedOption("option3")}>
+<div className={`${style.option}`} onClick={() => handleOptionChange("option3")}>
     <span
       className={`${style.arrow} ${
         selectedOption === "option3" ? style.change : ""
@@ -173,13 +180,12 @@ const Pg3 = () => {
       className={style.radioInput}
       name="option"
       value={t("115")}
-      checked={selectedOption === "option1"}
-      onChange={handleChange}
-    />
+      checked={selectedOption === "option3"}
+      onChange={() => handleOptionChange("option3")}    />
     {t("115")}
   </div>
 
-  <div className={`${style.option}`} onClick={() => setSelectedOption("option4")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("option4")}>
     <span
       className={`${style.arrow} ${
         selectedOption === "option4" ? style.change : ""
@@ -192,11 +198,10 @@ const Pg3 = () => {
       name="option"
       value={t("116")}
       checked={selectedOption === "option4"}
-      onChange={handleChange}
-    />
+      onChange={() => handleOptionChange("option4")}    />
     {t("116")}
   </div>
-  <div className={`${style.option}`} onClick={() => setSelectedOption("option5")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("option5")}>
     <span
       className={`${style.arrow} ${
         selectedOption === "option5" ? style.change : ""
@@ -208,9 +213,8 @@ const Pg3 = () => {
       className={style.radioInput}
       name="option"
       value={t("117")}
-      checked={selectedOption === "option1"}
-      onChange={handleChange}
-    />
+      checked={selectedOption === "option5"}
+      onChange={() => handleOptionChange("option5")}    />
     {t("117")}
   </div>
 
