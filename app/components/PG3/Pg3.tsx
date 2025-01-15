@@ -131,90 +131,90 @@ const Pg3 = () => {
             <div className = {style.comp}>{t('112')}
               </div>
               <div className={style.compi1}>
-  <div className={`${style.option}`} onClick={() => handleOptionChange("option1")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("CRM Support Basis")}>
     <span
       className={`${style.arrow} ${
-        selectedOption === "option1" ? style.change : ""
+        selectedOption === "CRM Support Basis" ? style.change : ""
       }`}
     ></span>
     <input
       type="radio"
-      id="option1"
+      id="CRM Support Basis"
       className={style.radioInput}
       name="option"
       value={t("113")}
-      checked={selectedOption === "option1"}
-      onChange={() => handleOptionChange("option1")}
+      checked={selectedOption === "CRM Support Basis"}
+      onChange={() => handleOptionChange("CRM Support Basis")}
     />
     {t("113")}
   </div>
 
-  <div className={`${style.option}`} onClick={() => handleOptionChange("option2")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("CRM Support SLA Silver")}>
     <span
       className={`${style.arrow} ${
-        selectedOption === "option2" ? style.change : ""
+        selectedOption === "CRM Support SLA Silver" ? style.change : ""
       }`}
     ></span>
     <input
       type="radio"
-      id="option2"
+      id="CRM Support SLA Silver"
       className={style.radioInput}
       name="option"
       value={t("114")}
-      checked={selectedOption === "option2"}
-      onChange={() => handleOptionChange("option2")}
+      checked={selectedOption === "CRM Support SLA Silver"}
+      onChange={() => handleOptionChange("CRM Support SLA Silver")}
     />
     {t("114")}
   </div>
 </div>
 <div className={style.compi1}>
-<div className={`${style.option}`} onClick={() => handleOptionChange("option3")}>
+<div className={`${style.option}`} onClick={() => handleOptionChange("CRM Support SLA Gold")}>
     <span
       className={`${style.arrow} ${
-        selectedOption === "option3" ? style.change : ""
+        selectedOption === "CRM Support SLA Gold" ? style.change : ""
       }`}
     ></span>
     <input
       type="radio"
-      id="option3"
+      id="CRM Support SLA Gold"
       className={style.radioInput}
       name="option"
       value={t("115")}
-      checked={selectedOption === "option3"}
-      onChange={() => handleOptionChange("option3")}    />
+      checked={selectedOption === "CRM Support SLA Gold"}
+      onChange={() => handleOptionChange("CRM Support SLA Gold")}    />
     {t("115")}
   </div>
 
-  <div className={`${style.option}`} onClick={() => handleOptionChange("option4")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("CRM Support SLA Platinum")}>
     <span
       className={`${style.arrow} ${
-        selectedOption === "option4" ? style.change : ""
+        selectedOption === "CRM Support SLA Platinum" ? style.change : ""
       }`}
     ></span>
     <input
       type="radio"
-      id="option4"
+      id="CRM Support SLA Platinum"
       className={style.radioInput}
       name="option"
       value={t("116")}
-      checked={selectedOption === "option4"}
-      onChange={() => handleOptionChange("option4")}    />
+      checked={selectedOption === "CRM Support SLA Platinum"}
+      onChange={() => handleOptionChange("CRM Support SLA Platinum")}    />
     {t("116")}
   </div>
-  <div className={`${style.option}`} onClick={() => handleOptionChange("option5")}>
+  <div className={`${style.option}`} onClick={() => handleOptionChange("I need advice")}>
     <span
       className={`${style.arrow} ${
-        selectedOption === "option5" ? style.change : ""
+        selectedOption === "I need advice" ? style.change : ""
       }`}
     ></span>
     <input
       type="radio"
-      id="option5"
+      id="I need advice"
       className={style.radioInput}
       name="option"
       value={t("117")}
-      checked={selectedOption === "option5"}
-      onChange={() => handleOptionChange("option5")}    />
+      checked={selectedOption === "I need advice"}
+      onChange={() => handleOptionChange("I need advice")}    />
     {t("117")}
   </div>
 
