@@ -30,12 +30,12 @@ const Footer = () => {
       <div className={st12.bot2}>
         <div className = {st12.bots21}>Services</div>
         <div className = {st12.bots223}>
-          <Link href = '/users/Page4'>
+          <Link href = '/users/Services'>
           {t('82')}
           </Link>
           </div> 
         <div className = {st12.bots224}>
-        <Link href = '/users/Page4'>
+        <Link href = '/users/Services'>
           {t('81A')}
           </Link>
           </div>

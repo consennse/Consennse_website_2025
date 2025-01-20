@@ -225,9 +225,9 @@ const Page7 = () => {
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>
-          <Link href = '/users/Page1'>
+          <Link href = '/users/Contact'>
           <button className = {style.but5}>
-            Get Started <FaChevronRight className={style.iconlast}/> </button>
+            {t('6A')} <FaChevronRight className={style.iconlast}/> </button>
             </Link>
         </div>
       </div> 

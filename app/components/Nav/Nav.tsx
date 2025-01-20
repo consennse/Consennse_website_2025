@@ -73,13 +73,13 @@ const Nav = () => {
                 Home
               </div>
             </Link>
-            <Link href='/users/Page4'>
-              <div className={`${styles.serv} ${isActiveLink('/users/Page4') || isActiveLink('/de/users/Page4')}`}>
+            <Link href='/users/Services'>
+              <div className={`${styles.serv} ${isActiveLink('/users/Services') || isActiveLink('/de/users/Services')}`}>
                 Services
               </div>
             </Link>
-            <Link href='/users/Page3'>
-              <div className={`${styles.sup} ${isActiveLink('/users/Page3')  || isActiveLink('/de/users/Page3')}`}>
+            <Link href='/users/Support'>
+              <div className={`${styles.sup} ${isActiveLink('/users/Support')  || isActiveLink('/de/users/Support')}`}>
                 Support
               </div>
             </Link>
@@ -105,8 +105,8 @@ const Nav = () => {
         </div>
       )}
 
-            <Link href='/users/Page1'>
-              <div className={`${styles.con} ${isActiveLink('/users/Page1') || isActiveLink('/de/users/Page1')}`}>
+            <Link href='/users/Contact'>
+              <div className={`${styles.con} ${isActiveLink('/users/Contact') || isActiveLink('/de/users/Contact')}`}>
                 {t('6')}
               </div>
             </Link>
@@ -151,11 +151,11 @@ const Nav = () => {
                   <Link href='/'>
                     <li className={isActiveLink('/')}>Home</li>
                   </Link>
-                  <Link href='/users/Page4'>
-                    <li className={isActiveLink('/users/Page4')}>Services</li>
+                  <Link href='/users/Services'>
+                    <li className={isActiveLink('/users/Services')}>Services</li>
                   </Link>
-                  <Link href='/users/Page3'>
-                    <li className={isActiveLink('/users/Page3')}>Support</li>
+                  <Link href='/users/Support'>
+                    <li className={isActiveLink('/users/Support')}>Support</li>
                   </Link>
                   <li className={isActiveLink('/sol')} onClick={toggleDropdown2}>{t('5')} </li>
           <ul className = {styles.menu2}>
@@ -175,8 +175,8 @@ const Nav = () => {
             </Link>
           </ul>
 
-                  <Link href='/users/Page1'>
-                    <li className={isActiveLink('/users/Page1')}>{t('6')}</li>
+                  <Link href='/users/Contact'>
+                    <li className={isActiveLink('/users/Contact')}>{t('6')}</li>
                   </Link>
                 </ul>
               </div>

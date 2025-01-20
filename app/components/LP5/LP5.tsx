@@ -58,7 +58,7 @@ const LP5 = () => {
           </div> 
           </div>
           </div>
-          <Link href = '/users/Page1'>
+          <Link href = '/users/Contact'>
           <button className = {st5.butt5}>{t('6A')}<FaChevronRight className = {st5.ic5}/> </button>
           </Link>
         </div>

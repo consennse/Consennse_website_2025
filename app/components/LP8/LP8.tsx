@@ -50,7 +50,7 @@ const LP8 = () => {
           </div>
         </div>
         </div>
-        <Link href = '/users/Page1'>
+        <Link href = '/users/Contact'>
         <button className = {st8.button6}>{t('6A')}
                   <FaChevronRight className={st8.ic2}/>
           </button>

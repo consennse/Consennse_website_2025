@@ -108,6 +108,9 @@ align-items: center;
 }
 .righttxt1{
   margin-right: 2.5rem;
+  margin-bottom: 0rem;
+}
+.righttxt{
   margin-bottom: 1.5rem;
 }
 .lbutt1{
