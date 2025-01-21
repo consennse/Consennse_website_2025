@@ -163,7 +163,8 @@
     text-align: center;
     border-radius: 5px;
     margin-top: 2rem;
-    padding-left: 22%;
+    padding-left: 0;
+    justify-content: center;
   }
 
   .tit8 {

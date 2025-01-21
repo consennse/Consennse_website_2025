@@ -172,6 +172,8 @@
   padding-top: 3rem;
   width: 100%;
   display: flex;
+  flex-direction: column;
+  height: max-content;
 }
 .lpleft3{
   height: max-content;
@@ -183,11 +185,12 @@
 }
 .lpright3{
   background-image: url('/images/image-6.svg');
-  height: 100%;
+  width: 100%;
   background-size:cover;
   background-repeat: no-repeat;
   padding: 2rem;
-  display: none;
+  height: 50vh;
+
 }
 .left3T{ 
   text-transform:uppercase;

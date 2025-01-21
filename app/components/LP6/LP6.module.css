@@ -224,7 +224,7 @@
     background-color: #433878;
     height:max-content;
     width: 100%;
-    border-radius: 7px;
+    border-radius: 0;
     color: white;
     margin-right:0; 
     margin-bottom: 0rem;
@@ -299,6 +299,9 @@
     font-size: 19px;
   }
   .backimg{
-    display: none;
+    width: 100%;
+  }
+  .rightwa{
+    width: 100%;
   }
 }

@@ -183,6 +183,7 @@
     color: #433878;
     font-size: 30px;
     font-weight: 700;
+    padding-right: 3rem;
  
   }
   .mainl2{ 
@@ -215,12 +216,13 @@
     flex-direction: row;
     align-items: center;
     padding-top: 1rem;
+    justify-content: center;
     padding-bottom: 1rem;
     font-size: 18px;
     border-radius: 6px;
     width: 210px;
     text-align: center;
-    padding-left: 3rem;
+    padding-left: 0rem;
     margin-top: 2rem;
     margin-left: 1rem;
   }
