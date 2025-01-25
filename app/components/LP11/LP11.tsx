@@ -20,7 +20,7 @@ const LP11 = () => {
         <div className = {st11.righttop11}>
         {t('75')}
         </div>
-        <div className = {st11.righttit11}>{t('76')}</div>
+        <div className = {st11.righttit11}>EXPOSE for Propertybase</div>
         <div className = {st11.llime}></div>
         <div className = {st11.rightmc11}>{t('77')}</div>
         <div className = {st11.but11}>

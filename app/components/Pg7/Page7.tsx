@@ -116,7 +116,7 @@ const Page7 = () => {
         </div>
       </div>
       <div className = {style.page3}>
-        <div className = {style.chtit3}>Overview of the Functionality</div>
+        <div className = {style.chtit3}>{t('301A')}</div>
         <div className = {style.chlin3}></div>
         <div className = {style.box31}>
           <div className = {style.left31}>

@@ -60,7 +60,7 @@ const Pg8 = () => {
             </div>
             <div className = {style.rl1}></div>
               <div className = {style.stxt1}>
-              {t('261')}
+              {t('261A')}
             </div>
           </div>
           <div className = {style.l1}> 
@@ -143,9 +143,7 @@ const Pg8 = () => {
           <div className = {style.rightchange2}>
         <div className={style.tit3}>{t('273')}</div>
         <div className={style.lin3}></div>
-        <div className = {style.stit3}>Meet your customers&apos; expectations even better.
-        Today, customers expect digital service around the clock.
-        Comprehensive self-service and short response times are just as essential as the ability to provide feedback with a single click.
+        <div className = {style.stit3}> {t('300A')}
       </div>
       </div>
       </div>

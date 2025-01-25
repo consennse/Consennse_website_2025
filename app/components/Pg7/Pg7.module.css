@@ -536,7 +536,7 @@ padding-left: 20%;
   border-color: #433878;
   width: max-content;
 }
-.chtit2,.chtit3{
+.chtit2{
   font-family: "SemiBold", sans-serif;
   color: #433878;
   font-size: 50px;
@@ -544,7 +544,14 @@ padding-left: 20%;
   margin-left: 4rem;
   margin-right: 4rem;
 }
-.linech,.chlin3{
+.chtit3{
+  font-family: "SemiBold", sans-serif;
+  color: #433878;
+  font-size: 50px;
+  margin-top: 1.3rem;
+  margin-right: 4rem;
+}
+.linech{
   border: 0.5px;
   border-style: solid;
   border-color: #433878;
@@ -552,6 +559,15 @@ padding-left: 20%;
   margin-top: 0.5rem;
   opacity: 0.6;
   margin-left: 4rem;
+  margin-right: 4rem;
+}
+.chlin3{
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  width: 40%;
+  margin-top: 0.5rem;
+  opacity: 0.6;
   margin-right: 4rem;
 }
 .chlin3{
