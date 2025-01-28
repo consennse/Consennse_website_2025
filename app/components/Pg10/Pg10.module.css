@@ -1,0 +1,433 @@
+@font-face {
+  font-family: 'Font';
+  src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
+  font-weight: normal;
+  font-style: normal;
+} 
+
+@font-face {
+  font-family: 'ConLight';
+  src: url('/fonts/NotoSans_ExtraCondensed-Thin.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConReg';
+  src: url('/fonts/NotoSans_SemiCondensed-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiBold';
+  src: url('/fonts/NotoSans-SemiBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConThin';
+  src: url('/fonts/NotoSans_ExtraCondensed-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ConBoldFont';
+  src: url('/fonts/NotoSans_Condensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SemiConBoldFont';
+  src: url('/fonts/NotoSans_SemiCondensed-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'BoldFont';
+  src: url('/fonts/NotoSans-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SemiConFont';
+  src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Regular';
+  src: url('/fonts/NotoSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.body{
+  background-color:#F7F4FA;
+}
+.main {
+  font-family: "Font", sans-serif;
+  padding-top: 6rem;
+  background-color:#F7F4FA;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+}
+.heading1{
+  font-family: "SemiBold", sans-serif;
+  color: #433878;
+  font-size: 44px;
+}
+.line {
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  width: 45%;
+}
+.para {
+  font-family: "Regular", sans-serif;
+  font-size: 14px;
+  width: 85%;
+}
+.box{
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 16px;
+  gap:1rem;
+}
+.boxes2{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 30px;
+  gap:2rem;
+  
+}
+.box21,.box22{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.box1{ 
+  background-color: #ECEBFF;
+  border-radius: 20px;
+  padding: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
+}
+.logo10{
+  height: 210px;
+}
+.head1{
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-family: "SemiBold", sans-serif;
+  color: #433878;
+  font-size: 20px;
+}
+.bod1{
+  font-size: 12px;
+  font-family: "Regular", sans-serif;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+.maincon1{
+  font-family: "Medium", sans-serif;
+  color: #433878;
+  opacity: 0.8;
+  font-size: 18px;
+  margin-bottom: 1rem;
+}
+.mail{
+  height: 30px;
+}
+.mail:hover{
+  cursor: pointer;
+}
+.box2{
+  height: 430px;
+  background-color: #433878;
+  border-radius: 20px;
+  width: 100%;
+  padding: 2rem;
+  color: white;
+}
+.logo30{
+  height: 80px;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+.logo20{
+  height: 80px;
+  width: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: white;
+}
+.heading2{
+  font-family: "SemiBold", sans-serif;
+  font-size:22px;
+}
+.line2{
+  border: 0.1px;
+  border-style: solid;
+  border-color: white;
+  margin-bottom: 1.5rem;
+  width: 65%;
+}
+.bod2{
+  font-family: "SemiBold", sans-serif;
+  font-size: 17px;
+}
+.list {
+  font-family: "Regular", sans-serif;
+  font-size: 12px;
+  margin-top: 1.5rem;
+  list-style-type: disc; /* Default bullet style */
+  padding-left: 1.5rem;
+}
+.companies{
+  background-color: white;
+  border-radius: 30px;
+  padding: 2rem;
+
+}
+.logos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading3{
+  font-family: "SemiBold", sans-serif;
+  color: #433878;
+  font-size: 30px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+}
+.logoimg,.logoimg1,.logoimg3{
+  width: 100%;
+  height: auto;
+}
+.logoimg1{
+  padding-left: 4rem;
+}
+.logoimg3{
+  padding-left: 3rem;
+}
+.logo40{
+  height: 120px;
+}
+@media (min-width:1440px){
+  .main{
+    width: 1440px;
+    margin: auto;
+  }
+}
+@media (max-width:786px){
+  .body{
+    background-color:#F7F4FA;
+  }
+  .main {
+    font-family: "Font", sans-serif;
+    padding-top: 6rem;
+    background-color:#F7F4FA;
+    padding-bottom: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  
+  }
+  .heading1{
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 35px;
+  }
+  .line {
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 70%;
+  }
+  .para {
+    font-family: "Regular", sans-serif;
+    font-size: 13px;
+    width: 95%;
+  }
+  .box{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 16px;
+    gap:1rem;
+  }
+  .boxes2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 30px;
+    gap:2rem;
+    
+  }
+  .box21,.box22{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .box1{ 
+    background-color: #ECEBFF;
+    border-radius: 20px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
+  }
+  .logo10{
+    height: 210px;
+  }
+  .head1{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 20px;
+  }
+  .bod1{
+    font-size: 12px;
+    font-family: "Regular", sans-serif;
+    color: #6b7280;
+    margin-bottom: 1rem;
+  }
+  .maincon1{
+    font-family: "Medium", sans-serif;
+    color: #433878;
+    opacity: 0.8;
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .mail{
+    height: 30px;
+  }
+  .mail:hover{
+    cursor: pointer;
+  }
+  .box2{
+    height: 509px;
+    background-color: #433878;
+    border-radius: 20px;
+    width: 100%;
+    padding: 1.2rem;
+    color: white;
+  }
+  .logo30{
+    height: 80px;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+  }
+  .logo20{
+    height: 80px;
+    width: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-color: white;
+  }
+  .heading2{
+    font-family: "SemiBold", sans-serif;
+    font-size:20px;
+  }
+  .line2{
+    border: 0.1px;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 1rem;
+    width: 65%;
+  }
+  .bod2{
+    font-family: "SemiBold", sans-serif;
+    font-size: 17px;
+  }
+  .list {
+    font-family: "Regular", sans-serif;
+    font-size: 12px;
+    margin-top: 1rem;
+    list-style-type: disc; /* Default bullet style */
+    padding-left: 1rem;
+  }
+  .companies{
+    background-color: white;
+    border-radius: 30px;
+    padding: 2rem;
+  
+  }
+  .logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .heading3{
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 30px;
+  }
+  .row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+  .logoimg,.logoimg1,.logoimg3{
+    width: 100%;
+    height: auto;
+  }
+  .logoimg1{
+    padding-left: 0rem;
+  }
+  .logoimg3{
+    padding-left: 0rem;
+  }
+  .logo40{
+    height: 120px;
+    margin: auto;
+  }
+
+ }
