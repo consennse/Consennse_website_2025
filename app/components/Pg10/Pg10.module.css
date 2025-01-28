@@ -106,6 +106,7 @@
   padding: 2rem;
   border-radius: 16px;
   gap:1rem;
+
 }
 .boxes2{
   background-color: white;
@@ -134,6 +135,7 @@
   padding-top: 2rem;
   padding-bottom: 2rem;
   box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
+  width: 100%;
 }
 .logo10{
   height: 210px;
@@ -349,7 +351,7 @@
     cursor: pointer;
   }
   .box2{
-    height: 509px;
+    height: 519px;
     background-color: #433878;
     border-radius: 20px;
     width: 100%;
@@ -387,7 +389,7 @@
   }
   .list {
     font-family: "Regular", sans-serif;
-    font-size: 12px;
+    font-size: 11px;
     margin-top: 1rem;
     list-style-type: disc; /* Default bullet style */
     padding-left: 1rem;
