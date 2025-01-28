@@ -55,7 +55,7 @@ const Pg5 = () => {
     { id: 'third', title: t('151'), content: t('152') },
     { id: 'four', title: t('153'), content: t('154') },
     { id: 'five', title: t('155'), content: t('156') },
-    { id: 'six', title: t('157'), content: t('148') },
+    { id: 'six', title: t('157'), content: t('158') },
   ].map((item, index) => (
     <li key={item.id}
     className={`${style.accordionItem} ${
