@@ -3,7 +3,7 @@ import React from 'react'
 import style from "./Pg10.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 import pfp from "./image-7.svg"
 import pfp2 from "./image-8.svg"
 import pfp3 from "./image-9.svg"
@@ -23,7 +23,7 @@ import logo10 from "./NAR - Logo 1.svg"
 import logo11 from "./Nova Casa 1.svg"
 import logo12 from "./logo-website-swiss-homes 1.svg"
 const Pg10 = () => {
-  const {t} = useTranslation();
+  // const {t} = useTranslation();
   return (
     <div className={style.body}>
         <Nav/>
