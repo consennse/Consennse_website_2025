@@ -171,14 +171,14 @@ const Pg10 = () => {
             <div className = {style.row}>
               <div className = {style.logoimg}> <Image src = {logo5} alt = "logo" className={style.logo40}/> </div>
               <div className = {style.logoimg}> <Image src = {logo6} alt = "logo" className={style.logo40}/> </div>
-              <div className = {style.logoimg}> <Image src = {logo7} alt = "logo" className={style.logo40}/> </div>
+              <div className = {style.logoimg}> <Image src = {logo7} alt = "logo" className={style.logo60}/> </div>
               <div className = {style.logoimg3}> <Image src = {logo8} alt = "logo" className={style.logo40}/> </div>
             </div>
             <div className = {style.row}>
             <div className = {style.logoimg}> <Image src = {logo9} alt = "logo" className={style.logo40}/> </div>
               <div className = {style.logoimg1}> <Image src = {logo10} alt = "logo"className={style.logo40}/> </div>
-              <div className = {style.logoimg}> <Image src = {logo11} alt = "logo"className={style.logo40}/> </div>
-              <div className = {style.logoimg}> <Image src = {logo12} alt = "logo"className={style.logo40}/> </div>
+              <div className = {style.logoimg}> <Image src = {logo11} alt = "logo"className={style.logo70}/> </div>
+              <div className = {style.logoimg}> <Image src = {logo12} alt = "logo"className={style.logo80}/> </div>
             </div>
           </div>
           </div>

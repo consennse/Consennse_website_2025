@@ -51,7 +51,7 @@ const Pg8 = () => {
             </div>
           </div>
         </div>
-        <div className = {style.tit2}>About WEB OFFICE for Propertybase</div>
+        <div className = {style.tit2}>{t('600')}</div>
       <div className = {style.lin2}></div>
       <div className = {style.box2}>
           <div className = {style.r2}>
