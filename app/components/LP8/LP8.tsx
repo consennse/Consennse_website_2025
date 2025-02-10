@@ -4,8 +4,31 @@ import st8 from "./LP8.module.css"
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
+import { sendGAEvent } from '@next/third-parties/google';
 const LP8 = () => {
   const {t} = useTranslation(); 
+  const sendGAEvent = ({
+    action,
+    category,
+    label,
+    value,
+  }: {
+    action: string;
+    category?: string;
+    label?: string;
+    value?: number;
+  }) => {
+    if (typeof window !== "undefined" && window.gtag) {
+      window.gtag("event", action, {
+        event_category: category || "General",
+        event_label: label || "No Label",
+        value: value || 1,
+        debug_mode: true,  // ✅ Debug mode inside parameters
+      });
+    } else {
+      console.warn("GA not initialized");
+    }
+  };
   return (
     <div>
       <div className = {st8.main8}>
@@ -51,7 +74,24 @@ const LP8 = () => {
         </div>
         </div>
         <Link href = '/users/Contact'>
-        <button className = {st8.button6}>{t('6A')}
+        <button
+  className={st8.button6}
+  onClick={() => {
+    console.log("GA Event Sent:", {
+      action: "clicked",
+      category: "User Interaction",
+      label: "Advantages Button",
+      value: 1,
+    });
+  
+    sendGAEvent({
+      action: "clicked",
+      category: "User Interaction",
+      label: "Advantages Button",
+      value: 1,
+    });
+  }}
+          >{t('6A')}
                   <FaChevronRight className={st8.ic2}/>
           </button>
           </Link>

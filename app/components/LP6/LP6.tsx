@@ -6,6 +6,7 @@ import st6 from "./LP6.module.css"
 import { useTranslation } from 'react-i18next'
 import { FaChevronRight } from 'react-icons/fa';
 import Link from 'next/link';
+import { sendGAEvent } from '@next/third-parties/google';
 const LP6 = () => {
   const{t} = useTranslation();
   return (
@@ -54,7 +55,11 @@ const LP6 = () => {
           </div>
         </div>
         <Link href = '/users/Services/'>
-        <button className = {st6.button6}>{t('144')}
+        <button className = {st6.button6}
+        onClick={()=>
+          sendGAEvent({event:"clicked", value: "services", 'debug_mode':true } )
+        }
+        >{t('144')}
           <FaChevronRight className={st6.ic2}/>
           </button>
           </Link>
