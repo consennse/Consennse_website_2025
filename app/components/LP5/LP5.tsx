@@ -62,7 +62,7 @@ const LP5 = () => {
           <Link href = '/users/Contact'>
           <button className = {st5.butt5} 
           onClick={()=>
-            sendGAEvent({event:"clicked", value: "xyz"})
+            sendGAEvent({event:"clicked", value: "xyz", 'debug_mode':true } )
           }
           >{t('6A')}<FaChevronRight className = {st5.ic5}/> </button>
           </Link>
