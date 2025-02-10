@@ -4,7 +4,6 @@ import st8 from "./LP8.module.css"
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import { FaChevronRight } from 'react-icons/fa';
-import { sendGAEvent } from '@next/third-parties/google';
 const LP8 = () => {
   const {t} = useTranslation(); 
   const sendGAEvent = ({
