@@ -26,7 +26,30 @@ const Footer = () => {
          </Link>
          </div>
       </div>
+      
       <div className = {st12.bottombox2}>
+        <div className = {st12.bot2}>
+        <div className = {st12.bots21}>
+          {t('96A')}
+          </div>
+        <div className = {st12.bots223}>
+          <div className = {st12.botts}>
+          <Link href = '/users/AboutUs'>
+            {t('601')}
+            </Link>
+            </div>
+          <div className = {st12.botts}>
+          <Link href = '/users/Contact'>
+            {t('6')}
+            </Link>
+            </div>
+          <div className = {st12.botts}>
+          <Link href = '/users/Support'>
+            Support
+            </Link>
+            </div>
+        </div>
+        </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>Services</div>
         <div className = {st12.bots223}>
@@ -72,6 +95,7 @@ const Footer = () => {
           </div>
       </div>
       </div>
+      
       </div>
       <div className = {st12.botline}></div>
       <footer className={st12.foot1}>

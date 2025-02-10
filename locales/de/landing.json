@@ -246,7 +246,7 @@
   "241": "ABGESTIMMT AUF DIE PROZESSE",
   "242": "Aktivitäten",
   "243": "Aktivitäten beinhalten Aufgaben, Ereignisse und Kalender. Alle Aktivitäten stehen prozessbezogen zur Verfügung und verbinden sich automatisch mit dem Kontakt, der Immobilie oder einer Anfrage. Auf der Aktivitätszeitachse werden Aktivitäten chronologisch dokumentiert.",
-  "244": "Erweiterte Funktionalität inklusive",
+  "244": "Mehr Funktionalität inklusive",
   "245": "Unsere Immobilienlösung bietet innovative und umfassende Funktionen, um Ihr Geschäft auf ein neues Niveau zu heben. Mit diesen wegweisenden Features und Tools erreichen Sie unvergleichliche Effizienz, optimieren Ihre Arbeitsabläufe und erzielen aussergewöhnlichen Erfolg!",
   "246": "IMMER EINE HERAUSFORDERUNG",
   "247": "Paarlösung",
@@ -444,5 +444,7 @@
   "540":"Campaign Monitor Integration mit Synchronisierung mit dem CRM",
   "541":"Integration mit Microsoft Power BI",
   "542":"Automatisierter Austausch Listings mit Partnermaklern",
-  "543":"Weitere Unternehmen, die auf uns zählen"
+  "543":"Weitere Unternehmen, die auf uns zählen",
+  "601":"Über uns",
+  "96A":"UNTERNEHMEN"
 }

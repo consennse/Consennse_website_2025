@@ -5,10 +5,10 @@ import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
 import { useTranslation } from 'react-i18next'
 import Link from 'next/link';
-import pfp from "./image-7.svg"
-import pfp2 from "./image-8.svg"
-import pfp3 from "./image-9.svg"
-import pfp4 from "./image-10.svg"
+import pfp from "./Urs Senn.png"
+import pfp2 from "./Anna Hormann.png"
+import pfp3 from "./Balazs Rubicsek.png"
+import pfp4 from "./Sarah Spandolf.png"
 import Image from 'next/image';
 import mail from "./Group 1597885675-2.svg"
 import logo1 from "./Frame 1249186730-21.svg"

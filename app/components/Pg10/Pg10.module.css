@@ -138,7 +138,12 @@
   width: 100%;
 }
 .logo10{
-  height: 210px;
+  border-radius: 300px;
+  height: 99%;
+  border-color: #433878;
+  border-style: solid;
+  border-width: 0.5px;
+  width: auto;
 }
 .head1{
   margin-top: 1.5rem;
@@ -250,7 +255,7 @@
   width: 195px;
 }
 .logo80{
-  width: 235px;
+  width: 210px;
 }
 .logo60{
 width: 140px;

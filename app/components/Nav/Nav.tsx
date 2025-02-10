@@ -105,6 +105,11 @@ const Nav = () => {
         </div>
       )}
 
+<Link href='/users/AboutUs'>
+              <div className={`${styles.con1} ${isActiveLink('/users/AboutUs') || isActiveLink('/de/users/AboutUs')}`}>
+                {t('601')}
+              </div>
+            </Link>
             <Link href='/users/Contact'>
               <div className={`${styles.con} ${isActiveLink('/users/Contact') || isActiveLink('/de/users/Contact')}`}>
                 {t('6')}
@@ -174,7 +179,9 @@ const Nav = () => {
             EXPOSE for Propertybase</li>
             </Link>
           </ul>
-
+          <Link href='/users/AboutUs'>
+                    <li className={isActiveLink('/users/AboutUs')}>{t('601')}</li>
+                  </Link>
                   <Link href='/users/Contact'>
                     <li className={isActiveLink('/users/Contact')}>{t('6')}</li>
                   </Link>

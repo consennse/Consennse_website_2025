@@ -94,7 +94,7 @@
 .bottombox2{
   display: flex;
   flex-direction: row;
-  margin-left: 25rem;
+  margin-left: 15rem;
 }
 .bot1{
   width: 9.5%;
@@ -110,6 +110,7 @@
 }
 .bots223{
   line-height: 0.25in;
+  width: 70%;
 }
 .bots2{
   margin-top: 1rem;
@@ -294,7 +295,7 @@ line-height: 0.25in;
   .bottombox2{
     display: flex;
     flex-direction: row;
-    margin-left: 25rem;
+    margin-left: 15rem;
   }
   .bot1{
     width: 9.5%;

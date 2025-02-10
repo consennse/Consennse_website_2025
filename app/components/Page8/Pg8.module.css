@@ -660,6 +660,10 @@ font-family: "SemiBold", sans-serif;
 font-size: 35px;
 margin-left: 2.5rem;
 }
+.changerobot{
+  height: 500px;
+  width: auto;
+}
 .line6{
   border: 0.5px;
   border-style: solid;
@@ -710,6 +714,9 @@ margin-left: 2.5rem;
      background-color: #F7F4FA;
      padding-top: 6rem;
      font-family: "Font", sans-serif;
+   }
+   .changerobot{
+    height: 225px;
    }
    .logo{
      width: 190px;

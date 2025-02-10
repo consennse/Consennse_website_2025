@@ -102,7 +102,7 @@
 .right{
   display: flex;
   flex-direction: row;
-  margin-left: 35%;
+  margin-left: 28%;
   padding-top: 1.5rem;
 }
 .right:hover {
@@ -135,6 +135,11 @@
   width:86px;
   margin-right: 0rem;
   overflow-wrap: break-word;
+}
+.con1{
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5); 
+  width:116px;
+  margin-right: 0rem;
 }
 .but {
   background-color: #433878;

@@ -99,6 +99,7 @@
   "94": "Enter First Name",
   "95": "Enter Last Name",
   "96": "Company",
+  "96A": "Company",
   "97": "(optional)",
   "98": "Enter Company Name",
   "99": "Email Address",
@@ -444,7 +445,8 @@
   "541":"Integration with Microsoft Power BI",
   "542":"Automated exchange of listings with partner agents",
   "543":"Further companies that rely on us",
-  "600":"About WEB OFFICE for Propertybase"
+  "600":"About WEB OFFICE for Propertybase",
+  "601":"About Us"
 }
 
 

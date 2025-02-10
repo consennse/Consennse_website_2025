@@ -18,7 +18,7 @@ import union2 from "./Union-2.svg"
 import img21 from "./image 21.svg"
 import company2 from "./margin-left 2rem;.svg"
 import img27 from "./image 27.svg"
-import robot from "./image 26.svg"
+import robot from "./WEB_OFFICE_-_Robot_2-removebg-preview.png"
 import rect from "./image 25.svg"
 import image10 from "./image 20.svg"
 import img22 from "./image 22.svg"
@@ -413,7 +413,7 @@ const Pg8 = () => {
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')} </div>
           <div className = {style.con5}>{t('318')} </div>
-          <Link href = '/users/Page1'>
+          <Link href = '/users/Contact'>
           <button className = {style.but5}>{t('6A')}<FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>
