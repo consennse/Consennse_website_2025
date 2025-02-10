@@ -4,6 +4,7 @@ import st5 from "./LP5.module.css"
 import { FaChevronRight } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
+import { sendGAEvent } from '@next/third-parties/google';
 const LP5 = () => {
   const {t} = useTranslation();
   return (
@@ -59,7 +60,11 @@ const LP5 = () => {
           </div>
           </div>
           <Link href = '/users/Contact'>
-          <button className = {st5.butt5}>{t('6A')}<FaChevronRight className = {st5.ic5}/> </button>
+          <button className = {st5.butt5} 
+          onClick={()=>
+            sendGAEvent({event:"clicked", value: "xyz"})
+          }
+          >{t('6A')}<FaChevronRight className = {st5.ic5}/> </button>
           </Link>
         </div>
       </div>
