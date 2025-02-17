@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.consennse.com/
+
+# Sitemaps
+Sitemap: https://www.consennse.com/sitemap.xml
