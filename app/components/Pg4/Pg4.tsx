@@ -62,6 +62,10 @@ Basic
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('125')}</div>
     </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={25}/>
+        <div className = {style.tick1}>{t('125A')}</div>
+    </div>
     </div>
 </div>
 <div className = {style.botnext}>
@@ -86,6 +90,10 @@ Silver
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('127')}</div>
+    </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={25}/>
+        <div className = {style.tick1}>{t('125A')}</div>
     </div>
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={25}/>
@@ -128,6 +136,10 @@ Gold
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('134')}</div>
     </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={25}/>
+        <div className = {style.tick1}>{t('127A')}</div>
+    </div>
     <div className  = {style.l3}>
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('135')}</div>
@@ -168,6 +180,10 @@ Platinum
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={25}/>
         <div className = {style.tick1}>{t('141')}</div>
+    </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={25}/>
+        <div className = {style.tick1}>{t('127A')}</div>
     </div>
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={25}/>
