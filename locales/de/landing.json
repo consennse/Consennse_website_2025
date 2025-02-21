@@ -128,7 +128,7 @@
   "123": "Für Kunden,denen die Reaktionszeit nicht wichtig ist und die keinen Bedarf an Zusatzleistungen haben.",
   "124": "Reaktionszeit*: Best Effort",
   "125": "Sehr niedrige monatliche Pauschale für SLA",
-  "125A":"Support inklusive: 0'5 Stunden",
+  "125A":"Support inklusive: 0.5 Stunden",
   "126": "Reaktionszeit*: 24 Stunden",
   "127": "Niedrige monatliche Pauschale für SLA",
   "128": "Wahlweise inklusive Propertybase/Salesforce Updates",
