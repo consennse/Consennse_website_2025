@@ -39,14 +39,22 @@ const Pg6 = () => {
       <div className = {style.page1}>
         <div className = {style.logoborder}>
         <Image src = {img18} alt = "logo" height={70}/></div>
-        <div className={style.top1}>{t('203')}</div>
+        <div className={style.top1}>
+        <h1>
+          {t('203')}
+          </h1>
+          </div>
         <div className={style.line1}></div>
             <div className={style.topcont}>{t('204')}</div>
     <div className={style.topboxes}>
       <div className={style.topbox1}>
         <div className={style.box1img}><Image src = {works} alt = "workspace" /></div>
         <div className={style.box1right}>
-          <div className={style.box1tit}>{t('205')}</div>
+          <div className={style.box1tit}>
+          <h2>
+            {t('205')}
+            </h2>
+            </div>
           <div className={style.box1line}></div>
           <div className={style.box1main}>{t('206')}</div>
         </div>
@@ -55,7 +63,11 @@ const Pg6 = () => {
       <div className = {style.headline}></div>
       <div className={style.topbox2}>
         <div className={style.box2right}>
-          <div className={style.box2tit}>{t('207')}</div>
+          <div className={style.box2tit}>
+          <h2>
+            {t('207')}
+            </h2>
+            </div>
           <div className={style.box2line}></div>
           <div className={style.box2main}>{t('208')}
 </div>
@@ -78,7 +90,11 @@ const Pg6 = () => {
                     <div className={style.htxt}>{t('209')}</div>
                   </div>
                   <div className = {style.fboxl}></div>
-                  <div className={style.fboxtit}>{t('210')}</div>
+                  <div className={style.fboxtit}>
+                  <h3>
+                    {t('210')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon}>
                   {t('211')}
                   </div>
@@ -97,7 +113,11 @@ const Pg6 = () => {
                     <div className={style.htxt2}>{t('212')}</div>
                   </div>
                   <div className = {style.fboxl2}></div>
-                  <div className={style.fboxtit2}>{t('213')}</div>
+                  <div className={style.fboxtit2}>
+                  <h3>
+                    {t('213')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon2}>
                   {t('214')}
                   </div>
@@ -117,7 +137,11 @@ const Pg6 = () => {
                     <div className={style.htxt21}>{t('215')}</div>
                   </div>
                   <div className = {style.fboxl21}></div>
-                  <div className={style.fboxtit21}>{t('216')}</div>
+                  <div className={style.fboxtit21}>
+                  <h3>
+                    {t('216')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon21}>
                   {t('217')}
                   </div>
@@ -135,7 +159,11 @@ const Pg6 = () => {
                     <div className={style.htxt22}>{t('218')}</div>
                   </div>
                   <div className = {style.fboxl22}></div>
-                  <div className={style.fboxtit22}>{t('219')}</div>
+                  <div className={style.fboxtit22}>
+                  <h3>
+                    {t('219')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon22}>
                   {t('220')}
                   </div>
@@ -154,7 +182,11 @@ const Pg6 = () => {
           </div>
           </div>
           <div className={style.right2}>
-            <div className = {style.right2tit}>{t('221')}</div>
+            <div className = {style.right2tit}>
+            <h2>
+              {t('221')}
+              </h2>
+              </div>
             <div className={style.right2line}></div>
             <div className = {style.right2maincon}>{t('222')}</div>
           </div>
@@ -173,7 +205,11 @@ const Pg6 = () => {
                     <div className={style.htxt3}>{t('223')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}>{t('224')}</div>
+                  <div className={style.fboxtit3}>
+                  <h3>
+                    {t('224')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon3}>
                   {t('225')}
                   </div>
@@ -189,7 +225,11 @@ const Pg6 = () => {
                     <div className={style.htxt32}>{t('226')}</div>
                   </div>
                   <div className = {style.fboxl32}></div>
-                  <div className={style.fboxtit32}>{t('227')}</div>
+                  <div className={style.fboxtit32}>
+                  <h3>
+                    {t('227')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon32}>
                   {t('228')}
                   </div>
@@ -207,7 +247,11 @@ const Pg6 = () => {
                     <div className={style.htxt3}>{t('229')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}>{t('230')}</div>
+                  <div className={style.fboxtit3}>
+                  <h3>
+                    {t('230')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon3}>
                   {t('231')}
                   </div>
@@ -223,7 +267,11 @@ const Pg6 = () => {
                     <div className={style.htxt32}>{t('232')}</div>
                   </div>
                   <div className = {style.fboxl32}></div>
-                  <div className={style.fboxtit32}>{t('233')}</div>
+                  <div className={style.fboxtit32}>
+                    <h3>
+                    {t('233')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon32}>
                   {t('234')}
                   </div>
@@ -240,7 +288,11 @@ const Pg6 = () => {
                     <div className={style.htxt3}> {t('235')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}> {t('236')}</div>
+                  <div className={style.fboxtit3}> 
+                  <h3>
+                  {t('236')}
+                  </h3>
+                  </div>
                   <div className={style.fboxmaincon3}>
                   {t('237')}
                   </div>
@@ -256,7 +308,7 @@ const Pg6 = () => {
                     <div className={style.htxt32}> {t('238')}</div>
                   </div>
                   <div className = {style.fboxl32}></div>
-                  <div className={style.fboxtit32}> {t('239')}</div>
+                  <div className={style.fboxtit32}><h3> {t('239')} </h3> </div>
                   <div className={style.fboxmaincon32}>
                   {t('240')}
                   </div>
@@ -274,7 +326,7 @@ const Pg6 = () => {
                     <div className={style.htxt3}> {t('241')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
-                  <div className={style.fboxtit3}> {t('242')}</div>
+                  <div className={style.fboxtit3}> <h3> {t('242')} </h3> </div>
                   <div className={style.fboxmaincon3}>
                   {t('243')}
                   </div>
@@ -289,7 +341,9 @@ const Pg6 = () => {
         <div className={style.top4}>
           <div className = {style.leftwa4}>
             <div className = {style.ltit4}>
+            <h2>
             {t('244')}
+            </h2>
             </div>
             <div className = {style.lline4}></div>
             <div className = {style.lstit4}> {t('245')}</div>
@@ -312,7 +366,9 @@ const Pg6 = () => {
                 <div className = {style.cont4}>
                   <div className={style.maincont4}>
                   <div className = {style.contit4}>
+                  <h3>
                   {t('247')}
+                  </h3>
                   </div>
                   <div className = {style.contxt4}>
                   {t('248')}
@@ -331,7 +387,9 @@ const Pg6 = () => {
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
                   <div className = {style.contit4}>
+                  <h3>
                   {t('250')}
+                  </h3>
                   </div>
                   <div className = {style.contxt4}>
                   {t('251')}
@@ -351,7 +409,9 @@ const Pg6 = () => {
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
                   <div className = {style.contit4}>
+                  <h3>
                   {t('253')}
+                  </h3>
                   </div>
                   <div className = {style.contxt4}>
                   {t('254')}</div>
@@ -369,7 +429,9 @@ const Pg6 = () => {
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
                   <div className = {style.contit4}>
+                  <h3>
                   {t('256')}
+                  </h3>
                   </div>
                   <div className = {style.contxt4}>
                   {t('257')}
@@ -456,7 +518,7 @@ const Pg6 = () => {
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>
-          <Link href = '/users/contact'>
+          <Link href = '/content/contact'>
           <button className = {style.but5}>{t('38')} <FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>

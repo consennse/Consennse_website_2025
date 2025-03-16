@@ -14,7 +14,11 @@ const LP9 = () => {
         <div className = {st9.lefttop9}>
         {t('65')}
         </div>
-        <div className = {st9.lefttit9}>{t('66')}</div>
+        <div className = {st9.lefttit9}>
+        <h2>
+          {t('66')}
+          </h2>
+          </div>
         <div className={st9.llime}></div>
         </div>
       <div className = {st9.main9}>
@@ -28,11 +32,15 @@ const LP9 = () => {
         <div className = {st9.righttop9}>
         {t('67')}
         </div>
-        <div className = {st9.righttit9}>{t('68')}</div>
+        <div className = {st9.righttit9}>
+        <h3>
+          {t('68')}
+          </h3>
+          </div>
         <div className = {st9.newline9}></div>
         <div className = {st9.rightmc}>{t('69')}</div>
         <div className = {st9.but9}>
-          <Link href = '/users/swissedition'>
+          <Link href = '/content/swissedition'>
           <button className = {st9.rightbut9}>{t('70')} <FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
           </Link>
           </div>

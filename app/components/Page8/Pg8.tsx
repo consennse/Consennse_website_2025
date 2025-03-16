@@ -491,7 +491,7 @@ const Pg8 = () => {
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')} </div>
           <div className = {style.con5}>{t('318')} </div>
-          <Link href = '/users/contact'>
+          <Link href = '/content/contact'>
           <button className = {style.but5}>{t('6A')}<FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>

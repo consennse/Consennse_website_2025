@@ -30,15 +30,23 @@ const Pg10 = () => {
         <Nav/>
         <div className={style.main}>
           <div className = {style.top}>
-            <div className = {style.heading1}>{t('500')}</div>
+            <div className = {style.heading1}>
+            <h1>
+              {t('500')}
+              </h1>
+              </div>
             <div className = {style.line}></div>
             <div className = {style.para}>{t('501')}</div>
             <div className = {style.box}>
               <div className = {style.box1}>
                 <div className = {style.img1}> <Image src = {pfp} alt ="image" className={style.logo10}/>  </div>
-                <div className = {style.head1}>Urs Senn</div>
+                <div className = {style.head1}>
+                  <h2>
+                  Urs Senn
+                  </h2>
+                  </div>
                 <div className={style.bod1}>{t('502')}</div>
-                <div className = {style.maincon1}>{t('503')}</div>
+                <div className = {style.maincon1}><h3> {t('503')}</h3></div>
                 <div className = {style.icon}>
                   <Link href="mailto:urs.senn@consennse.com" target="_blank" rel="noopener noreferrer">
                    <Image src = {mail} alt = "email" className={style.mail} /> 
@@ -48,9 +56,11 @@ const Pg10 = () => {
         
               <div className = {style.box1}>
                 <div className = {style.img1}> <Image src = {pfp2} alt ="image" className={style.logo10}/>  </div>
-                <div className = {style.head1}>Anna Hormann</div>
+                <div className = {style.head1}>
+                  <h2>
+                  Anna Hormann</h2> </div>
                 <div className={style.bod1}>{t('504')}</div>
-                <div className = {style.maincon1}>{t('505')}</div>
+                <div className = {style.maincon1}><h3>{t('505')}</h3> </div>
                 <div className = {style.icon}>
                 <Link href="mailto:servicedesk@consennse.com" target="_blank" rel="noopener noreferrer">
                    <Image src = {mail} alt = "email" className={style.mail}/>
@@ -60,9 +70,9 @@ const Pg10 = () => {
             
               <div className = {style.box1}>
                 <div className = {style.img1}> <Image src = {pfp3} alt ="image" className={style.logo10}/>  </div>
-                <div className = {style.head1}>Balazs Rubicsek</div>
+                <div className = {style.head1}> <h2>Balazs Rubicsek</h2> </div>
                 <div className={style.bod1}>{t('506')}</div>
-                <div className = {style.maincon1}>{t('507')}</div>
+                <div className = {style.maincon1}><h3>{t('507')}</h3></div>
                 <div className = {style.icon}>
                 <Link href="mailto:balazs.rubicsek@consennse.com" target="_blank" rel="noopener noreferrer">
                    <Image src = {mail} alt = "email" className={style.mail}/>
@@ -72,9 +82,9 @@ const Pg10 = () => {
          
               <div className = {style.box1}>
                 <div className = {style.img1}> <Image src = {pfp4} alt ="image" className={style.logo10}/>  </div>
-                <div className = {style.head1}>Sarah Spandolf</div>
+                <div className = {style.head1}><h2>Sarah Spandolf</h2> </div>
                 <div className={style.bod1}>{t('508')}</div>
-                <div className = {style.maincon1}>{t('509')}</div>
+                <div className = {style.maincon1}> <h3>{t('509')} </h3></div>
                 <div className = {style.icon}> 
                 <Link href="mailto:sarah.spandolf@consennse.com" target="_blank" rel="noopener noreferrer">
                 <Image src = {mail} alt = "email" className={style.mail}/>
@@ -84,13 +94,13 @@ const Pg10 = () => {
             </div>
           </div>
           <div className = {style.bottom}>
-            <div className = {style.heading1}>{t('510')}</div>
+            <div className = {style.heading1}><h2>{t('510')}</h2></div>
             <div className = {style.line}></div>
             <div className = {style.para}>{t('511')}</div>
             <div className = {style.boxes2}>
             <div className= {style.box22}>
             <div className = {style.box2}>
-            <div className = {style.heading2}>Andermatt Swiss Alps AG</div>
+            <div className = {style.heading2}><h3>Andermatt Swiss Alps AG</h3></div>
             <div className = {style.logo}><Image src = {logo1} alt = "logo" className={style.logo20}/> </div>
             <div className = {style.line2}></div>
             <div className = {style.bod2}>{t('512')}</div>
@@ -108,7 +118,7 @@ const Pg10 = () => {
             </div>
             </div>
             <div className = {style.box2}>
-            <div className = {style.heading2}>INIZIA Living AG</div>
+            <div className = {style.heading2}><h3>INIZIA Living AG</h3></div>
             <div className = {style.logo}><Image src = {logo2} alt = "logo" className={style.logo20}/> </div>
             <div className = {style.line2}></div>
             <div className = {style.bod2}>{t('512')}</div>
@@ -127,7 +137,7 @@ const Pg10 = () => {
             </div>
             <div className = {style.box21}>
             <div className = {style.box2}>
-            <div className = {style.heading2}>Markstein AG</div>
+            <div className = {style.heading2}><h3>Markstein AG</h3></div>
             <div className = {style.logo}><Image src = {logo3} alt = "logo" className={style.logo30}/> </div>
             <div className = {style.line2}></div>
             <div className = {style.bod2}>{t('512')}</div>
@@ -145,7 +155,7 @@ const Pg10 = () => {
             </div>
             </div>            
             <div className = {style.box2}>
-            <div className = {style.heading2}> WALDE Immobilien AG</div>
+            <div className = {style.heading2}><h3> WALDE Immobilien AG</h3></div>
             <div className = {style.logo}><Image src = {logo4} alt = "logo" className={style.logo30}/> </div>
             <div className = {style.line2}></div>
             <div className = {style.bod2}>{t('512')}</div>
@@ -165,7 +175,7 @@ const Pg10 = () => {
             </div>
           </div>
           <div className={style.companies}>
-          <div className = {style.heading3}>{t('543')}</div>
+          <div className = {style.heading3}><h2>{t('543')}</h2></div>
           <div className = {style.line}></div>
           <div className = {style.logos}>
             <div className = {style.row}>

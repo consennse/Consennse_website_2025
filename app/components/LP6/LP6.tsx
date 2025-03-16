@@ -15,7 +15,11 @@ const LP6 = () => {
       <div className={st6.leftwa}>
         <div className = {st6.left6}>
           <div className= {st6.lt1}>{t('35')}</div>
-          <div className = {st6.lt2}>{t('36')}</div>
+          <div className = {st6.lt2}>
+          <h2>
+            {t('36')}
+            </h2>
+            </div>
           <div className = {st6.sline}></div>
           <div className = {st6.lt3}>{t('37')}</div>
         </div>
@@ -28,33 +32,35 @@ const LP6 = () => {
       <div className = {st6.right6}>
           <div className = {st6.rgrid1}>
           <div className = {st6.right6content}>
-           <div className = {st6.ctxt1}>{t('39')}</div>
+           <div className = {st6.ctxt1}>
+           <h3>
+            {t('39')}</h3> </div>
            <div className = {st6.ctxt2}>{t('40')}</div>
           </div>
           <div className = {st6.right6content}>
-           <div className = {st6.ctxt1}>{t('41')}</div>
+           <div className = {st6.ctxt1}><h3> {t('41')}</h3> </div>
            <div className = {st6.ctxt2}>{t('42')}</div>
           </div>
           <div className = {st6.right6content}>
-           <div className = {st6.ctxt1}>{t('43')}</div>
+           <div className = {st6.ctxt1}><h3> {t('43')}</h3> </div>
            <div className = {st6.ctxt2}>{t('44')}</div>
           </div>
           </div>
           <div className ={st6.rgrid2}>
           <div className = {st6.right6content1}>
-           <div className = {st6.ctxt1}>{t('45')}</div>
+           <div className = {st6.ctxt1}> <h3>{t('45')}</h3> </div>
            <div className = {st6.ctxt2}>{t('46')}</div>
           </div>
           <div className = {st6.right6content1}>
-           <div className = {st6.ctxt1}>{t('47')}</div>
+           <div className = {st6.ctxt1}><h3> {t('47')}</h3> </div>
            <div className = {st6.ctxt2}>{t('48')}</div>
           </div><div className = {st6.right6content1}>
-           <div className = {st6.ctxt1}>{t('49')}</div>
+           <div className = {st6.ctxt1}><h3>{t('49')}</h3></div>
            <div className = {st6.ctxt2}>{t('50')}</div>
           </div>
           </div>
         </div>
-        <Link href = '/users/services/'>
+        <Link href = '/content/services/'>
         <button className = {st6.button6}
         onClick={()=>
           sendGAEvent({event:"clicked", value: "services", 'debug_mode':true } )

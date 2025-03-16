@@ -13,7 +13,9 @@ const LP7 = () => {
       <div className = {st7.left7top}>
       {t('51')}
       </div>
-      <div className = {st7.left7txt}>{t('52')}</div>
+      <div className = {st7.left7txt}>
+      <h2>
+        {t('52')}</h2> </div>
       <div className = {st7.left7txt1}> {t('53')}</div>
        <div className = {st7.left7txt2}>
       {t('54')}

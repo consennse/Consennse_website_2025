@@ -11,7 +11,12 @@ const LP2 = () => {
      <div className={st.left}> 
       <div className={st.Text}>     
      <div className = {st.T1}>
-     {t('7')} </div> 
+     <h1>
+     {t('7')}
+     </h1>
+
+
+      </div>   
      <div className={st.T2}>
      {t('8')}
      </div>

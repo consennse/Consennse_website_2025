@@ -33,21 +33,26 @@ const LP8 = () => {
       <div className = {st8.main8}>
         <div className={st8.left8}>
         <div className = {st8.tit8}>
-        {t('80')}
+        <h2>
+        {t('80')} </h2>
         </div>
         <div className={st8.gridbox}>
           <div className={st8.gr1}>
         <div className= {st8.maincontent}>
           <div className = {st8.mc1}>
+          <h3>
           {t('57')}
+          </h3>
           </div>
           <div className = {st8.mc18}>
-          {t('58')}
+          {t('58')} 
           </div>
         </div>
         <div className= {st8.maincontent}>
-          <div className = {st8.mc1}>
+          <div className = {st8.mc1}> 
+          <h3>
           {t('59')}
+          </h3>
           </div>
           <div className = {st8.mc18}>
           {t('60')}
@@ -57,14 +62,18 @@ const LP8 = () => {
         <div className={st8.gr1}>
         <div className= {st8.maincontent}>
           <div className = {st8.mc1}>
+          <h3>
           {t('61')}
+          </h3>
           </div>
           <div className = {st8.mc18}>
           {t('62')}
           </div>
         </div><div className= {st8.maincontent}>
           <div className = {st8.mc1}>
+          <h3>
           {t('63')}
+          </h3>
           </div>
           <div className = {st8.mc18}>
           {t('64')}
@@ -72,7 +81,7 @@ const LP8 = () => {
           </div>
         </div>
         </div>
-        <Link href = '/users/contact'>
+        <Link href = '/content/contact'>
         <button
   className={st8.button6}
   onClick={() => {

@@ -73,13 +73,13 @@ const Nav = () => {
                 Home
               </div>
             </Link>
-            <Link href='/users/services'>
-              <div className={`${styles.serv} ${isActiveLink('/users/services') || isActiveLink('/de/users/services')}`}>
+            <Link href='/content/services'>
+              <div className={`${styles.serv} ${isActiveLink('/content/services') || isActiveLink('/de/content/services')}`}>
                 Services
               </div>
             </Link>
-            <Link href='/users/support'>
-              <div className={`${styles.sup} ${isActiveLink('/users/support')  || isActiveLink('/de/users/support')}`}>
+            <Link href='/content/support'>
+              <div className={`${styles.sup} ${isActiveLink('/content/support')  || isActiveLink('/de/content/support')}`}>
                 Support
               </div>
             </Link>
@@ -92,26 +92,26 @@ const Nav = () => {
       {isDropdownVisible2 && (
         <div className={styles.dropdown2}>
           <ul>
-            <Link href = '/users/swissedition'>
-            <li className = {`${styles.sE} ${isActiveLink2('/users/swissedition') || isActiveLink2('/de/users/swissedition')}`}>Propertybase SWISS EDITION</li>
+            <Link href = '/content/swissedition'>
+            <li className = {`${styles.sE} ${isActiveLink2('/content/swissedition') || isActiveLink2('/de/content/swissedition')}`}>Propertybase SWISS EDITION</li>
             </Link>
-            <Link href = '/users/weboffice'>
-            <li className = {`${styles.wE} ${isActiveLink2('/users/weboffice')|| isActiveLink2('/de/users/weboffice')}`}>WEB OFFICE for Propertybase</li>
+            <Link href = '/content/weboffice'>
+            <li className = {`${styles.wE} ${isActiveLink2('/content/weboffice')|| isActiveLink2('/de/content/weboffice')}`}>WEB OFFICE for Propertybase</li>
             </Link>
-            <Link href = '/users/expose'>
-            <li className = {`${styles.E} ${isActiveLink2('/users/expose') || isActiveLink2('/de/users/expose')}`}>EXPOSE for Propertybase</li>
+            <Link href = '/content/expose'>
+            <li className = {`${styles.E} ${isActiveLink2('/content/expose') || isActiveLink2('/de/content/expose')}`}>EXPOSE for Propertybase</li>
             </Link>
           </ul>
         </div>
       )}
 
-<Link href='/users/aboutus'>
-              <div className={`${styles.con1} ${isActiveLink('/users/aboutus') || isActiveLink('/de/users/aboutus')}`}>
+<Link href='/content/aboutus'>
+              <div className={`${styles.con1} ${isActiveLink('/content/aboutus') || isActiveLink('/de/content/aboutus')}`}>
                 {t('601')}
               </div>
             </Link>
-            <Link href='/users/contact'>
-              <div className={`${styles.con} ${isActiveLink('/users/contact') || isActiveLink('/de/users/contact')}`}>
+            <Link href='/content/contact'>
+              <div className={`${styles.con} ${isActiveLink('/content/contact') || isActiveLink('/de/content/contact')}`}>
                 {t('6')}
               </div>
             </Link>
@@ -156,34 +156,34 @@ const Nav = () => {
                   <Link href='/'>
                     <li className={isActiveLink('/')}>Home</li>
                   </Link>
-                  <Link href='/users/services'>
-                    <li className={isActiveLink('/users/services')}>Services</li>
+                  <Link href='/content/services'>
+                    <li className={isActiveLink('/content/services')}>Services</li>
                   </Link>
-                  <Link href='/users/support'>
-                    <li className={isActiveLink('/users/support')}>Support</li>
+                  <Link href='/content/support'>
+                    <li className={isActiveLink('/content/support')}>Support</li>
                   </Link>
                   <li className={isActiveLink('/sol')} onClick={toggleDropdown2}>{t('5')} </li>
           <ul className = {styles.menu2}>
-            <Link href = '/users/swissedition' className = {`${styles.sE} ${isActiveLink2('/users/swissedition')|| isActiveLink2('/de/users/swissedition')}`} >
+            <Link href = '/content/swissedition' className = {`${styles.sE} ${isActiveLink2('/content/swissedition')|| isActiveLink2('/de/content/swissedition')}`} >
             <li>
           
               Propertybase SWISS EDITION</li>
             </Link>
-            <Link href = '/users/weboffice' className = {`${styles.wE} ${isActiveLink2('/users/weboffice')|| isActiveLink2('/de/users/weboffice')}`}>
+            <Link href = '/content/weboffice' className = {`${styles.wE} ${isActiveLink2('/content/weboffice')|| isActiveLink2('/de/content/weboffice')}`}>
             <li>
        
               WEB OFFICE for Propertybase</li>
             </Link>
-            <Link href = '/users/expose' className = {`${styles.wE} ${isActiveLink2('/users/expose')|| isActiveLink2('/de/users/expose')}`}>
+            <Link href = '/content/expose' className = {`${styles.wE} ${isActiveLink2('/content/expose')|| isActiveLink2('/de/content/expose')}`}>
             <li>
             EXPOSE for Propertybase</li>
             </Link>
           </ul>
-          <Link href='/users/aboutus'>
-                    <li className={isActiveLink('/users/aboutus')}>{t('601')}</li>
+          <Link href='/content/aboutus'>
+                    <li className={isActiveLink('/content/aboutus')}>{t('601')}</li>
                   </Link>
-                  <Link href='/users/contact'>
-                    <li className={isActiveLink('/users/contact')}>{t('6')}</li>
+                  <Link href='/content/contact'>
+                    <li className={isActiveLink('/content/contact')}>{t('6')}</li>
                   </Link>
                 </ul>
               </div>

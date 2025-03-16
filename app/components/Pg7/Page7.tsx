@@ -25,13 +25,21 @@ const Page7 = () => {
         <div className = {style.chimg1}>
       <Image src = {logo} alt = "logo" className={style.logo1}/>
       </div>
-        <div className = {style.h1}>{t('184')}</div>
+        <div className = {style.h1}>
+        <h1>
+          {t('184')}
+          </h1>
+          </div>
         <div className = {style.line1}></div>
         <div className = {style.sub1}>{t('185')}</div>
         <div className = {style.box1}>
           <div className = {style.img1}> <Image src = {image} alt = "img" className={style.img} /> </div>
           <div className = {style.right1}>
-            <div className = {style.ch1}>{t('186')}</div>
+            <div className = {style.ch1}>
+            <h2>
+              {t('186')}
+              </h2>
+              </div>
             <div className = {style.chl}></div>
             <div className = {style.content1}> {t('187')}
              </div>
@@ -41,7 +49,11 @@ const Page7 = () => {
         <div className = {style.linech}></div>
         <div className = {style.box2}>
           <div className = {style.l2}>
-            <div className = {style.tit2}>{t('189')}</div>
+            <div className = {style.tit2}>
+              <h2>
+              {t('189')}
+              </h2>
+              </div>
             <div className = {style.line2}></div>
             <div className = {style.subtxt2}>{t('190')}</div>
           </div>
@@ -50,7 +62,11 @@ const Page7 = () => {
   </div>        </div>
       </div>
       <div className = {style.page2}>
-        <div className={style.top2}> {t('191')}</div>
+        <div className={style.top2}>
+        <h2>
+           {t('191')}
+           </h2>
+           </div>
         <div className = {style.boxes2}>
         {/* <div className = {style.behindbox1}></div> */}
         <div className = {style.box21}>
@@ -116,11 +132,19 @@ const Page7 = () => {
         </div>
       </div>
       <div className = {style.page3}>
-        <div className = {style.chtit3}>{t('301A')}</div>
+        <div className = {style.chtit3}>
+        <h2>
+          {t('301A')}
+          </h2>
+          </div>
         <div className = {style.chlin3}></div>
         <div className = {style.box31}>
           <div className = {style.left31}>
-            <div className = {style.lefttit3}>{t('199')}</div>
+            <div className = {style.lefttit3}>
+            <h3>
+              {t('199')}
+              </h3>
+              </div>
             <div className = {style.line3}></div>
             <div className={style.stxt3}>{t('200')}</div>
           </div>
@@ -133,7 +157,11 @@ const Page7 = () => {
             <Image src = {img14} alt = "website" className = {style.img131}/>
           </div>
           <div className = {style.left31}>
-            <div className = {style.lefttit3}>{t('201')}</div>
+            <div className = {style.lefttit3}>
+            <h3>
+              {t('201')}
+              </h3>
+              </div>
             <div className = {style.line3}></div>
             <div className={style.stxt3}>{t('202')}
 
@@ -225,7 +253,7 @@ const Page7 = () => {
         <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>
-          <Link href = '/users/contact'>
+          <Link href = '/content/contact'>
           <button className = {style.but5}>
             {t('6A')} <FaChevronRight className={style.iconlast}/> </button>
             </Link>

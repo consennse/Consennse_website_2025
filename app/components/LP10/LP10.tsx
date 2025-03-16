@@ -20,11 +20,15 @@ const LP10 = () => {
         <div className = {st10.righttop10}>
         {t('71')}
         </div>
-        <div className = {st10.righttit10}>{t('72')}</div>
+        <div className = {st10.righttit10}>
+        <h3>
+          {t('72')}
+          </h3>
+          </div>
         <div className = {st10.llime}></div>
         <div className = {st10.rightmc10}>{t('73')}</div>
         <div className = {st10.but10}>
-          <Link href = '/users/weboffice'>
+          <Link href = '/content/weboffice'>
           <button className = {st10.rightbut10}>{t('70')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
           </Link>
           </div>

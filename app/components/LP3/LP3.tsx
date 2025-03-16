@@ -9,7 +9,9 @@ const LP3 = () => {
       <div className = {st1.Lp3}>
         <div className = {st1.lpleft3}>
           <div className = {st1.left3T}>{t('12')}</div>
-          <div className = {st1.left3T1}>{t('13')}</div>
+          <div className = {st1.left3T1}>
+          <h2>
+            {t('13')}</h2> </div>
           <div className = {st1.leftline}></div>
           <div className = {st1.left3T2}>{t('14')} <br/> 
           <div className = {st1.left3T22}>

@@ -34,17 +34,17 @@ const Footer = () => {
           </div>
         <div className = {st12.bots223}>
           <div className = {st12.botts}>
-          <Link href = '/users/aboutus'>
+          <Link href = '/content/aboutus'>
             {t('601')}
             </Link>
             </div>
           <div className = {st12.botts}>
-          <Link href = '/users/contact'>
+          <Link href = '/content/contact'>
             {t('6')}
             </Link>
             </div>
           <div className = {st12.botts}>
-          <Link href = '/users/support'>
+          <Link href = '/content/support'>
             Support
             </Link>
             </div>
@@ -53,12 +53,12 @@ const Footer = () => {
       <div className={st12.bot2}>
         <div className = {st12.bots21}>Services</div>
         <div className = {st12.bots223}>
-          <Link href = '/users/services'>
+          <Link href = '/content/services'>
           {t('82')}
           </Link>
           </div> 
         <div className = {st12.bots224}>
-        <Link href = '/users/services'>
+        <Link href = '/content/services'>
           {t('81A')}
           </Link>
           </div>
@@ -66,17 +66,17 @@ const Footer = () => {
       <div className={st12.bot22}>
         <div className = {st12.bots21}>{t('83')}</div>
         <div className = {st12.bots22}>
-          <Link href = '/users/swissedition'>
+          <Link href = '/content/swissedition'>
           {t('84')}
           </Link>
           </div>
         <div className = {st12.bots22}>
-          <Link href = '/users/weboffice'>
+          <Link href = '/content/weboffice'>
           {t('84A')}
           </Link>
           </div>
         <div className = {st12.bots22}>
-          <Link href = '/users/expose'>
+          <Link href = '/content/expose'>
           EXPOSE for Propertybase
           </Link>
           </div>
@@ -103,7 +103,7 @@ const Footer = () => {
         2025 © Consennse - {t('89')}
         </div>
         <div className = {st12.footdiv2}>
-          <Link href = '/users/privacypolicy'>
+          <Link href = '/content/privacypolicy'>
           {t('90')}
           </Link>
           </div>

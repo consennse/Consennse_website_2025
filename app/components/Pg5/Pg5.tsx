@@ -27,7 +27,11 @@ const Pg5 = () => {
       <Nav/>
       <div className={style.main}>
       <div className={style.top}>
-        <div className = {style.topt}>{t('145')}</div>
+        <div className = {style.topt}>
+        <h1>
+          {t('145')}
+          </h1>
+          </div>
         <div className = {style.line}></div>
         <div className = {style.topst}>{t('146')}</div>
         <div className = {style.maintop}>
@@ -102,7 +106,11 @@ const Pg5 = () => {
           <div className = {style.midbl}>
             <div className = {style.s1}> {t('159')}
 </div>
-<div className={style.s2}>{t('160')}</div>
+<div className={style.s2}>
+<h2>
+  {t('160')}
+ </h2> 
+  </div>
 <div className = {style.line1}></div>
 <div className = {style.s3}>{t('161')}</div>
           </div>
@@ -112,7 +120,10 @@ const Pg5 = () => {
           </div>
          </div>
          <div className={style.last}>
-          <div className={style.l1}>{t('162')}
+          <div className={style.l1}>
+            <h2>
+            {t('162')}
+            </h2>
 </div>
 <div className={style.line}></div>
 <div className={style.l2}> {t('163')}
@@ -122,7 +133,11 @@ const Pg5 = () => {
     <div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {magnifier} alt = "magnifier" height={55}/>
-        <div className={style.tit}>{t('164')}</div>
+        <div className={style.tit}>
+        <h3>
+          {t('164')}
+          </h3>
+          </div>
         <div className = {style.lline}></div>
         <div className = {style.maincon}>{t('165A')}</div>
         <div className={style.maincon1}>{t('165')}</div>
@@ -133,7 +148,11 @@ const Pg5 = () => {
     <div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {m2} alt = "magnifier"height ={55}/>
-        <div className={style.tit}>{t('168')}</div>
+        <div className={style.tit}>
+          <h3>
+          {t('168')}
+          </h3>
+          </div>
         <div className = {style.lline}></div>
         <div className = {style.maincon}>{t('165A')}</div>
         <div className={style.maincon1}>{t('169')}</div>
@@ -143,7 +162,11 @@ const Pg5 = () => {
     </div><div className = {style.box5}>
       <div className = {style.boxt}>
         <Image src = {m3} alt = "magnifier"height ={55}/>
-        <div className={style.tit5}>{t('171')}</div>
+        <div className={style.tit5}>
+        <h3>
+          {t('171')}
+          </h3>
+          </div>
         <div className = {style.lline5}></div>
         <div className = {style.maincon}>{t('165A')}</div>
         <div className={style.maincon1}>{t('172')}</div>
@@ -156,7 +179,11 @@ const Pg5 = () => {
     <div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {m4} alt = "magnifier"height ={55}/>
-        <div className={style.tit}>{t('174')}</div>
+        <div className={style.tit}>
+        <h3>
+          {t('174')}
+          </h3>
+          </div>
         <div className = {style.lline}></div>
         <div className = {style.maincon}>{t('165A')}</div>
         <div className={style.maincon1}>{t('175')}</div>
@@ -167,7 +194,11 @@ const Pg5 = () => {
     <div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {m6} alt = "magnifier"height ={55}/>
-        <div className={style.tit}>{t('177')}</div>
+        <div className={style.tit}>
+        <h3>
+          {t('177')}
+         </h3> 
+          </div>
         <div className = {style.lline}></div>
         <div className = {style.maincon}>{t('165A')}</div>
         <div className={style.maincon1}>{t('178')}</div>
@@ -177,7 +208,11 @@ const Pg5 = () => {
     </div><div className = {style.box}>
       <div className = {style.boxt}>
         <Image src = {m5} alt = "magnifier"height ={55}/>
-        <div className={style.tit}>{t('455')}</div>
+        <div className={style.tit}>
+        <h3>
+          {t('455')}
+         </h3> 
+          </div>
         <div className = {style.lline}></div>
         <div className = {style.maincon}>{t('456')}</div>
         <div className={style.maincon1}>{t('457')}</div>
@@ -191,7 +226,7 @@ const Pg5 = () => {
          <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>
-          <Link href = '/users/contact'>
+          <Link href = '/content/contact'>
           <button className = {style.but5}>{t('38')} <FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>
