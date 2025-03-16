@@ -24,7 +24,7 @@ const LP11 = () => {
         <div className = {st11.llime}></div>
         <div className = {st11.rightmc11}>{t('77')}</div>
         <div className = {st11.but11}>
-          <Link href = '/users/Expose'>
+          <Link href = '/users/expose'>
           <button className = {st11.rightbut11}>{t('78')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
           </Link>
           </div>

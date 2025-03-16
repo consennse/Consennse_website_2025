@@ -72,7 +72,7 @@ const LP8 = () => {
           </div>
         </div>
         </div>
-        <Link href = '/users/Contact'>
+        <Link href = '/users/contact'>
         <button
   className={st8.button6}
   onClick={() => {

@@ -202,7 +202,7 @@ Platinum
 <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>
-          <Link href = '/users/ContactSupportContract'>
+          <Link href = '/users/contactsupportcontract'>
           <button className = {style.but5}>{t('38')} <FaChevronRight className={style.iconlast}/> </button>
           </Link>
         </div>

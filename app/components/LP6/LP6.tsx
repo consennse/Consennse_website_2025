@@ -54,7 +54,7 @@ const LP6 = () => {
           </div>
           </div>
         </div>
-        <Link href = '/users/Services/'>
+        <Link href = '/users/services/'>
         <button className = {st6.button6}
         onClick={()=>
           sendGAEvent({event:"clicked", value: "services", 'debug_mode':true } )

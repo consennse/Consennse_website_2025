@@ -24,7 +24,7 @@ const LP10 = () => {
         <div className = {st10.llime}></div>
         <div className = {st10.rightmc10}>{t('73')}</div>
         <div className = {st10.but10}>
-          <Link href = '/users/WebOffice'>
+          <Link href = '/users/weboffice'>
           <button className = {st10.rightbut10}>{t('70')}<FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
           </Link>
           </div>

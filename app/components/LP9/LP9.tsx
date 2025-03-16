@@ -32,7 +32,7 @@ const LP9 = () => {
         <div className = {st9.newline9}></div>
         <div className = {st9.rightmc}>{t('69')}</div>
         <div className = {st9.but9}>
-          <Link href = '/users/SwissEdition'>
+          <Link href = '/users/swissedition'>
           <button className = {st9.rightbut9}>{t('70')} <FaChevronRight style={{margin: '14px', fontSize : '12px'}}/> </button>
           </Link>
           </div>
