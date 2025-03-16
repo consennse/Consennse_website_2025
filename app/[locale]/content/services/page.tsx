@@ -8,10 +8,13 @@ import TranslationsProvider from '@/app/components/TranslationProvider';
  * Generates metadata dynamically based on the locale.
  * This function is used by Next.js to set the page title and description.
  */
-export async function generateMetadata({ params }: { params: Record<string, string> }) {
-  console.log("🔍 Debug: generateMetadata() called with params:", params);
+export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }) {
+  // ✅ Await params to get the actual object
+  const resolvedParams = await params;
 
-  const locale = params.locale || 'en'; // ✅ Safe access without optional chaining
+  console.log("🔍 Debug: generateMetadata() called with params:", resolvedParams);
+
+  const locale = resolvedParams.locale || 'en'; // Default to English if undefined
 
   const metaData = {
     en: {
@@ -29,6 +32,7 @@ export async function generateMetadata({ params }: { params: Record<string, stri
 
   return selectedMetadata;
 }
+
 
 
 /**
