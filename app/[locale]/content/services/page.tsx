@@ -6,14 +6,11 @@ import TranslationsProvider from '@/app/components/TranslationProvider';
 
 import { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { locale?: string } }): Promise<Metadata> {
   console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  // ✅ Await params before accessing its properties
-  const resolvedParams = await params;
-  const locale = resolvedParams?.locale || "en"; // Default to English
+  const locale = params?.locale || "en"; // Default to English
 
-  // Define metadata for different locales
   const metaData = {
     en: {
       title: "Welcome to Our Website | Best Services for You",
@@ -25,7 +22,6 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
     },
   };
 
-  // Select metadata based on locale
   return metaData[locale] || metaData.en;
 }
 
@@ -35,29 +31,19 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
  * This tells Next.js to pre-render pages for these locales at build time.
  */
 export async function generateStaticParams() {
-  return [
-    { locale: 'en' }, // English version of the page
-    { locale: 'de' }, // German version of the page
-  ];
+  return [{ locale: "en" }, { locale: "de" }];
 }
 
-/**
- * Main page component for the "/[locale]/content/services" route.
- * This component loads localized translations and renders the page.
- */
+
 export default async function Page({ params }: { params: { locale?: string } }) {
-  console.log('🔍 Debug: Received Params:', params);
+  console.log("🔍 Debug: Received Params:", params);
 
-  // Extract locale from params; default to 'en' if not provided
-  const locale = params?.locale || 'en';
-
-  // Load translations for the given locale and "landing" namespace
-  const { resources } = await initTranslations(locale, ['landing']);
+  const locale = params?.locale || "en"; // Default to 'en'
+  const { resources } = await initTranslations(locale, ["landing"]); // Load translations
 
   return (
     <div className={sty1.body}>
-      {/* Provide translations and locale context to child components */}
-      <TranslationsProvider resources={resources} locale={locale} namespaces={['landing']}>
+      <TranslationsProvider resources={resources} locale={locale} namespaces={["landing"]}>
         <Pg5 />
       </TranslationsProvider>
     </div>
