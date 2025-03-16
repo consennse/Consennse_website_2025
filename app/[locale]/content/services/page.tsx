@@ -45,11 +45,11 @@ export async function generateStaticParams() {
  * Main page component for the "/[locale]/content/services" route.
  * This component loads localized translations and renders the page.
  */
-export default async function Page({ params }: { params: { locale?: string } }) {
-  console.log('🔍 Debug: Received Params:', params);
+export default async function Page({ params }: { params: Promise<{ locale?: string }> }){
+  const resolvedParams = await params; // Await the params to resolve
+  console.log('Resolved Params:', resolvedParams);
 
-  // Extract locale from params; default to 'en' if not provided
-  const locale = params?.locale || 'en';
+  const locale = resolvedParams?.locale || 'en'; // Default to 'en' if locale is not provided
 
   // Load translations for the given locale and "landing" namespace
   const { resources } = await initTranslations(locale, ['landing']);
