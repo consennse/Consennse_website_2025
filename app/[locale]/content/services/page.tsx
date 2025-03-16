@@ -3,7 +3,6 @@ import sty1 from './page.module.css';
 import Pg5 from '@/app/components/Pg5/Pg5';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
-import { Metadata } from 'next';
 /**
  * Generates metadata dynamically based on the locale.
  * This function is used by Next.js to set the page title and description.
