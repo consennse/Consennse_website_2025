@@ -11,7 +11,7 @@ import TranslationsProvider from '@/app/components/TranslationProvider';
 export async function generateMetadata({ params }: { params: { locale?: string } }) {
   console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  const locale = params?.locale || 'en'; // ✅ Now safely access locale
+  const locale = params?.locale || 'en'; // Safely access locale
 
   const metaDataEN = {
     title: "Welcome to Our Website | Best Services for You",
