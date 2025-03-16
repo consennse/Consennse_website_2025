@@ -1,26 +1,22 @@
 import React from 'react';
 import sty1 from './page.module.css';
+// import Nav2 from '@/app/components/Nav2/Nav2';
 import Pg5 from '@/app/components/Pg5/Pg5';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
 
-/**
- * Generates metadata dynamically based on the locale.
- * This function is used by Next.js to set the page title and description.
- */
-export async function generateMetadata({ params }: { params: { locale?: string } }) {
-  console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  const locale = params?.locale || 'en'; // Safely access locale
+export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }) {
 
+  const locale = (await params)?.locale || 'en'; // Default to English
   const metaDataEN = {
-    title: "Welcome to Our Website | Best Services for You",
-    description: "Discover the best services tailored to your needs. We provide top-notch solutions to enhance your experience.",
+    title: "Propertybase CRM Services | Consulting, Implementation & Support",
+    description: "We guide you from consultation to implementation and ongoing support for Propertybase CRM. Optimize your real estate business with tailored solutions, seamless integrations, and expert support.",
   };
 
   const metaDataDE = {
-    title: "Willkommen auf unserer Website | Beste Dienstleistungen für Sie",
-    description: "Entdecken Sie die besten Dienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind. Wir bieten erstklassige Lösungen.",
+    title: "Propertybase CRM Services | Beratung, Implementierung & Support",
+    description: "Wir begleiten Sie auf dem Weg zu einer massgeschneiderten Propertybase CRM-Lösung - von der Analyse über die Implementierung bis zum laufenden Support. Profitieren Sie von unserer Erfahrung für eine erfolgreiche digitale Transformation.",
   };
 
   const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
@@ -29,33 +25,21 @@ export async function generateMetadata({ params }: { params: { locale?: string }
   return selectedMetadata;
 }
 
-/**
- * Generates static parameters for Next.js dynamic routes.
- * This tells Next.js to pre-render pages for these locales at build time.
- */
+// Function to define static params for localization
 export async function generateStaticParams() {
   return [
-    { locale: 'en' }, // English version of the page
-    { locale: 'de' }, // German version of the page
+    { locale: 'en' },
+    { locale: 'de' },
   ];
 }
 
-/**
- * Main page component for the "/[locale]/content/services" route.
- * This component loads localized translations and renders the page.
- */
-export default async function Page({ params }: { params: { locale?: string } }) {
-  console.log('🔍 Debug: Received Params:', params);
-
-  // Extract locale from params; default to 'en' if not provided
-  const locale = params?.locale || 'en';
-
-  // Load translations for the given locale and "landing" namespace
-  const { resources } = await initTranslations(locale, ['landing']);
+// Main Page Component
+export default async function Page({ params }: { params: Promise<{ locale?: string }> }) {
+  const locale = (await params)?.locale || 'en'; // Default to 'en' if no locale is provided
+  const { resources } = await initTranslations(locale, ['landing']); // Load translations
 
   return (
     <div className={sty1.body}>
-      {/* Provide translations and locale context to child components */}
       <TranslationsProvider resources={resources} locale={locale} namespaces={['landing']}>
         <Pg5 />
       </TranslationsProvider>
