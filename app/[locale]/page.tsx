@@ -1,4 +1,4 @@
-import Page from "./users/landingpage/page";
+import Page from "@/app/[locale]/users/landingpage/page";
 import initTranslations from "../i18n";
 import TranslationProvider from "../components/TranslationProvider";
 
