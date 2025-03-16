@@ -3,30 +3,30 @@ import sty1 from './page.module.css';
 import Pg5 from '@/app/components/Pg5/Pg5';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
-/**
- * Generates metadata dynamically based on the locale.
- * This function is used by Next.js to set the page title and description.
- */
-export async function generateMetadata({ params }: { params: { locale?: string } }) {
+
+import { Metadata } from "next";
+
+export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }): Promise<Metadata> {
   console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  const resolvedParams = await params; // ✅ Await params before using it
-  const locale = resolvedParams?.locale || 'en'; // ✅ Now safely access locale
+  // ✅ Await params before accessing its properties
+  const resolvedParams = await params;
+  const locale = resolvedParams?.locale || "en"; // Default to English
 
-  const metaDataEN = {
-    title: "Welcome to Our Website | Best Services for You",
-    description: "Discover the best services tailored to your needs. We provide top-notch solutions to enhance your experience.",
+  // Define metadata for different locales
+  const metaData = {
+    en: {
+      title: "Welcome to Our Website | Best Services for You",
+      description: "Discover the best services tailored to your needs. We provide top-notch solutions to enhance your experience.",
+    },
+    de: {
+      title: "Willkommen auf unserer Website | Beste Dienstleistungen für Sie",
+      description: "Entdecken Sie die besten Dienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind. Wir bieten erstklassige Lösungen.",
+    },
   };
 
-  const metaDataDE = {
-    title: "Willkommen auf unserer Website | Beste Dienstleistungen für Sie",
-    description: "Entdecken Sie die besten Dienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind. Wir bieten erstklassige Lösungen.",
-  };
-
-  const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
-  console.log("🔍 Debug: Selected Metadata:", selectedMetadata);
-
-  return selectedMetadata;
+  // Select metadata based on locale
+  return metaData[locale] || metaData.en;
 }
 
 
@@ -45,11 +45,11 @@ export async function generateStaticParams() {
  * Main page component for the "/[locale]/content/services" route.
  * This component loads localized translations and renders the page.
  */
-export default async function Page({ params }: { params: Promise<{ locale?: string }> }){
-  const resolvedParams = await params; // Await the params to resolve
-  console.log('Resolved Params:', resolvedParams);
+export default async function Page({ params }: { params: { locale?: string } }) {
+  console.log('🔍 Debug: Received Params:', params);
 
-  const locale = resolvedParams?.locale || 'en'; // Default to 'en' if locale is not provided
+  // Extract locale from params; default to 'en' if not provided
+  const locale = params?.locale || 'en';
 
   // Load translations for the given locale and "landing" namespace
   const { resources } = await initTranslations(locale, ['landing']);
