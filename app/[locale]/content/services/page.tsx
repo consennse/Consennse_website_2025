@@ -3,29 +3,28 @@ import sty1 from './page.module.css';
 import Pg5 from '@/app/components/Pg5/Pg5';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
-import { Metadata } from "next";
-
-// ✅ Ensure params is treated as an object, not a promise
-export async function generateMetadata({ params }: { params: { locale?: string } }): Promise<Metadata> {
+import { Metadata } from 'next';
+/**
+ * Generates metadata dynamically based on the locale.
+ * This function is used by Next.js to set the page title and description.
+ */
+export async function generateMetadata({ params }: { params: { locale?: string } }) {
   console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  // Extract locale, defaulting to English
-  const locale = params.locale || 'en';
+  const resolvedParams = await params; // ✅ Await params before using it
+  const locale = resolvedParams?.locale || 'en'; // ✅ Now safely access locale
 
-  // Define metadata for different locales
-  const metaData = {
-    en: {
-      title: "Welcome to Our Website | Best Services for You",
-      description: "Discover the best services tailored to your needs. We provide top-notch solutions to enhance your experience.",
-    },
-    de: {
-      title: "Willkommen auf unserer Website | Beste Dienstleistungen für Sie",
-      description: "Entdecken Sie die besten Dienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind. Wir bieten erstklassige Lösungen.",
-    },
+  const metaDataEN = {
+    title: "Welcome to Our Website | Best Services for You",
+    description: "Discover the best services tailored to your needs. We provide top-notch solutions to enhance your experience.",
   };
 
-  // Select metadata based on locale
-  const selectedMetadata = metaData[locale] || metaData.en;
+  const metaDataDE = {
+    title: "Willkommen auf unserer Website | Beste Dienstleistungen für Sie",
+    description: "Entdecken Sie die besten Dienstleistungen, die auf Ihre Bedürfnisse zugeschnitten sind. Wir bieten erstklassige Lösungen.",
+  };
+
+  const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
   console.log("🔍 Debug: Selected Metadata:", selectedMetadata);
 
   return selectedMetadata;
