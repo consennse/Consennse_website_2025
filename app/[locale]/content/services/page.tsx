@@ -3,19 +3,16 @@ import sty1 from './page.module.css';
 import Pg5 from '@/app/components/Pg5/Pg5';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
+import { Metadata } from "next";
 
-/**
- * Generates metadata dynamically based on the locale.
- * This function is used by Next.js to set the page title and description.
- */
-export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }) {
-  // ✅ Await params to get the actual object
-  const resolvedParams = await params;
+// ✅ Ensure params is treated as an object, not a promise
+export async function generateMetadata({ params }: { params: { locale?: string } }): Promise<Metadata> {
+  console.log("🔍 Debug: generateMetadata() called with params:", params);
 
-  console.log("🔍 Debug: generateMetadata() called with params:", resolvedParams);
+  // Extract locale, defaulting to English
+  const locale = params.locale || 'en';
 
-  const locale = resolvedParams.locale || 'en'; // Default to English if undefined
-
+  // Define metadata for different locales
   const metaData = {
     en: {
       title: "Welcome to Our Website | Best Services for You",
@@ -27,12 +24,12 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
     },
   };
 
+  // Select metadata based on locale
   const selectedMetadata = metaData[locale] || metaData.en;
   console.log("🔍 Debug: Selected Metadata:", selectedMetadata);
 
   return selectedMetadata;
 }
-
 
 
 /**
