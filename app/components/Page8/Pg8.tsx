@@ -34,7 +34,11 @@ const Pg8 = () => {
         <div className = {style.logo1}>
         <Image src = {img19} alt = "logo" className={style.logo}/>
         </div>
-      <div className = {style.tit1}> {t('258')}</div>
+      <div className = {style.tit1}>
+        <h1>
+         {t('258')}
+         </h1>
+         </div>
       <div className = {style.lin1}></div>
         <div className = {style.subtxt1}>{t('259')}
         </div>
@@ -44,7 +48,9 @@ const Pg8 = () => {
           </div>
           <div className = {style.r1}>
             <div className={style.titr1}>
+              <h2>
             {t('260')}
+            </h2>
             </div>
             <div className = {style.rl1}></div>
               <div className = {style.stxt1}>{t('261')}
@@ -56,7 +62,9 @@ const Pg8 = () => {
       <div className = {style.box2}>
           <div className = {style.r2}>
             <div className={style.titr1}>
+              <h2>
             {t('262')}
+            </h2>
             </div>
             <div className = {style.rl1}></div>
               <div className = {style.stxt1}>
@@ -82,7 +90,11 @@ const Pg8 = () => {
                     <div className={style.htxt}>{t('264')}</div>
                   </div>
                   <div className = {style.fboxl}></div>
-                  <div className={style.fboxtit}>{t('265')}</div>
+                  <div className={style.fboxtit}>
+                    <h3>
+                    {t('265')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon}>
                   {t('266')}
                   </div>
@@ -101,7 +113,11 @@ const Pg8 = () => {
                     <div className={style.htxt2}>{t('268')}</div>
                   </div>
                   <div className = {style.fboxl2}></div>
-                  <div className={style.fboxtit2}>{t('267')}</div>
+                  <div className={style.fboxtit2}>
+                    <h3>
+                    {t('267')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon2}>
                   {t('269')}
                   </div>
@@ -121,7 +137,11 @@ const Pg8 = () => {
                     <div className={style.htxt21}>{t('271')}</div>
                   </div>
                   <div className = {style.fboxl21}></div>
-                  <div className={style.fboxtit21}>{t('270')}</div>
+                  <div className={style.fboxtit21}>
+                    <h3>
+                    {t('270')}
+                    </h3>
+                    </div>
                   <div className={style.fboxmaincon21}>
                   {t('272')}
                   </div>
@@ -141,7 +161,11 @@ const Pg8 = () => {
             </div> 
           </div>
           <div className = {style.rightchange2}>
-        <div className={style.tit3}>{t('273')}</div>
+        <div className={style.tit3}>
+          <h2>
+          {t('273')}
+          </h2>
+          </div>
         <div className={style.lin3}></div>
         <div className = {style.stit3}> {t('300A')}
       </div>
@@ -159,7 +183,11 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>{t('274')}</div>
+                    <div className={style.htxt3}>
+                      <h3>
+                      {t('274')}
+                      </h3>
+                      </div>
                   </div>
                   <div className = {style.fboxl3}></div>
                   <div className={style.fboxtit31}>{t('275')}</div>
@@ -189,7 +217,11 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>{t('277')}</div>
+                    <div className={style.htxt3}>
+                      <h3>
+                      {t('277')}
+                      </h3>
+                      </div>
                   </div>
                   <div className = {style.fboxl3}></div>
                   <div className={style.fboxtit31}>{t('278A')}</div>
@@ -219,7 +251,11 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>{t('280')}</div>
+                    <div className={style.htxt3}>
+                      <h3>
+                      {t('280')}
+                      </h3>
+                      </div>
                   </div>
                   <div className = {style.fboxl3}></div>
                   <div className={style.fboxtit31}>{t('281')}</div>
@@ -249,7 +285,11 @@ const Pg8 = () => {
               <div className={style.lbox3}>
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
-                    <div className={style.htxt3}>{t('283')}</div>
+                    <div className={style.htxt3}>
+                      <h3>
+                      {t('283')}
+                      </h3>
+                      </div>
                   </div>
                   <div className = {style.fboxl3}></div>
                   <div className={style.fboxtit31}>{t('284')}</div>
@@ -272,7 +312,11 @@ const Pg8 = () => {
       </div>
       </div>
       <div className = {style.page4}>
-        <div className = {style.tit4}>{t('288')}</div>
+        <div className = {style.tit4}>
+          <h2>
+          {t('288')}
+          </h2>
+          </div>
         <div className = {style.line4}></div>
           <div className = {style.stxt4}>{t('289')}
           </div>
@@ -283,7 +327,9 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame5} alt = "logo12" className={style.img41}/>
                   <div className = {style.ttxt4}>
+                    <h3>
                   {t('290')}
+                  </h3>
                   </div>
                 </div>
                 <div className = {style.cont4}>
@@ -299,7 +345,9 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame6} alt = "logo13" className={style.img41}/>
                   <div className = {style.ttxt4}>
+                    <h3>
                   {t('294')}
+                  </h3>
                   </div>
                 </div>
                 <div className = {style.cont4}>
@@ -316,7 +364,9 @@ const Pg8 = () => {
                 <div className = {style.titb4}>
                   <Image src = {frame7} alt = "logo14" className={style.img41}/>
                   <div className = {style.ttxt4}>
-                  {t('292')}                  </div>
+                    <h3>
+                  {t('292')}    
+                  </h3>  </div>
                 </div>
                 <div className = {style.cont4}>
                 <div className={style.maincont4}>
@@ -333,7 +383,11 @@ const Pg8 = () => {
       <div className = {style.page5}>
         <div className={style.top5}>
           <div className = {style.lefttop5}>
-            <div className={style.lefttit5}>{t('296')}</div>
+            <div className={style.lefttit5}>
+              <h2>
+              {t('296')}
+              </h2>
+              </div>
             <div className = {style.changeline}></div>
             <div className={style.lefttst5}>{t('297')}</div>
           </div>
@@ -344,30 +398,42 @@ const Pg8 = () => {
             <div className = {style.box51}>
 
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('298')}</div>
+                <div className = {style.mbtit5}>
+                  <h3>
+                  {t('298')}
+                  </h3>
+                  </div>
                 <div className = {style.mainstit5}>{t('299')}</div>
               </div>
             </div>
             <div className = {style.box51}>
   
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('300')}</div>
+                <div className = {style.mbtit5}><h3>{t('300')}</h3></div>
                 <div className = {style.mainstit5}>{t('301')}</div>
               </div>
             </div> <div className = {style.box51}>
      
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('302')}</div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('302')}</h3> </div>
                 <div className = {style.mainstit5}>{t('303')}</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('304')}</div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('304')}
+                  </h3>
+                  </div>
                 <div className = {style.mainstit5}>{t('305')}</div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('305A')} </div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('305A')} </h3> </div>
                 <div className = {style.mainstit5}>{t('305B')}</div>
               </div>
             </div>
@@ -375,28 +441,36 @@ const Pg8 = () => {
           <div className = {style.botleft5}>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('306')}</div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('306')}
+                  </h3>
+                  </div>
                 <div className = {style.mainstit5}>{t('307')}</div>
               </div>
             </div>
             <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('308')} </div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('308')} </h3> </div>
                 <div className = {style.mainstit5}>{t('309')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('310')} </div>
+                <div className = {style.mbtit5}>
+                <h3>
+                  {t('310')} </h3> </div>
                 <div className = {style.mainstit5}>{t('310A')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('311')}  </div>
+                <div className = {style.mbtit5}><h3> {t('311')} </h3> </div>
                 <div className = {style.mainstit5}>{t('312')} </div>
               </div>
             </div> <div className = {style.box51}>
               <div className = {style.mainbox51}>
-                <div className = {style.mbtit5}>{t('313')}  </div>
+                <div className = {style.mbtit5}><h3> {t('313')} </h3> </div>
                 <div className = {style.mainstit5}>{t('314')} </div>
               </div>
             </div>
@@ -405,7 +479,11 @@ const Pg8 = () => {
       </div>
       <div className = {style.page6}>
         <div className = {style.box6}>
-        <div className = {style.tit6}>{t('316')} </div>
+        <div className = {style.tit6}>
+          <h2>
+          {t('316')}
+          </h2>
+           </div>
         <div className = {style.line6}></div>
         <Image src = {img23} alt = "companies" className = {style.img23}/>
         <Image src = {company2} alt = "companies" className = {style.img24}/>
@@ -426,4 +504,4 @@ const Pg8 = () => {
   )
 }
 
-export default Pg8
+export default Pg8; 

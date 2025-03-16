@@ -23,9 +23,9 @@ const Pg4 = () => {
       <div className = {style.maincon}>
       <div className = {style.top}>
         <div className = {style.left}>
-          <div className = {style.ltop}>
+          <h1 className = {style.ltop}>
           {t('119')}
-          </div>
+          </h1>
           <div className={style.lbox}></div>
           <div className = {style.lmid}>
           {t('120')}
@@ -38,7 +38,7 @@ const Pg4 = () => {
       <div className = {style.bottom}>
         <div className = {style.botup}>
         <div className = {style.bottop}>{t('7A')}</div>
-        <div className = {style.botmid}>{t('121')}</div>
+        <h2 className = {style.botmid}>{t('121')}</h2>
         <div className = {style.botbox}>
         </div>
         <div className={style.botbot}>{t('122')}</div>
@@ -47,9 +47,9 @@ const Pg4 = () => {
 <div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F5} alt = "new" height={50}/>
-      <div className = {style.head}>CRM Support
+      <h3 className = {style.head}>CRM Support
 Basic
-</div>
+</h3>
 <div className={style.down}>{t('123')}</div>
 <div className = {style.donlin}></div>
 <div className={style.main}>
@@ -71,11 +71,11 @@ Basic
 <div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F2} alt = "new"/>
-      <div className = {style.head}>CRM Support 
+      <h3 className = {style.head}>CRM Support 
 SLA
 Silver
 
-</div>
+</h3>
 <div className={style.down}>{t('126A')}</div>
 <div className = {style.donlin2}></div>
 <div className = {style.but1}>
@@ -108,11 +108,11 @@ Silver
 </div><div className = {style.botnext3}>
     <div className = {style.first3}>
       <Image src = {F1} alt = "new" height={47}/>
-      <div className = {style.head3}>CRM Support 
+      <h3 className = {style.head3}>CRM Support 
 SLA
 Gold
 
-</div>
+</h3>
 <div className={style.down3}>{t('130')}</div>
 <div className = {style.donlin3}></div>
 <div className = {style.but1}>
@@ -153,11 +153,11 @@ Gold
 </div><div className = {style.botnext}>
     <div className = {style.first}>
       <Image src = {F3} alt = "new" height={47}/>
-      <div className = {style.head}>CRM Support 
+      <h3 className = {style.head}>CRM Support 
 SLA
 Platinum
 
-</div>
+</h3>
 <div className={style.down}>{t('137')}</div>
 <div className = {style.donlin4}></div>
 <div className = {style.but1}>
