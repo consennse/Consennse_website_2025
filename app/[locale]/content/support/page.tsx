@@ -11,8 +11,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
 
   const locale = (await params)?.locale || 'en'; // Default to English
   const metaDataEN = {
-    title: "Propertybase CRM Services | Consulting, Implementation & Support",
-    description: "We guide you from consultation to implementation and ongoing support for Propertybase CRM. Optimize your real estate business with tailored solutions, seamless integrations, and expert support.",
+    title: "Propertybase CRM Support | Flexible Service Plans & Fast Assistance",
+    description: "Tailored Propertybase CRM support with guaranteed response times and expert assistance. Choose the right service level for your business needs, from basic support to premium SLA options.",
   };
 
   const metaDataDE = {

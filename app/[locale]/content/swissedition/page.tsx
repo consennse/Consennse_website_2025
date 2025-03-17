@@ -11,7 +11,24 @@ export async function generateStaticParams() {
     { locale: 'de' },
   ];
 }
+export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }) {
 
+  const locale = (await params)?.locale || 'en'; // Default to English
+  const metaDataEN = {
+    title: "Propertybase SWISS EDITION | Efficient CRM for Swiss Real Estate Agents",
+    description: "Propertybase Swiss Edition is a pre-configured CRM tailored for Swiss real estate professionals. Automate marketing, streamline workflows, and optimize customer interactions with Swiss precision and reliability.",
+  };
+
+  const metaDataDE = {
+    title: "Propertybase Swiss Edition | Effizientes CRM für Schweizer Immobilienmakler",
+    description: "Die Propertybase SWISS EDITION ist eine vorkonfigurierte CRM-Lösung für Schweizer Immobilienmakler. Automatisierte Prozesse, präzise Datenverwaltung und effiziente Immobilienvermarktung - optimieren Sie Ihr Geschäft mit Schweizer Qualität.",
+  };
+
+  const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
+  console.log("🔍 Debug: Selected Metadata:", selectedMetadata);
+
+  return selectedMetadata;
+}
 export default async function Page({ params }: { params: Promise<{ locale?: string }> }) {
   const resolvedParams = await params; // Await the params to resolve
   console.log('Resolved Params:', resolvedParams);
