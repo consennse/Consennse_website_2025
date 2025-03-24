@@ -258,6 +258,7 @@
   font-size: 13px;
   margin-bottom: 0.5rem;
 }
+
 .l3{
   display: flex;
   color: #6355C3;
@@ -289,7 +290,7 @@
 }
 .tick1{
   margin-left: 0.4rem;
-
+  width: 85%;
 }
 .butt2,.butt4,.butt3{
   width: 80%;

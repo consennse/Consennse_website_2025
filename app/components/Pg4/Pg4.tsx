@@ -2,15 +2,15 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
 import Image from 'next/image'
-import F1 from "./Group 1597885749-2.svg"
-import F2 from "./Frame2.svg"
-import F3 from "./Frame3.svg"
-import F4 from "./Frame4.svg"
+import F1 from "./Group 1597885749.png"
+import F2 from "./Frame 1249186653.png"
+import F3 from "./Frame 1249186653-2.png"
 import Link from 'next/link'
-import F5 from "./Frame5.svg"
+import F5 from "./Frame 1249186649.png"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
-import g1 from "./Group 1597885752.svg"
+import g1 from "./check-circle-1.png"
+import F4 from "./Rectangle 34625456.png"
 import { FaChevronRight } from 'react-icons/fa'
 import { useTranslation } from 'react-i18next'
 const Pg4 = () => {
@@ -70,7 +70,7 @@ Basic
 </div>
 <div className = {style.botnext}>
     <div className = {style.first}>
-      <Image src = {F2} alt = "new"/>
+      <Image src = {F2} alt = "new" height={50} width={50}/>
       <h3 className = {style.head}>CRM Support 
 SLA
 Silver
