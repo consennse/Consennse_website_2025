@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image';
-import back from "./Image 2-2.svg"
+import back from "./Image 2.png"
 import st6 from "./LP6.module.css"
 import { useTranslation } from 'react-i18next'
 import { FaChevronRight } from 'react-icons/fa';
@@ -25,7 +25,7 @@ const LP6 = () => {
         </div>
         </div>
         <div className = {st6.rightwa}>
-      <Image src = {back} className = {st6.backimg} alt = "background"/>
+      <Image src = {back} className = {st6.backimg} alt = "background" />
         </div>
       </div>
       <div className = {st6.belowbody}>

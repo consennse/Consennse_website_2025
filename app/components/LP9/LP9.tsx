@@ -24,7 +24,7 @@ const LP9 = () => {
       <div className = {st9.main9}>
         <div className = {st9.left9}>
         <div className = {st9.mcimg}>
-          <Image src = {abc} alt ="office" style={{ borderRadius: '7px' }} className = {st9.ofc}/>
+          <Image src = {abc} alt ="office" style={{ borderRadius: '7px' }} className = {st9.ofc} />
         </div>
         </div>
 

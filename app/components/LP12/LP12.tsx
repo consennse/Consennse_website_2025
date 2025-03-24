@@ -28,7 +28,7 @@ const LP12 = () => {
       Switzerland
       </div>
       <div className = {st12.bots2}>info@consennse.com</div>
-      <div className = {st12.img12} > <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/></div>
+      <div className = {st12.img12} > <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}  /></div>
       </div>
       <div className = {st12.bottombox2}>
       <div className={st12.bot2}>

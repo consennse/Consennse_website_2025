@@ -22,7 +22,7 @@ const Footer = () => {
       <div className = {st12.img12} >
       <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
         rel="noopener noreferrer">
-         <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123} quality={100} layout='intrinsic' />
+         <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123} quality={100}  />
          </Link>
          </div>
       </div>

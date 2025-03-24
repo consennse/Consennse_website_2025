@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { usePathname } from 'next/navigation'; // Import usePathname hook
 import styles from "./Nav.module.css";
 import Image from 'next/image';
-import Name from "./Name.svg";
+import Name from "./Name.png";
 import { FaBars } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import LanguageChanger from '@/app/components/LanguageChanger/LanguageChanger'; 
@@ -64,7 +64,7 @@ const Nav = () => {
         <div className={styles.fordesk}>
           <div className={styles.img}>
             <Link href='/'>
-              <Image src={Name} alt="logo" height={27} className={styles.broimg} />
+              <Image src={Name} alt="logo" height={27} className={styles.broimg}  />
             </Link>
           </div>
           <div className={styles.right}>

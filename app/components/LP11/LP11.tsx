@@ -13,7 +13,7 @@ const LP11 = () => {
       <div className ={st11.main11}>
       <div className = {st11.right11}>
         <div className = {st11.mcimg}>
-          <Image src = {img11} alt ="robot" style={{ borderRadius: '7px' }} className = {st11.ofc}/>
+          <Image src = {img11} alt ="robot" style={{ borderRadius: '7px' }} className = {st11.ofc} />
         </div>
         </div>
         <div className = {st11.left11}> 

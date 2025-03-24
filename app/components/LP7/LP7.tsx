@@ -2,7 +2,7 @@
 import React from 'react'
 import st7 from "./LP7.module.css"
 import Image from 'next/image'
-import rext from "./team.png"
+import rext from "./Rectangle 2683.png"
 import { useTranslation } from 'react-i18next';
 const LP7 = () => {
   const {t} = useTranslation();
@@ -25,8 +25,7 @@ const LP7 = () => {
       </div>
       <div className = {st7.right7}>
           <div className = {st7.imgbox}>
-          <Image src = {rext} alt = 'collegues' className={st7.brimg}>
-          </Image>
+          <Image src = {rext} alt = 'collegues' className={st7.brimg} />
         </div>
 
       </div>

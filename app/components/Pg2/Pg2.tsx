@@ -4,10 +4,10 @@ import Nav from '../Nav/Nav';
 import Image from 'next/image';
 import comp from "./comp6.jpeg"
 import style from "./Pg2.module.css"
-import Frame from "./Frame.svg"
-import g1 from "./g1.svg"
-import g2 from "./g2.svg"
-import g3 from "./g3.svg"
+import Frame from "./Frame.png"
+import g1 from "./Group 1597885673.png"
+import g2 from "./Group 1597885675.png"
+import g3 from "./Group 1597885677.png"
 import { useState } from 'react';
 import Footer from '../Footer/Footer';
 import Link from 'next/link';
@@ -152,7 +152,7 @@ const Pg2 = () => {
             <div className = {style.right31mob}>
               <div className = {style.righttxt3new}>
                 <div className = {style.righttxt31}>
-                  <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className ={style.rimg1}/></div>
+                  <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className ={style.rimg1}  /></div>
                   <div className = {style.rt31}>
                   <a href="tel:+41 79 441 00 17">
                     +41 79 441 00 17
@@ -160,7 +160,8 @@ const Pg2 = () => {
                   </div>
                 </div>
                 <div className = {style.righttxt32}>
-                <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35} className={style.rimg3}/></div>
+                <div className = {style.rimg}>
+                  <Image src = {g2} alt = "mail" height={35} className={style.rimg3}/></div>
                   <div className = {style.rt32}>
                   <a href="mailto:info@consennse.com">
                     info@consennse.com
@@ -170,7 +171,7 @@ const Pg2 = () => {
                 </div>
               </div>
               <div className = {style.righttxt33}>
-                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35}className ={style.rimg2}/></div>
+                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35}className ={style.rimg2} /></div>
                   <div className = {style.rt33}>
                   <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
         rel="noopener noreferrer">
@@ -203,7 +204,7 @@ const Pg2 = () => {
           }}
         >
           
-          <Image src = {Frame} alt = "tick" height={50}/> 
+          <Image src = {Frame} alt = "tick" height={50} /> 
           <h2 style = {{
             fontSize: "17px", 
             fontWeight : "600",
@@ -234,13 +235,13 @@ const Pg2 = () => {
               <div className = {style.rightbox1}>
               </div>
               <div className = {style.rightimg}>
-                <Image src = {comp} alt = "girl" className={style.img1}/>
+                <Image src = {comp} alt = "girl" className={style.img1} />
               </div>
             </div>
             <div className = {style.right2}>
               <div className = {style.righttxt}>
                 <div className = {style.righttxt1}>
-                  <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className={style.rimg1}/></div>
+                  <div className = {style.rimg}><Image src = {g3} alt = "phone" height={35} className={style.rimg1}  /></div>
                   <div className = {style.rt1}>
                   <a href="tel:+41 79 441 00 17">
                     +41 79 441 00 17
@@ -248,7 +249,7 @@ const Pg2 = () => {
                     </div>
                 </div>
                 <div className = {style.righttxt2}>
-                <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1}/></div>
+                <div className = {style.rimg}><Image src = {g2} alt = "mail" height={35}className={style.rimg1} /></div>
                   <div className = {style.rt1}>
                   <a href="mailto:info@consennse.com">
                     info@consennse.com
@@ -257,7 +258,7 @@ const Pg2 = () => {
                 </div>
               </div>
               <div className = {style.righttxt3}>
-                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1}/></div>
+                    <div className = {style.rimg}><Image src = {g1} alt = "linkedin" height={35} className={style.rimg1} /></div>
                   <div className = {style.rt2}> 
                   <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
         rel="noopener noreferrer">
