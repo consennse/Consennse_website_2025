@@ -4,17 +4,17 @@ import style from "./Pg5.module.css"
 import Nav from '../Nav/Nav'
 import Footer from "../Footer/Footer"
 import Image from 'next/image'
-import magnifier from "./Frame 1249186693.svg"
-import m2 from "./Frame 1249186694.svg"
+import magnifier from "./Frame 1249186693.png"
+import m2 from "./Frame 1249186694.png"
 import m3 from "./Group 1597885751.png"
-import m4 from "./Frame 1249186698.svg"
-import m5 from "./Frame 1249186699-1.svg"
-import m6 from "./Frame 1249186699.svg"
+import m4 from "./Frame 1249186698.png"
+import m5 from "./Frame 1249186695-2.png"
+import m6 from "./Frame 1249186699.png"
 import { FaChevronRight } from 'react-icons/fa';
-import man from "./young-man-brown-bob-hair-team-leader-celebrate-victory-competition-purple-background-Photoroom 1.svg"
-import tick from "./Union.svg"
+import man from "./young-man-brown-bob-hair-team-leader-celebrate-victory-competition-purple-background-Photoroom 1.png"
+import tick from "./Union.png"
 import { useTranslation } from 'react-i18next'
-import group from "./Rectangle 34625457.svg"
+import group from "./Rectangle 34625457.png"
 import Link from 'next/link';
 import { useState } from 'react'
 const Pg5 = () => {
@@ -193,7 +193,7 @@ const Pg5 = () => {
     </div>
     <div className = {style.box}>
       <div className = {style.boxt}>
-        <Image src = {m6} alt = "magnifier"height ={55}/>
+        <Image src = {m6} alt = "magnifier2"height ={55}/>
         <div className={style.tit}>
         <h3>
           {t('177')}
