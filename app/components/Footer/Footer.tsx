@@ -1,7 +1,7 @@
 'use client' ; 
 import React from 'react'
 import Image from 'next/image';
-import lin from "./Facebook.svg"
+import lin from "./Facebook.png"
 import st12 from "./Footer.module.css"
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
@@ -22,7 +22,7 @@ const Footer = () => {
       <div className = {st12.img12} >
       <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 
         rel="noopener noreferrer">
-         <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123}/>
+         <Image src ={lin} alt = "linkedin" height={35} className ={st12.img123} quality={100} layout='intrinsic' />
          </Link>
          </div>
       </div>
