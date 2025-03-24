@@ -8,7 +8,7 @@ import head from "./Frame 1249186730.svg"
 import img18 from "./image 18.svg"
 import { FaChevronRight } from 'react-icons/fa';
 import Link from 'next/link';
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from 'react-i18next'; 
 import magnif from './Frame 1249186730-3.svg'
 import coin from './Frame 1249186730-4.svg'
 import img5 from "./Frame 1249186730-5.svg"
