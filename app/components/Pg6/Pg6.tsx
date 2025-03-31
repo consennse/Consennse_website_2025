@@ -5,7 +5,7 @@ import Nav2 from '../Nav/Nav'
 import Image from 'next/image';
 import page from "./Frame 1249186730-16.svg"
 import head from "./Frame 1249186730.svg"
-import img18 from "./image 18.svg"
+import img18 from "./image 18.png"
 import { FaChevronRight } from 'react-icons/fa';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next'; 
