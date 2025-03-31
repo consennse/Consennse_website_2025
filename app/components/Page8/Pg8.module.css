@@ -386,6 +386,7 @@
 }
 .img22{
   height: 400px;
+  width: auto;
   margin: auto;
 }
 .box312{
@@ -475,6 +476,7 @@
 .img41{
   height: 60px;
   margin-right: 0.7rem;
+  width: auto;
 }
 .maincont4{
   padding-top: 1.5rem;

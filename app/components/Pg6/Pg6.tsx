@@ -222,7 +222,7 @@ const Pg6 = () => {
                 <div className = {style.fbox32}>
                   <div className={style.fboxtop32}>
                     <div>
-                    <Image src ={img6} alt = "image" height={66}/></div>
+                    <Image src ={img6} alt = "image" className={style.img116} /></div>
                     <div className={style.htxt32}>{t('226')}</div>
                   </div>
                   <div className = {style.fboxl32}></div>

@@ -307,7 +307,10 @@
   font-size: 23px;
   margin-bottom: 0.5rem;
 }
-
+.img116{
+  height: 50px;
+  width: 50px;
+}
 .maintop2{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -454,6 +457,7 @@
 .htxt32{
   margin-left: 1rem;
   font-size: 16px;
+  width: 90%;
 }
 
 .fboxl32{
