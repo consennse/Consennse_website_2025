@@ -169,6 +169,8 @@
 }
 .stress{
   margin-left: auto;
+  width: 600px;
+  height: auto;
 }
 .top2{
   background-color: white;
@@ -561,6 +563,7 @@
 }
 .img41{
   height: 60px;
+  width: auto;
   margin-right: 0.7rem;
 }
 .maincont4{

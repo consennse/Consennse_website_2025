@@ -3,30 +3,31 @@ import React from 'react'
 import style from "./Pg6.module.css"
 import Nav2 from '../Nav/Nav'
 import Image from 'next/image';
-import page from "./Frame 1249186730-16.svg"
-import head from "./Frame 1249186730.svg"
+import page from "./Frame 1249186730-8.png"
+import head from "./Frame 1249186730-5.png"
 import img18 from "./image 18.png"
 import { FaChevronRight } from 'react-icons/fa';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next'; 
-import magnif from './Frame 1249186730-3.svg'
-import coin from './Frame 1249186730-4.svg'
-import img5 from "./Frame 1249186730-5.svg"
-import img6 from "./Frame 1249186730-6.svg"
-import img7 from "./Frame 1249186730-7.svg"
-import img8 from "./Frame 1249186730-8.svg"
-import img9 from "./Frame 1249186730-9.svg"
-import img10 from "./Frame 1249186730-10.svg"
-import img12 from "./Frame 1249186730-12.svg"
-import img13 from "./Frame 1249186730-13.svg"
-import img14 from "./Frame 1249186730-14.svg"
-import img15 from "./Frame 1249186730-15.svg"
-import stress from "./f0454ac29027a934d95f4ba9475dcc45.jpeg"
+import magnif from './Frame 1249186730-6.png'
+import coin from './Frame 1249186730-7.png'
+import img5 from "./Frame 1249186730-9.png"
+import img6 from "./Frame 1249186730-10.png"
+import img7 from "./Frame 1249186730-11.png"
+import img8 from "./Frame 1249186730-12.png"
+import img9 from "./Frame 1249186730-13.png"
+import img10 from "./Frame 1249186730-14.png"
+import img11 from "./Frame 1249186730-15.png"
+import img12 from "./Frame 1249186730.png"
+import img13 from "./Frame 1249186730-2.png"
+import img14 from "./Frame 1249186730-3.png"
+import img15 from "./Frame 1249186730-4.png"
+import stress from "./image-3.png"
 import works from "./img.png"
 import Foot from "../Footer/Footer"
-import union from "./Union.svg"
-import random from "./standard-quality-control-collage-concept (1) 1.svg"
-import shiny from "./shiny-circles-lit-tablet 1.svg"
+import union from "./Union-2.png"
+import random from "./standard-quality-control-collage-concept (1) 1.png"
+import shiny from "./shiny-circles-lit-tablet 1.png"
 const Pg6 = () => {
   const {t} = useTranslation();
   // Handle hover for each box
@@ -221,7 +222,7 @@ const Pg6 = () => {
                 <div className = {style.fbox32}>
                   <div className={style.fboxtop32}>
                     <div>
-                    <Image src ={img6} alt = "image" height={50}/></div>
+                    <Image src ={img6} alt = "image" height={66}/></div>
                     <div className={style.htxt32}>{t('226')}</div>
                   </div>
                   <div className = {style.fboxl32}></div>
@@ -322,7 +323,7 @@ const Pg6 = () => {
                 <div className = {style.fbox3}>
                   <div className={style.fboxtop3}>
                     <div>
-                    <Image src ={img9} alt = "image" height={50}/></div>
+                    <Image src ={img11} alt = "image" height={50}/></div>
                     <div className={style.htxt3}> {t('241')}</div>
                   </div>
                   <div className = {style.fboxl3}></div>
