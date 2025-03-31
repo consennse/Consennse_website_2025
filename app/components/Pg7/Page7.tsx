@@ -4,15 +4,15 @@ import Nav from "@/app/components/Nav/Nav"
 import Image from 'next/image'
 import Footer from '../Footer/Footer'
 import style from "./Pg7.module.css"
-import image from "./Rectangle 34625456-6.svg"
-import hourglass from "./anxiety-induced-by-hourglass 1.svg"
-import logo from "./image 17.svg"
+import image from "./Rectangle 34625456-5.png"
+import hourglass from "./anxiety-induced-by-hourglass 1.png"
+import logo from "./image-4.png"
 import { useTranslation } from 'react-i18next'
-import img10 from "./image 10.svg"
-import img11 from "./image 11.svg"
-import img12 from "./image 12.svg"
-import img13 from "./image 13.svg"
-import img14 from "./image 15.svg"
+import img10 from "./image 10.png"
+import img11 from "./image 11.png"
+import img12 from "./image 12.png"
+import img13 from "./image 13.png"
+import img14 from "./image 15.png"
 import Link from 'next/link'
 import { FaChevronRight } from 'react-icons/fa'
 const Page7 = () => {
