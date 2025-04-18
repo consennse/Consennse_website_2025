@@ -1,5 +1,4 @@
 import React from 'react';
-import sty1 from './page.module.css';
 // import Nav2 from '@/app/components/Nav2/Nav2';
 import Pg2 from '@/app/components/Pg2/Pg2';
 import initTranslations from '@/app/i18n';
