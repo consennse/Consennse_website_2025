@@ -16,8 +16,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
   };
 
   const metaDataDE = {
-    title: "Consennse GmbH | Anfrage CRM Support",
-    description: "Stellen Sie Ihre Anfrage zu unseren CRM-Supportverträgen - unser Team hilft Ihnen schnell und zuverlässig weiter.",
+    title: "Propertybase CRM Support | Flexible Service-Modelle & schnelle Hilfe",
+    description: "Individueller Propertybase CRM-Support: Wählen Sie das passende Service-Level mit garantierten Reaktionszeiten und massgeschneiderter Betreuung. Unser Expertenteam unterstützt Sie zuverlässig und effizient.",
   };
 
   const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
