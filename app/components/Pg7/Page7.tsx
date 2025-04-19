@@ -33,7 +33,7 @@ const Page7 = () => {
         <div className = {style.line1}></div>
         <div className = {style.sub1}>{t('185')}</div>
         <div className = {style.box1}>
-          <div className = {style.img1}> <Image src = {image} alt = "img" className={style.img} /> </div>
+          <div className = {style.img1}> <Image src = {image} alt = "img" className={style.img} width={696.11} /> </div>
           <div className = {style.right1}>
             <div className = {style.ch1}>
             <h2>

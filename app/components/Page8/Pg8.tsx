@@ -44,7 +44,7 @@ const Pg8 = () => {
         </div>
         <div className = {style.box1}>
           <div className = {style.l1}>
-            <Image src = {rect2} alt = "rectangle" className={style.rect2}/>
+            <Image src = {rect2} alt = "rectangle" className={style.rect2} width={605.33}/>
           </div>
           <div className = {style.r1}>
             <div className={style.titr1}>

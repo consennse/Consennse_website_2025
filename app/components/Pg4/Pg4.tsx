@@ -32,7 +32,7 @@ const Pg4 = () => {
           </div>
         </div>
         <div className = {style.right}>
-          <Image src = {F4} alt = "worker" height={720}/>
+          <Image src = {F4} alt = "worker" width={632}/>
         </div>
       </div>
       <div className = {style.bottom}>

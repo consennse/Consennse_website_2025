@@ -25,7 +25,7 @@ const LP6 = () => {
         </div>
         </div>
         <div className = {st6.rightwa}>
-      <Image src = {back} className = {st6.backimg} alt = "background" />
+      <Image src = {back} className = {st6.backimg} alt = "background" width={720} />
         </div>
       </div>
       <div className = {st6.belowbody}>
