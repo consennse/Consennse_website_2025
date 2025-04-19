@@ -1,7 +1,7 @@
 'use client';
 import React from 'react'
 import Image from 'next/image';
-import back from "./Image 2.png"
+import back from "./Image 2-2.png"
 import st6 from "./LP6.module.css"
 import { useTranslation } from 'react-i18next'
 import { FaChevronRight } from 'react-icons/fa';
