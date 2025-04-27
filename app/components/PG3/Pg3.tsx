@@ -48,7 +48,7 @@ const Pg3 = () => {
     e.preventDefault();
 
     console.log('Form Data Submitted:', formData);
-    const response = await fetch('https://shreyabhoir.pythonanywhere.com/api/form/', {
+    const response = await fetch('/api/zapier/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
