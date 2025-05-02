@@ -77,14 +77,18 @@ const Pg3 = () => {
             <Nav/>
       <div className={style.hello}>
       <div className = {style.maincon}>
-        <div className = {style.maintop}>{t('118')}</div>
+        <div className = {style.maintop}>
+        <h1>
+          {t('118')}</h1></div>
         <div className = {style.form}>
         <form onSubmit={handleSubmit} className={style.form12}>
           <div className = {style.leftf}>
             <div className = {style.l1}> 
             <div className = {style.fname1}>
               <div className = {style.fnametxt}>
+                <h2>
                 {t('92')}
+                </h2>
               </div>
               <div className = {style.fnameinp}>
                 <input type="text" name="fname" id = "fname" className={style.finput1} placeholder={t('94')} onChange={handleChange} value={formData.fname} required></input>
@@ -92,7 +96,9 @@ const Pg3 = () => {
             </div>
             <div className = {style.fname1}>
               <div className = {style.fnametxt}>
+                <h2>
                 {t('93')}
+                </h2>
               </div>
               <div className = {style.fnameinp}>
                 <input type="text" id="lname" name="lname" onChange={handleChange} value={formData.lname}className={style.finput1} placeholder={t('95')} required></input>
@@ -100,7 +106,10 @@ const Pg3 = () => {
             </div>
             </div>
             <div className = {style.l2}>
-              <div className = {style.comp}>{t('96')}
+              <div className = {style.comp}>
+                <h2>  
+                {t('96')}
+                </h2>
               <div className = {style.op}>{t('97')}</div>
               </div>
               <div className = {style.compi}>
@@ -110,7 +119,9 @@ const Pg3 = () => {
             <div className = {style.l3}>
             <div className = {style.fname1}>
               <div className = {style.fnametxt}>
+                <h2>
                 {t('99')}
+                </h2>
               </div>
               <div className = {style.fnameinp}>
                 <input id = "email" name="email" type="email" onChange={handleChange} value={formData.email} className={style.finput1} placeholder={t('101')} required></input>
@@ -119,16 +130,18 @@ const Pg3 = () => {
             <div className = {style.l6}>
             <div className = {style.fname1}>
               <div className = {style.fnametxt}>
+                <h2>
                 {t('100')}
+                </h2>
               </div>
               <div className = {style.fnameinp}>
                 <input type="text"   name="phone" id ="phone" className={style.finput1} placeholder={t('102')} onChange={handleChange} value={formData.phone} required ></input>
-              </div>
+              </div> 
             </div>
             </div>
             </div>
             <div className = {style.l4} radioGroup = "group">
-            <div className = {style.comp}>{t('112')}
+            <div className = {style.comp}> {t('112')}
               </div>
               <div className={style.compi1}>
   <div className={`${style.option}`} onClick={() => handleOptionChange("CRM Support Basis")}>
@@ -222,7 +235,7 @@ const Pg3 = () => {
 
             </div>
             <div className = {style.l5}>
-            <div className = {style.comp}>{t('105')}
+            <div className = {style.comp}> <h2> {t('105')} </h2>
               </div>
               <div className = {style.compi2}>
               <textarea className={style.finput2} placeholder={t('183')}  name = "message" id = "message" onChange={handleChange} value={formData.message} required ></textarea>

@@ -11,18 +11,27 @@ const Pg9 = () => {
       <Nav/>
       <div className = {style.main}>
       <div className = {style.heading}>
-        <h1>        {t('400')} </h1> </div>
+        <h1>  {t('400')} </h1> </div>
       <div className = {style.underline}></div>
       <div className = {style.content}>
-        <div className = {style.h1}>{t('401')}</div>
+        <div className = {style.h1}>
+          <h2>
+          {t('401')}
+          </h2>
+          </div>
         <div className = {style.txt}>{t('402')}</div>
-        <div className = {style.h1}>{t('403')}</div>
+        <div className = {style.h1}>
+          <h2>
+          {t('403')}
+          </h2>
+          </div>
         <div className = {style.txt3}>Consennse GmbH 
          <div> Ringwilerstrasse 4, 8620 Wetzikon ZH, {t('407')} </div>
          <div> {t('408')} </div>
           <div>urs.senn@consennse.com</div>
           +41 79 441 0017</div>
-          <div className = {style.h1}>{t('404')}</div>
+          <div className = {style.h1}>
+            <h2>{t('404')}</h2> </div>
           <div className = {style.listh}>{t('405')}</div>
         <div className = {style.txt2}>{t('406')}</div>
 <ul className = {style.list}>
@@ -66,9 +75,9 @@ const Pg9 = () => {
 </div></div>
 <div className = {style.text3}>
 {t('431')}</div>
-<div className = {style.h1}>{t('432')}</div>
+<div className = {style.h1}><h2>{t('432')}</h2></div>
 <div className = {style.txt2}>{t('433')}</div>
-<div className = {style.h1}>{t('434')}</div>
+<div className = {style.h1}><h2>{t('434')}</h2> </div>
 <div className = {style.txt2}>{t('435')}
 <div className = {style.text4}>
 {t('436')}
@@ -77,9 +86,9 @@ const Pg9 = () => {
 {t('437')}</div>
 <div className = {style.text4}>
 {t('438')}</div></div>
-<div className = {style.h1}>{t('439')}</div>
+<div className = {style.h1}><h2> {t('439')}</h2> </div>
 <div className = {style.txt2}>{t('440')}</div>
-<div className = {style.h1}>{t('441')}</div>
+<div className = {style.h1}><h2> {t('441')} </h2> </div>
 <div className = {style.txt2}>{t('442')}</div>
 <ul className = {style.list}>
 <li>{t('443')}</li>
@@ -90,7 +99,10 @@ const Pg9 = () => {
 <li>{t('448')}</li>
 </ul>
 <div className = {style.text4}>{t('449')}</div>
-<div className = {style.h1}>{t('450')}</div>
+<div className = {style.h1}><h2>
+   {t('450')}
+   </h2>
+   </div>
 <div className = {style.txt2}>{t('451')}</div>
 <div className = {style.text}>{t('452')}</div>
       </div>
