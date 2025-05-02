@@ -10,7 +10,8 @@ const Pg9 = () => {
     <div className = {style.body}>
       <Nav/>
       <div className = {style.main}>
-      <div className = {style.heading}>{t('400')}</div>
+      <div className = {style.heading}>
+        <h1>        {t('400')} </h1> </div>
       <div className = {style.underline}></div>
       <div className = {style.content}>
         <div className = {style.h1}>{t('401')}</div>

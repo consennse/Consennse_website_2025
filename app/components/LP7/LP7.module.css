@@ -122,9 +122,9 @@
   height: 100%;
 }
 .brimg{
-  height: 99.75%;
-  width: auto;
-  object-fit: cover;
+  height: 498.8px;
+  width: 718px;
+ 
 }
 .right7 {
   width: 50%;
@@ -184,6 +184,10 @@
   .left7txt1,.left7txt2{
     font-size: 18px;
 
+  }
+  .brimg{
+    height: 390px;
+    width: auto;
   }
   .left7txt2{
     margin-bottom: 1.4rem;

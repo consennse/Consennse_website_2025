@@ -96,6 +96,10 @@
   margin-bottom: 3rem;
   margin-top: 3rem;
 }
+.imgchange {
+  width: 640px;
+  height: auto;
+}
 .maintop{
   display: flex;
   flex-direction: row;
@@ -513,6 +517,10 @@
     color: #433878;
     font-size: 36px;
 
+  }
+  .imgchange{
+    width: 310px;
+    height: auto;
   }
   .line{ 
     width: 38%;

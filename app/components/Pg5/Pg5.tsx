@@ -35,7 +35,9 @@ const Pg5 = () => {
         <div className = {style.line}></div>
         <div className = {style.topst}>{t('146')}</div>
         <div className = {style.maintop}>
-          <div className = {style.image}><Image src = {group} alt = "group" width = {640}/></div>
+          <div className = {style.image}><Image src = {group} alt = "group" width = {640} className = {style.imgchange}
+          sizes="(max-width : 768px) 310px"
+          /></div>
           <div className = {style.scroll}> 
           <div className={style.sb}>
             <div className = {style.sb1}>

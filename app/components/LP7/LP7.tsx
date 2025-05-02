@@ -24,8 +24,8 @@ const LP7 = () => {
       {t('55')}</div>
       </div>
       <div className = {st7.right7}>
-          <div className = {st7.imgbox}>
-          <Image src = {rext} alt = 'collegues' className={st7.brimg} />
+          <div className = {st7.imgbox}> 
+          <Image src = {rext} alt = 'collegues' className={st7.brimg} width={718} />
         </div>
 
       </div>
