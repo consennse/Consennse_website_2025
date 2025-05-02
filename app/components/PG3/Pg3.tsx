@@ -207,7 +207,6 @@ const Pg3 = () => {
         selectedOption === "I need advice" ? style.change : ""
       }`}
     ></span>
-    <div></div>
     <input
       type="radio"
       id="I need advice"
