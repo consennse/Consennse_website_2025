@@ -31,11 +31,6 @@ const CurrencyDisplay: React.FC = () => {
 
   if (loading) return <p>Loading currency...</p>;
 
-  // Optional: format number using Intl
-  const formattedPrice = new Intl.NumberFormat('en', {
-    style: 'currency',
-    currency,
-  }).format(1000); // Sample amount
 
   return (
     <div>
