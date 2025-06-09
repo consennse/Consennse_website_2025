@@ -2,11 +2,11 @@
 import React from 'react'
 import Nav from '../Nav/Nav'
 import Image from 'next/image'
-import F1 from "./Group 1597885749.png"
-import F2 from "./Frame 1249186653.png"
-import F3 from "./Frame 1249186653-2.png"
+// import F1 from "./Group 1597885749.png"
+// import F2 from "./Frame 1249186653.png"
+// import F3 from "./Frame 1249186653-2.png"
 import Link from 'next/link'
-import F5 from "./Frame 1249186649.png"
+// import F5 from "./Frame 1249186649.png"
 import Foot from "../Footer/Footer"
 import style from "./Pg4.module.css"
 import g1 from "./check-circle-1.png"
@@ -42,163 +42,232 @@ const Pg4 = () => {
         <div className = {style.botbox}>
         </div>
         <div className={style.botbot}>{t('122')}</div>
-</div>
+        </div>
+    <div className = {style.headingnewdesc}>Support contracts in comparison</div>
 <div className = {style.boxess}>
 <div className = {style.botnext}>
     <div className = {style.first}>
-      <Image src = {F5} alt = "new" height={50}/>
-      <h3 className = {style.head}>CRM Support
-Basic
+      <h3 className = {style.head}>
+       <div className = {style.crm}>
+        CRM Support 
+        </div>
+        <div className ={style.slaBasic}>
+        SLA Basic
+        </div>
 </h3>
-<div className={style.down}>{t('123')}</div>
+<div className = {style.newbut}>EUR 250/month</div>
+<div className={style.down1}>{t('123')}</div>
 <div className = {style.donlin}></div>
 <div className={style.main}>
+  
+<h3 className = {style.newheaddesc}>Details</h3>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>{t('603')}</div>
     </div>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('124')}</div>
-    </div>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>{t('604')}</div>
+        </div>
+    <div className = {style.donlin11}></div>
+    <h3 className = {style.newheaddesc}>{t('605')}</h3>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('125')}</div>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>{t('606')}</div>
     </div>
+    <div className = {style.donlin21}></div>
+    <h3 className = {style.newheaddesc}>{t('607')}</h3>
     <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('125A')}</div>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>BACKUP for Propertybase: EUR 
+50</div>
+    </div>
     </div>
     </div>
 </div>
 <div className = {style.botnext}>
     <div className = {style.first}>
-      <Image src = {F2} alt = "new" height={50} width={50}/>
-      <h3 className = {style.head}>CRM Support 
-SLA
-Silver
+      <h3 className = {style.head}><div className = {style.crm}>
+        CRM Support 
+        </div>
+        <div className ={style.slaBasic}>
+        SLA Silver
+        </div>
 
 </h3>
+<div className = {style.newbut}>EUR 300/month</div>
 <div className={style.down}>{t('126A')}</div>
 <div className = {style.donlin2}></div>
 <div className = {style.but1}>
 
 </div>
 <div className={style.main}>
+  
+  <h3 className = {style.newheaddesc}>Details</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('609')} 
+          </div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('610')}
+          </div>
+          </div>
+          <div className = {style.donlin12}></div>
+      <h3 className = {style.newheaddesc}>{t('605')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('611')}</div>
+      </div>
+      <div className = {style.donlin22}></div>
+      <h3 className = {style.newheaddesc}>{t('607')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>UPDATE for Propertybase: EUR 
+40</div>
+      </div>
     </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('126')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('127')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('125A')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('128')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('129')}</div>
-    </div>
+    
 
     </div>
 </div><div className = {style.botnext3}>
     <div className = {style.first3}>
-      <Image src = {F1} alt = "new" height={47}/>
-      <h3 className = {style.head3}>CRM Support 
-SLA
-Gold
+    <h3 className = {style.head}><div className = {style.crm}>
+        CRM Support 
+        </div>
+        <div className ={style.slaBasic}>
+        SLA Gold
+        </div>
 
 </h3>
+<div className = {style.newbut}>EUR 400/month</div>
 <div className={style.down3}>{t('130')}</div>
 <div className = {style.donlin3}></div>
 <div className = {style.but1}>
 
 </div>
-<div className={style.main3}>
+<div className={style.main}>
+  
+  <h3 className = {style.newheaddesc}>Details</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('614')}
+          </div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('615')}
+          </div>
+          </div>
+          <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('616')}</div>
+      </div>
+      <div className = {style.donlin13}></div>
+      <h3 className = {style.newheaddesc}>{t('605')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('611')}</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('618')}</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('619')}</div>
+      </div>
+      <div className = {style.donlin13}></div>
+      <h3 className = {style.newheaddesc}>{t('607')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>UPDATE for Propertybase: EUR 
+40</div>
+      </div>
     </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('131')}</div>
-    </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('132')}</div>
-    </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('133')}</div>
-    </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('134')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('127A')}</div>
-    </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('135')}</div>
-    </div>
-    <div className  = {style.l3}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('136')}</div>
-    </div>
+
+  
+    
 
     </div>
 </div><div className = {style.botnext}>
-    <div className = {style.first}>
-      <Image src = {F3} alt = "new" height={47}/>
-      <h3 className = {style.head}>CRM Support 
-SLA
-Platinum
+<div className = {style.first3}>
+    <h3 className = {style.head}><div className = {style.crm}>
+        CRM Support 
+        </div>
+        <div className ={style.slaBasic}>
+        SLA Platinum
+        </div>
 
 </h3>
+<div className = {style.newbut}>EUR 550/month</div>
 <div className={style.down}>{t('137')}</div>
 <div className = {style.donlin4}></div>
 <div className = {style.but1}>
 
 </div>
+
 <div className={style.main}>
+  
+  <h3 className = {style.newheaddesc}>Details</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('620')}
+          </div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>
+          {t('621')}
+          </div>
+          </div>
+          <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('616')}</div>
+      </div>
+      <div className = {style.donlin14}></div>
+      <h3 className = {style.newheaddesc}>{t('605')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('611')}</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('618')}</div>
+      </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>{t('619')}</div>
+      </div>
+      <div className = {style.donlin24}></div>
+      <h3 className = {style.newheaddesc}>{t('622')}</h3>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+      </div>
     </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('138')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('139')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('140')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('141')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('127A')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('142')}</div>
-    </div>
-    <div className  = {style.l1}>
-      <Image src ={g1} alt ="tick" height={25}/>
-        <div className = {style.tick1}>{t('143')}</div>
-    </div>
+
 
     </div>
 </div>
 </div>
 
 <div className = {style.st}>{t('182')}</div>
+<div className = {style.st2}>{t('182A')}</div>
 <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>

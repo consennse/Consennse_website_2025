@@ -1,27 +1,33 @@
 .but {
-  background-color: #433878;
-  width: 5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 2.5rem;
   border-radius: 0.5rem;
-  margin-top: 1rem;
-  margin-left: 4rem;
-  text-align: center;
-  padding-right: 0;
+  margin-top: 0.3rem;
+  text-align: left;
+  margin-left: 6px;
+  color: black;
+  font-size: 15px;
+  background-color: #F4F7FF;
+  width: 100%;
+  margin-right: 12px;
 }
-@media (max-width:768px){
-  .but {
-    background-color: #433878;
-    width: 3rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 2rem;
-    margin-top: 1rem;
-    border-radius: 0.5rem;
-    margin-left: 6rem;
-    margin-right: 1rem;
-  }
+@font-face {
+  font-family: 'Medium';
+  src: url('/fonts/NotoSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.but2{
+  font-family: "Medium", sans-serif;
+  margin-top: 2.4rem;
+  background-color: #433878;
+  width: 100%;
+  margin-left: 6px;
+  margin-right: 12px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 0.5rem;
+  color: white;
 }

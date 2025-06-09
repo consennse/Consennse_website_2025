@@ -5,15 +5,29 @@ import { usePathname } from 'next/navigation'; // Import usePathname hook
 import styles from "./Nav.module.css";
 import Image from 'next/image';
 import Name from "./Name.png";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
 import { FaBars } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
+import icon from "./Icon.png"
 import LanguageChanger from '@/app/components/LanguageChanger/LanguageChanger'; 
+import { FaGlobe } from 'react-icons/fa';
+import { FaChevronDown } from 'react-icons/fa';
 const Nav = () => {
   const { t } = useTranslation();
   const [menuOpen, setMenuOpen] = useState(false);
   const [isHidden, setIsHidden] = useState(false);
   const [isDropdownVisible2, setDropdownVisible2] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const [showSubMenu, setShowSubMenu] = useState(false);
 
+
+  const toggleSubMenu = () => setShowSubMenu(prev => !prev);
+  const toggleDropdown = () => {
+    setIsDropdownOpen(prev => !prev);
+  };
+  
   const toggleDropdown2 = () => {
     console.log('Dropdown toggled:', !isDropdownVisible2); // Debugging
     setDropdownVisible2(!isDropdownVisible2);
@@ -82,40 +96,81 @@ const Nav = () => {
               <div className={`${styles.sup} ${isActiveLink('/content/support')  || isActiveLink('/de/content/support')}`}>
                 Support
               </div>
+              {/* packages link */}
+            </Link>
+            <Link href='/content/support'>
+              <div className={`${styles.sup} ${isActiveLink('/content/support')  || isActiveLink('/de/content/support')}`}>
+                Packages
+              </div>
             </Link>
             <div
         className={`${styles.sol} ${isActiveLink('/sol')}`}
         onClick={toggleDropdown2}
       >
         {t('5')}
+        <FaChevronDown
+  className={`${styles.fadown} ${isDropdownVisible2 ? styles.rotate : ''}`}
+/>
       </div>
       {isDropdownVisible2 && (
-        <div className={styles.dropdown2}>
-          <ul>
-            <Link href = '/content/swissedition'>
-            <li className = {`${styles.sE} ${isActiveLink2('/content/swissedition') || isActiveLink2('/de/content/swissedition')}`}>Propertybase SWISS EDITION</li>
-            </Link>
-            <Link href = '/content/weboffice'>
-            <li className = {`${styles.wE} ${isActiveLink2('/content/weboffice')|| isActiveLink2('/de/content/weboffice')}`}>WEB OFFICE for Propertybase</li>
-            </Link>
-            <Link href = '/content/expose'>
-            <li className = {`${styles.E} ${isActiveLink2('/content/expose') || isActiveLink2('/de/content/expose')}`}>EXPOSE for Propertybase</li>
-            </Link>
-          </ul>
+  <div className={styles.dropdown2}>
+    <ul>
+      <li className={`${styles.sE} ${isActiveLink('/content/swissedition') || isActiveLink('/de/content/swissedition')}`}>
+        <Link href="/content/swissedition">Propertybase SWISS EDITION
+        </Link>
+        <div className = {styles.icon1}>
+        <Image src={icon} alt="icon" height={9} className={styles.broimg}  />
         </div>
-      )}
+      </li>
+      <li className={`${styles.wE} ${isActiveLink('/content/weboffice') || isActiveLink('/de/content/weboffice')}`}>
+        <Link href="/content/weboffice">WEB OFFICE for Propertybase</Link>
+        <div className = {styles.icon1}>
+        <Image src={icon} alt="icon" height={9} className={styles.broimg}  />
+        </div>
+      </li>
+      <li className={`${styles.eE} ${isActiveLink('/content/expose') || isActiveLink('/de/content/expose')}`}>
+        <Link href="/content/expose">EXPOSE for Propertybase</Link>
+        <div className = {styles.icon1}>
+        <Image src={icon} alt="icon" height={9} className={styles.broimg}  />
+        </div>
+      </li>
+    </ul>
+  </div>
+)}
+
 
 <Link href='/content/aboutus'>
               <div className={`${styles.con1} ${isActiveLink('/content/aboutus') || isActiveLink('/de/content/aboutus')}`}>
                 {t('601')}
               </div>
             </Link>
-            <Link href='/content/contact'>
-              <div className={`${styles.con} ${isActiveLink('/content/contact') || isActiveLink('/de/content/contact')}`}>
+            
+          </div>
+          <Link href='/content/contact'>
+              <div className={styles.con}>
                 {t('6')}
               </div>
             </Link>
-          </div>
+            <div className={styles.languageWrapper}>
+  <div className={styles.languageChanger} onClick={toggleDropdown}>
+    <FaGlobe className={styles.globe} />
+    <FaChevronDown
+      className={`${styles.chevron} ${isDropdownOpen ? styles.rotate : ''}`}
+    />
+  </div>
+
+  {isDropdownOpen && (
+    <div className={styles.dropdownMenu}>
+      <div className={styles.dropdownItem1}>Language</div>
+      <div className={styles.dropdownItem2}>
+        <LanguageChanger/>
+      </div>
+    </div>
+  )}
+</div>
+
+{/* lang changer goes here  */}
+            {/* <LanguageChanger/> */}
           {/* <div className={styles.but}>
             <button className={styles.drop} onClick={toggleDropdown}>
               {language === 'en' ? 'EN' : 'DE'}
@@ -133,64 +188,96 @@ const Nav = () => {
               </ul>
             )}
           </div> */}
-                    <LanguageChanger/>
-          <div className={styles.menu}>
-            <div className={styles.menuIcon}>
-              <FaBars className={styles.menustyle} onClick={toggleMenu} />
-              <div className={styles.line}></div>
-              <div className={styles.line}></div>
-              <div className={styles.line}></div>
-            </div>
-
-            {/* Menu Overlay */}
-            {menuOpen && (
-              <div
-                className={`${styles.menuOverlay} ${
-                  menuOpen ? styles.slideDown : styles.slideUp
-                }`}
-              >
-                <div className={styles.closeBar} onClick={toggleMenu}>
-                  &times;
-                </div>
-                <ul className={styles.menuList}>
-                  <Link href='/'>
-                    <li className={isActiveLink('/')}>Home</li>
-                  </Link>
-                  <Link href='/content/services'>
-                    <li className={isActiveLink('/content/services')}>Services</li>
-                  </Link>
-                  <Link href='/content/support'>
-                    <li className={isActiveLink('/content/support')}>Support</li>
-                  </Link>
-                  <li className={isActiveLink('/sol')} onClick={toggleDropdown2}>{t('5')} </li>
-          <ul className = {styles.menu2}>
-            <Link href = '/content/swissedition' className = {`${styles.sE} ${isActiveLink2('/content/swissedition')|| isActiveLink2('/de/content/swissedition')}`} >
-            <li>
-          
-              Propertybase SWISS EDITION</li>
-            </Link>
-            <Link href = '/content/weboffice' className = {`${styles.wE} ${isActiveLink2('/content/weboffice')|| isActiveLink2('/de/content/weboffice')}`}>
-            <li>
-       
-              WEB OFFICE for Propertybase</li>
-            </Link>
-            <Link href = '/content/expose' className = {`${styles.wE} ${isActiveLink2('/content/expose')|| isActiveLink2('/de/content/expose')}`}>
-            <li>
-            EXPOSE for Propertybase</li>
-            </Link>
-          </ul>
-          <Link href='/content/aboutus'>
-                    <li className={isActiveLink('/content/aboutus')}>{t('601')}</li>
-                  </Link>
-                  <Link href='/content/contact'>
-                    <li className={isActiveLink('/content/contact')}>{t('6')}</li>
-                  </Link>
-                </ul>
-              </div>
-            )}
                  
-          </div>
+
         </div>
+        <div className={styles.menu}>
+      {/* Only show FaBars when menu is closed */}
+      <div className={styles.menuIcon} onClick={toggleMenu}>
+  {!menuOpen ? (
+    <>
+      <FaBars className={styles.menustyle} />
+      <div className={styles.line}></div>
+      <div className={styles.line}></div>
+      <div className={styles.line}></div>
+    </>
+  ) : (
+    <FaTimes className={styles.closeIcon} />
+  )}
+</div>
+
+      {/* Only show dropdown when menuOpen is true */}
+      {menuOpen && (
+        <div className={`${styles.dropdownMenu2} ${styles.slideDown}`}>
+       
+
+          <ul className={styles.menuList}>
+          <li className={`${styles.hom} ${isActiveLink2('/') || isActiveLink2('/de')}`}>
+          <Link href="/">
+              Home
+              </Link>
+              </li>
+              <li className={`${styles.serv2} ${isActiveLink2('/content/services') || isActiveLink2('/de/content/services')}`}>
+              <Link href="/content/services">
+              Services
+              </Link>
+              </li>
+              <li className={`${styles.serv2} ${isActiveLink2('/content/support') || isActiveLink2('/de/content/support')}`}>
+              <Link href="/content/support">
+              Support </Link>
+              </li>
+              <li className={`${styles.serv2} ${isActiveLink2('/content/support') || isActiveLink2('/de/content/support')}`}>
+              <Link href="/content/support">
+              Packages</Link> </li>
+            <li onClick={toggleSubMenu} className={styles.clickable}>
+              <div className = {styles.click1}>
+              Solutions 
+              <FaChevronDown
+  className={`${styles.fadown2} ${showSubMenu ? styles.rotate : ''}`}
+/>
+</div>
+              {showSubMenu && (
+                <ul className={styles.subDropdown}>
+                    <li className={`${styles.serv3} ${isActiveLink2('/content/swissedition') || isActiveLink2('/de/content/swissedition')}`}>
+              <Link href="/content/swissedition">
+                    Propertybase SWISS EDITION
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.rightdiag} />
+                  </Link>
+                  </li>
+                  <li className={`${styles.serv3} ${isActiveLink2('/content/weboffice') || isActiveLink2('/de/content/weboffice')}`}>
+              <Link href="/content/weboffice">
+                    WEB OFFICE for Propertybase 
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare} className={styles.rightdiag}  />
+                  </Link>
+                  </li>
+                  <li className={`${styles.serv3} ${isActiveLink2('/content/expose') || isActiveLink2('/de/content/expose')}`}>
+              <Link href="/content/expose">
+                    EXPOSE for Propertybase 
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare}className={styles.rightdiag}  />
+                  </Link>
+                  </li>
+
+                  
+                </ul>
+              )}
+            </li>
+
+            <li className={`${styles.serv2} ${isActiveLink2('/content/aboutus') || isActiveLink2('/de/content/aboutus')}`}>
+              <Link href="/content/aboutus">
+              About Us
+              </Link>
+              </li>
+            <li>
+              <button className = {styles.contactmob}>
+              <Link href='/content/contact'>
+                Contact
+                </Link>
+              </button>
+            </li>
+          </ul>
+        </div>
+      )}
+    </div>
       </div>
     </div>
   );

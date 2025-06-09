@@ -187,7 +187,8 @@
   "179": "Thanks to careful planning and close collaboration among all stakeholders, the deployment runs smoothly. Post-deployment support ensures continuous optimization based on user feedback",
   "180": "25,000",
   "181": "4,000",
-  "182": "* \t Guaranteed response time for emergencies",
+  "182": "* \t Response time: Guaranteed response time for emergencies",
+  "182A":"* BACKUP for Propertybase: Up to 20 users",
   "183": "Enter message",
   "184": "Exposé Automation without Compromise",
   "185": "Our innovative solution transforms the everyday work of agents by making it simpler and more efficient, saving time and cutting costs in the process.",
@@ -448,7 +449,24 @@
   "542":"Automated exchange of listings with partner agents",
   "543":"Further companies that rely on us",
   "600":"About WEB OFFICE for Propertybase",
-  "601":"About Us"
+  "601":"About Us", 
+  "602": "License per user/month",
+  "603":"Response time: Best effort",
+  "604":"Support included: 0.5 h",
+  "605":"Includes",
+  "606":"Email support",
+  "607":"Options available",
+  "609":"Response time: Next business day",
+  "610":"Support included: 0.5 h",
+  "611":"Prioritised email support",
+  "614":"Response time: Same business day",
+  "615":"Support included: 1 h",
+  "616":"Reduced hourly rate",
+  "618":"WhatsApp live support chat",
+  "619":"Preferred resource allocation",
+  "620":"Response time: Same business day",
+  "621":"Support included: 2 h",
+  "622":"Options (included)"
 }
 
 
