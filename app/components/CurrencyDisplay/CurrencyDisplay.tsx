@@ -6,24 +6,26 @@ const CurrencyDisplay = () => {
   const [currency, setCurrency] = useState<'EUR' | 'CHF'>('EUR');
 
   useEffect(() => {
-    const countryMatch = document.cookie
-      .split('; ')
-      .find(row => row.startsWith('country='));
+    const fetchCountry = async () => {
+      try {
+        const res = await fetch('/api/location');
+        const data = await res.json();
 
-    const country = countryMatch?.split('=')[1];
+        if (data.country === 'CH') {
+          setCurrency('CHF');
+        } else {
+          setCurrency('EUR');
+        }
+      } catch (error) {
+        console.error('Error fetching country:', error);
+        setCurrency('EUR');
+      }
+    };
 
-    if (country === 'CH') {
-      setCurrency('CHF');
-    } else {
-      setCurrency('EUR');
-    }
+    fetchCountry();
   }, []);
 
-  return (
-    <p>
-      {currency}
-    </p>
-  );
+  return <p>{currency}</p>;
 };
 
 export default CurrencyDisplay;
