@@ -187,7 +187,7 @@
   "180": "25'000",
   "181": "4'000",
   "182": "* Reaktionszeit: Garantierte Reaktionszeit bei Notfällen",
-  "182A":"* BACKUP for Propertybase: Bis 20 Benutzer",
+  "182A":"* BACKUP for Propertybase: Bis 10 Benutzer",
   "183": "Nachricht eigeben",
   "184": "Exposé Automation ohne Kompromisse",
   "185": "Unsere innovative Lösung vereinfacht und optimiert die tägliche Arbeit, spart wertvolle Zeit und senkt gleichzeitig die Kosten - für maximale Effizienz und Wirtschaftlichkeit",
@@ -466,5 +466,7 @@
   "619":"Hotline für Notfälle",
   "620":"Reaktionszeit: Gleicher Arbeitstag",
   "621":"Support inklusive: 1.5 Std",
-  "622":"Optionen (inklusive)"
+  "622":"Optionen (inklusive)",
+  "623":"Anwenden",
+  "624":"Sprache"
 }

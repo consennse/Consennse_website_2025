@@ -161,7 +161,7 @@ const Nav = () => {
 
   {isDropdownOpen && (
     <div className={styles.dropdownMenu}>
-      <div className={styles.dropdownItem1}>Language</div>
+      <div className={styles.dropdownItem1}>{t('624')}</div>
       <div className={styles.dropdownItem2}>
         <LanguageChanger/>
       </div>

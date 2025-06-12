@@ -5,6 +5,7 @@ import Image from 'next/image'
 // import F1 from "./Group 1597885749.png"
 // import F2 from "./Frame 1249186653.png"
 // import F3 from "./Frame 1249186653-2.png"
+import CurrencyDisplay from '../CurrencyDisplay/CurrencyDisplay'
 import Link from 'next/link'
 // import F5 from "./Frame 1249186649.png"
 import Foot from "../Footer/Footer"
@@ -54,7 +55,7 @@ const Pg4 = () => {
         SLA Basic
         </div>
 </h3>
-<div className = {style.newbut}>EUR 250/month</div>
+<div className = {style.newbut}><CurrencyDisplay/> 250/month</div>
 <div className={style.down1}>{t('123')}</div>
 <div className = {style.donlin}></div>
 <div className={style.main}>
@@ -78,12 +79,17 @@ const Pg4 = () => {
     <h3 className = {style.newheaddesc}>{t('607')}</h3>
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={22}/>
-        <div className = {style.tick1}>BACKUP for Propertybase: EUR 
+        <div className = {style.tick2}>BACKUP for Propertybase: <CurrencyDisplay/> 
 50</div>
     </div>
     <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={22}/>
-        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 50</div>
+        <div className = {style.tick3}>
+          <div className = {style.tick21}>
+          MAIL PARSING for Propertybase: </div>
+          <div className = {style.tick211}>
+          <CurrencyDisplay/>
+           50</div></div>
     </div>
     </div>
     </div>
@@ -98,7 +104,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 350/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/>  350/month</div>
 <div className={style.down}>{t('126A')}</div>
 <div className = {style.donlin2}></div>
 <div className = {style.but1}>
@@ -129,15 +135,19 @@ const Pg4 = () => {
       <h3 className = {style.newheaddesc}>{t('607')}</h3>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+          <div className = {style.tick2}>BACKUP for Propertybase: <CurrencyDisplay/> 40</div>
       </div>
       <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={22}/>
-        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 40</div>
+        <div className = {style.tick3}>
+        <div className = {style.tick21}>
+          MAIL PARSING for Propertybase: </div>
+          <div className = {style.tick211}>
+           <CurrencyDisplay/> 40</div> </div>
     </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>UPDATE for Propertybase: EUR 
+          <div className = {style.tick2}>UPDATE for Propertybase: <CurrencyDisplay/> 
 40</div>
       </div>
     </div>
@@ -154,7 +164,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 475/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/> 475/month</div>
 <div className={style.down3}>{t('130')}</div>
 <div className = {style.donlin3}></div>
 <div className = {style.but1}>
@@ -193,15 +203,20 @@ const Pg4 = () => {
       <h3 className = {style.newheaddesc}>{t('607')}</h3>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+          <div className = {style.tick2}>BACKUP for Propertybase: <CurrencyDisplay/> 40</div>
       </div>
       <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={22}/>
-        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 40</div>
+        <div className = {style.tick3}>
+        <div className = {style.tick21}>
+          MAIL PARSING for Propertybase: </div>
+          <div className = {style.tick211}>
+           <CurrencyDisplay/> 40</div>
+           </div>
     </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>UPDATE for Propertybase: EUR 
+          <div className = {style.tick2}>UPDATE for Propertybase: <CurrencyDisplay/> 
 40</div>
       </div>
     </div>
@@ -220,7 +235,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 750/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/> 750/month</div>
 <div className={style.down}>{t('137')}</div>
 <div className = {style.donlin4}></div>
 <div className = {style.but1}>
@@ -268,7 +283,8 @@ const Pg4 = () => {
       </div>
       <div className  = {style.l1}>
       <Image src ={g1} alt ="tick" height={22}/>
-        <div className = {style.tick1}>MAIL PARSING for Propertybase</div>
+        <div className = {style.tick1}>
+          MAIL PARSING for Propertybase</div>
     </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>

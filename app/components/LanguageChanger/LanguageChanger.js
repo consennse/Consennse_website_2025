@@ -7,6 +7,7 @@ import i18nConfig from '@/i18nConfig';
 import style from "./LanguageChanger.module.css";
 
 export default function LanguageChanger() {
+  const {t} = useTranslation();
   const { i18n } = useTranslation();
   const currentLocale = i18n.language;
   const router = useRouter();
@@ -50,7 +51,7 @@ export default function LanguageChanger() {
         <option value="de">Deutsch</option>
       </select>
       <button onClick={applyChange} className={style.but2}>
-        Apply
+        {t('623')}
       </button>
     </div>
   );
