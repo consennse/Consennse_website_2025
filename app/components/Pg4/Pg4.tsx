@@ -43,7 +43,6 @@ const Pg4 = () => {
         </div>
         <div className={style.botbot}>{t('122')}</div>
         </div>
-    <div className = {style.headingnewdesc}>Support contracts in comparison</div>
 <div className = {style.boxess}>
 <div className = {style.botnext}>
     <div className = {style.first}>
@@ -82,6 +81,10 @@ const Pg4 = () => {
         <div className = {style.tick1}>BACKUP for Propertybase: EUR 
 50</div>
     </div>
+    <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 50</div>
+    </div>
     </div>
     </div>
 </div>
@@ -95,7 +98,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 300/month</div>
+<div className = {style.newbut}>EUR 350/month</div>
 <div className={style.down}>{t('126A')}</div>
 <div className = {style.donlin2}></div>
 <div className = {style.but1}>
@@ -129,6 +132,10 @@ const Pg4 = () => {
           <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
       </div>
       <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 40</div>
+    </div>
+      <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
           <div className = {style.tick1}>UPDATE for Propertybase: EUR 
 40</div>
@@ -147,7 +154,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 400/month</div>
+<div className = {style.newbut}>EUR 475/month</div>
 <div className={style.down3}>{t('130')}</div>
 <div className = {style.donlin3}></div>
 <div className = {style.but1}>
@@ -180,18 +187,18 @@ const Pg4 = () => {
       </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>{t('618')}</div>
-      </div>
-      <div className  = {style.l1}>
-        <Image src ={g1} alt ="tick" height={22}/>
           <div className = {style.tick1}>{t('619')}</div>
       </div>
-      <div className = {style.donlin13}></div>
+      <div className = {style.donlin23}></div>
       <h3 className = {style.newheaddesc}>{t('607')}</h3>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
           <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
       </div>
+      <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>MAIL PARSING for Propertybase: EUR 40</div>
+    </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
           <div className = {style.tick1}>UPDATE for Propertybase: EUR 
@@ -213,7 +220,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}>EUR 550/month</div>
+<div className = {style.newbut}>EUR 750/month</div>
 <div className={style.down}>{t('137')}</div>
 <div className = {style.donlin4}></div>
 <div className = {style.but1}>
@@ -257,7 +264,15 @@ const Pg4 = () => {
       <h3 className = {style.newheaddesc}>{t('622')}</h3>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>BACKUP for Propertybase: EUR 40</div>
+          <div className = {style.tick1}>BACKUP for Propertybase</div>
+      </div>
+      <div className  = {style.l1}>
+      <Image src ={g1} alt ="tick" height={22}/>
+        <div className = {style.tick1}>MAIL PARSING for Propertybase</div>
+    </div>
+      <div className  = {style.l1}>
+        <Image src ={g1} alt ="tick" height={22}/>
+          <div className = {style.tick1}>UPDATE for Propertybase</div>
       </div>
     </div>
 
