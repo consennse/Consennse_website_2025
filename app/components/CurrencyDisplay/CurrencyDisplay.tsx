@@ -1,31 +1,42 @@
+// components/CurrencyDisplay.tsx
 'use client';
 
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
-const CurrencyDisplay = () => {
+const CurrencyDisplay: React.FC = () => {
   const [currency, setCurrency] = useState<'EUR' | 'CHF'>('EUR');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchCountry = async () => {
+    const fetchLocation = async () => {
       try {
-        const res = await fetch('/api/location');
+        const res = await fetch('https://get.geojs.io/v1/ip/country.json');
         const data = await res.json();
-
-        if (data.country === 'CH') {
+        console.log(data.country);
+        if (data?.country === 'CH') {
           setCurrency('CHF');
         } else {
           setCurrency('EUR');
         }
       } catch (error) {
-        console.error('Error fetching country:', error);
-        setCurrency('EUR');
+        console.error('Error fetching location:', error);
+        setCurrency('EUR'); // Fallback
+      } finally {
+        setLoading(false);
       }
     };
 
-    fetchCountry();
+    fetchLocation();
   }, []);
 
-  return <p>{currency}</p>;
+  if (loading) return <p>...</p>;
+
+
+  return (
+    <div>
+      <p>{currency}</p>
+    </div>
+  );
 };
 
 export default CurrencyDisplay;

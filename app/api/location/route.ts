@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const res = await fetch('http://ip-api.com/json/');
+    const res = await fetch('https://get.geojs.io/v1/ip/country.json');
     const data = await res.json();
 
     const country = data?.countryCode || 'DEFAULT';
