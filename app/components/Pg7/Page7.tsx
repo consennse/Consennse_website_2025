@@ -6,7 +6,7 @@ import Footer from '../Footer/Footer'
 import style from "./Pg7.module.css"
 import image from "./Rectangle 34625456-5.png"
 import hourglass from "./anxiety-induced-by-hourglass 1.png"
-import logo from "./image-4.png"
+import logo from "./Untitled design.png"
 import { useTranslation } from 'react-i18next'
 import img10 from "./image 10.png"
 import img11 from "./image 11.png"

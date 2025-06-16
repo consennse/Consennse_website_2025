@@ -55,7 +55,7 @@ const Pg4 = () => {
         SLA Basic
         </div>
 </h3>
-<div className = {style.newbut}><CurrencyDisplay/> 250/month</div>
+<div className = {style.newbut}><CurrencyDisplay/> 250{t('625M')}</div>
 <div className={style.down1}>{t('123')}</div>
 <div className = {style.donlin}></div>
 <div className={style.main}>
@@ -104,7 +104,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}> <CurrencyDisplay/>  350/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/>  350{t('625M')}</div>
 <div className={style.down}>{t('126A')}</div>
 <div className = {style.donlin2}></div>
 <div className = {style.but1}>
@@ -164,7 +164,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}> <CurrencyDisplay/> 475/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/> 475{t('625M')}</div>
 <div className={style.down3}>{t('130')}</div>
 <div className = {style.donlin3}></div>
 <div className = {style.but1}>
@@ -235,7 +235,7 @@ const Pg4 = () => {
         </div>
 
 </h3>
-<div className = {style.newbut}> <CurrencyDisplay/> 750/month</div>
+<div className = {style.newbut}> <CurrencyDisplay/> 750{t('625M')}</div>
 <div className={style.down}>{t('137')}</div>
 <div className = {style.donlin4}></div>
 <div className = {style.but1}>
@@ -299,6 +299,7 @@ const Pg4 = () => {
 
 <div className = {style.st}>{t('182')}</div>
 <div className = {style.st2}>{t('182A')}</div>
+<div className = {style.st2}>{t('626')}</div>
 <div className = {style.lastpage}>
           <div className = {style.lasttit}>{t('317')}</div>
           <div className = {style.con5}>{t('318')}</div>

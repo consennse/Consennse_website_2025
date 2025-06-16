@@ -58,7 +58,8 @@
   padding-right: 12px;
   width: 18%;
   top: 80%;
-  margin-left:425px;
+  /* margin-left:425px; */
+  margin-left: 300px;
   z-index: 999;
   display: block; /* Ensure it is displayed */
   opacity: 1;     /* Make it fully visible */
@@ -208,7 +209,8 @@ padding-bottom: 0.5rem;
 .con {
 margin-top: 1rem;
   margin-right: 0rem;
-  margin-left: 23.5rem;
+  /* margin-left: 23.5rem; */
+  margin-left: 30.5rem;
   overflow-wrap: break-word;
   background-color: #433878;
   color: white;

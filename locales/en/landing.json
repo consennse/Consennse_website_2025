@@ -469,7 +469,9 @@
   "622":"Options (included)",
   "623":"Apply",
   "624":"Language",
-  "625":"Preferred resource allocation"
+  "625":"Preferred resource allocation",
+  "625M" : "/month",
+  "626":"* All prices are quoted exclusive of statutory Swiss VAT"
 }
 
 

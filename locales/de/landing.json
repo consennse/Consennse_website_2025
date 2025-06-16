@@ -469,5 +469,7 @@
   "622":"Optionen (inklusive)",
   "623":"Anwenden",
   "624":"Sprache",
-  "625":"Bevorzugte Ressourcenzuteilung"
+  "625":"Bevorzugte Ressourcenzuteilung",
+  "625M" : "/monat",
+  "626":"* Alle Preisangaben verstehen sich exklusive der gesetzlichen MWSt"
 }
