@@ -197,7 +197,7 @@ const Pg4 = () => {
       </div>
       <div className  = {style.l1}>
         <Image src ={g1} alt ="tick" height={22}/>
-          <div className = {style.tick1}>{t('619')}</div>
+          <div className = {style.tick1}>{t('625')}</div>
       </div>
       <div className = {style.donlin23}></div>
       <h3 className = {style.newheaddesc}>{t('607')}</h3>

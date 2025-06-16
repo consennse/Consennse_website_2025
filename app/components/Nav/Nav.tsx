@@ -23,6 +23,11 @@ const Nav = () => {
   const [showSubMenu, setShowSubMenu] = useState(false);
 
 
+  const openDropdown = () => setIsDropdownOpen(true);
+  const closeDropdown = () => setIsDropdownOpen(false);
+const openDropdown2 = () => setDropdownVisible2(true);
+const closeDropdown2 = () => setDropdownVisible2(false);
+
   const toggleSubMenu = () => setShowSubMenu(prev => !prev);
   const toggleDropdown = () => {
     setIsDropdownOpen(prev => !prev);
@@ -104,16 +109,22 @@ const Nav = () => {
               </div>
             </Link>
             <div
-        className={`${styles.sol} ${isActiveLink('/sol')}`}
-        onClick={toggleDropdown2}
-      >
+  className={`${styles.sol} ${isActiveLink('/sol')}`}
+  onMouseEnter={openDropdown2}
+  onClick={toggleDropdown2} // still works on click
+>
+
+
         {t('5')}
         <FaChevronDown
   className={`${styles.fadown} ${isDropdownVisible2 ? styles.rotate : ''}`}
 />
       </div>
       {isDropdownVisible2 && (
-  <div className={styles.dropdown2}>
+  <div className={styles.dropdown2} 
+  onMouseLeave={closeDropdown2}
+>
+
     <ul>
       <li className={`${styles.sE} ${isActiveLink('/content/swissedition') || isActiveLink('/de/content/swissedition')}`}>
         <Link href="/content/swissedition">Propertybase SWISS EDITION
@@ -152,7 +163,10 @@ const Nav = () => {
               </div>
             </Link>
             <div className={styles.languageWrapper}>
-  <div className={styles.languageChanger} onClick={toggleDropdown}>
+  <div className={styles.languageChanger} onClick={toggleDropdown}
+    onMouseEnter={openDropdown}
+  //here 
+  >
     <FaGlobe className={styles.globe} />
     <FaChevronDown
       className={`${styles.chevron} ${isDropdownOpen ? styles.rotate : ''}`}
@@ -160,7 +174,7 @@ const Nav = () => {
   </div>
 
   {isDropdownOpen && (
-    <div className={styles.dropdownMenu}>
+    <div className={styles.dropdownMenu}   onMouseLeave={closeDropdown}>
       <div className={styles.dropdownItem1}>{t('624')}</div>
       <div className={styles.dropdownItem2}>
         <LanguageChanger/>
