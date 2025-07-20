@@ -533,9 +533,6 @@ padding-left: 20%;
 }
 .chimg1{
   margin-bottom: 2rem;
-  border: 0.5px;
-  border-style: solid;
-  border-color: #433878;
   width: max-content;
 }
 .chtit2{
@@ -608,9 +605,6 @@ padding-left: 20%;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
-    border: 0.5px;
-    border-style: solid;
-    border-color: #433878;
     height:52px;
    width: 38%;
   }

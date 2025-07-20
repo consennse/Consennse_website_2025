@@ -50,7 +50,7 @@
 .mainish{
   background-color: #F7F4FA;
 }
-@media (min-width:1600px){
+@media (min-width:1440px){
   .mainbod{
     width:1440px;
     margin: auto;
@@ -133,14 +133,14 @@
   width: 43%;
   font-size: 18px;
   margin-top: 0.5rem;
-  margin-bottom: 3.5rem;
+  margin-bottom: 2rem;
 }
 .botnext:hover,.botnext3:hover {
   cursor: pointer;
   background-image: linear-gradient(-20deg, #6456ad, #3d3371);
   box-shadow: 1px 0px 10px 1px #705dca;
   color: #FDFDFD;
-  .down,.down3{
+  .down,.down3,.down1{
     color: white;
   }
   .l1,.l3{
@@ -150,6 +150,21 @@
     background-color:white;
     color: #433878;
   }
+  .newheaddesc{
+    color: white;
+  }
+  .newbut{
+    background-color: white;
+    color: #433878;
+  }
+  .tick1,.tick2,.tick3{
+    color: white;
+  }
+}
+.headingnewdesc{
+  margin-bottom: 2rem;
+  font-family: "BoldFont", sans-serif;
+  font-size: 35px;
 }
 .lastpage {
   margin-top: 3rem;
@@ -187,15 +202,16 @@
 .boxess{ 
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 15px;
 }
 .botnext,.botnext3{
   position: relative;
-  height:42rem;
-  width: 25%;
+  height:45.8rem;
+  width: 322px;
   padding-bottom: 4rem;
-  padding: 2rem;
-  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
   background-color: #EFECFF;
   border-radius: 34px;
   border: 1px;
@@ -205,46 +221,116 @@
   color: #433878;
 }
 .head{
-  font-size: 24px;
   width: 80%;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-family: 'BoldFont', sans-serif;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  font-family: "BoldFont", sans-serif;
 }
-.head3{
-  font-size: 24px;
-  width: 80%;
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-  font-family: 'BoldFont', sans-serif;
+.crm {
+font-size: 22px;
 }
-.down{
+.slaBasic{
+  font-size: 39px;
+  width: max-content;
+}
+.newbut{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  background-color: #433878;
+  color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.9rem;
+  padding-top: 0.6rem;
+  border-radius: 10px;
+  padding-bottom: 0.6rem;
+  font-size: 15px;
+  font-family: "Medium", sans-serif; 
+  text-align: center;
+  
+}
+.newheaddesc{
+  font-family: "SemiBoldFont", sans-serif;
+  margin-bottom: 0.5rem;
+  color: #433878;
+  margin-top: 1rem;
+  font-size: 18px;
+}
+
+.down,.down1{
   font-family: "Medium", sans-serif;
-  font-size: 13px;
-  width: 95%;
+  font-size: 11px;
+  width: 100%;
   color: #6355C3;
 }
+
 .down3{
   font-family: "Medium", sans-serif;
+  font-size: 11px;
+  width: 100%;
   color: #6355C3;
-  font-size: 13px;
-  width: 95%;
 }
 .donlin,.donlin3,.donlin2,.donlin4{
   height: 0;
-  width: 93%;
+  width: 100%;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   border: 0.5px;
   border-style: solid;
   border-color: #A191ED;
   opacity: 0.7;
 }
+.donlin11,.donlin12,.donlin13,.donlin14{
+  height: 0;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #A191ED;
+  opacity: 0.7;
+}
+.donlin21,.donlin22,.donlin23,.donlin24{
+  height: 0;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  border: 0.5px;
+  border-style: solid;
+  border-color: #A191ED;
+  opacity: 0.7;
+}
+.donlin24{
+  margin-top: 1.97rem;
+}
+.donlin21,.donlin22{
+  margin-top: 5.39rem;
+}
+.donlin11{
+  margin-top: 3.7rem;
+}
+.donlin12{
+  margin-top: 3.7rem;
+}
+.donlin13{
+  margin-top: 1.9rem;
+}
+.donlin23{
+  margin-top: 3.72rem;
+}
+.donlin{
+  margin-top: 1rem;
+}
+.donlin14{
+  margin-top: 1.9rem;
+}
 .donlin3{
   height: 0;
-  width: 93%;
+  width: 100%;
   margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.5rem;
   border: 0.5px;
   border-style: solid;
   border-color: #A191ED;
@@ -288,9 +374,22 @@
   font-size: 14px;
   margin-left: 0.5rem;
 }
-.tick1{
-  margin-left: 0.4rem;
-  width: 85%;
+.tick1,.tick2,.tick3{
+  font-family: "Medium", sans-serif;
+  margin-left: 0.5rem;
+  font-size: 12px;
+  width: 100%;
+  color: #6355C3;
+}
+.tick2,.tick3{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+.tick211{
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
 }
 .butt2,.butt4,.butt3{
   width: 80%;
@@ -345,6 +444,13 @@
   color: #433878;
   font-size: 15px;
 }
+.st2{
+  margin-bottom: 0rem;
+  font-weight: 400;
+  margin-top: 0rem;
+  color: #433878;
+  font-size: 15px;
+}
 @media (max-width: 768px){
   @font-face {
     font-family: 'Font';
@@ -369,6 +475,18 @@
     src: url('/fonts/NotoSans_SemiCondensed-ExtraLight.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+  }
+  .tick3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .tick211{
+    display: flex;
+    flex-direction: row;
+  }
+  .tick21{
+    width:max-content;
   }
   .maincon{
     font-family: 'Font', sans-serif;
@@ -481,7 +599,7 @@
   }
   .botnext,.botnext3{
     position: relative;
-    height: 42rem;
+    height: 49rem;
     width: 100%;
     padding-bottom: 2rem;
     padding: 2rem;
@@ -493,6 +611,9 @@
     border-color: #A8A2F6;
     box-shadow: 1px 0px 10px 1px rgba(147, 147, 147, 0.5);
     color: #433878;
+  }
+  .headingnewdesc{
+    font-size: 27px
   }
   .head{
     font-size: 23px;
@@ -596,6 +717,9 @@
     font-weight: 400;
     margin-top: 2rem;
     color: #433878;
-    font-size: 15px;
+    font-size: 12px;
+  }
+  .st2{
+    font-size: 12px;
   }
 }

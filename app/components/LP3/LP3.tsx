@@ -1,6 +1,7 @@
 'use client'; 
 import React from 'react'
 import st1 from "./LP3.module.css"
+import CurrencyDisplay from '../CurrencyDisplay/CurrencyDisplay';
 import { useTranslation } from 'react-i18next';
 const LP3 = () => {
   const {t} = useTranslation();
@@ -32,6 +33,11 @@ const LP3 = () => {
               <div className = {st1.boxst}>80+</div>
               <div className = {st1.boxlt}>{t('18')}</div>
             </div>
+          </div>
+          <div className= {st1.yellowbox}>
+          {t('602')}
+          <CurrencyDisplay/>
+          69
           </div>
         </div>
         <div className = {st1.lpright3}>

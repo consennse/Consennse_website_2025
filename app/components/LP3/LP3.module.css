@@ -82,6 +82,24 @@
   align-items: center;
   padding-top: 3rem;
 }
+.yellowbox{
+margin-top: 2rem;
+ border-style: solid;
+ border-color: #D9E021;
+ border-radius: 11px;
+ border-width: 1.5px;
+ width: max-content;
+ padding-top: 0.5rem;
+ padding-bottom: 0.5rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
+ font-family: "SemiBold", sans-serif;
+ color: #D9E021;
+ font-size: 19px;
+ display: flex;
+ flex-direction: row;
+ gap: 5px;
+}
 .lpleft3{
   height: max-content;
   background-color: #433878;
@@ -182,6 +200,9 @@
   padding: 2rem;
   padding-bottom: 3rem;
   width: 100%;
+}
+.yellowbox{
+  font-size: 14px;
 }
 .lpright3{
   background-image: url('/images/image.png');
