@@ -3,7 +3,7 @@ import React from 'react';
 import Pg2 from '@/app/components/Pg2/Pg2';
 import initTranslations from '@/app/i18n';
 import TranslationsProvider from '@/app/components/TranslationProvider';
-
+import Style from "./page.module.css"
 export async function generateMetadata({ params }: { params: Promise<{ locale?: string }> }) {
 
   const locale = (await params)?.locale || 'en'; // Default to English
@@ -38,7 +38,7 @@ export default async function Page({ params }: { params: Promise<{ locale?: stri
   const { resources } = await initTranslations(locale, ['landing']); // Load translations
 
   return (
-    <div>
+    <div className = {Style.body}>
       <TranslationsProvider resources={resources} locale={locale} namespaces={['landing']}>
         <Pg2 />
       </TranslationsProvider>

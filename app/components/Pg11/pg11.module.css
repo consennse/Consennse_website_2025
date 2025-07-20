@@ -236,18 +236,19 @@
 .bar{
   display: flex;
   flex-direction: row;
-  gap: 6px;
-  font-family: "BoldFont", sans-serif;
-  padding-top: 0.6rem;
-  padding-bottom: 0.6rem;
-  padding-left: 1.5rem;
-  width: 75%;
-  font-size: 17px;
-  border-radius: 95px;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   background-color: #433878;
-  color: #ffffff;
-  margin-top: 0.8rem;
+  color: white;
+  margin-top: 0.5rem;
   margin-bottom: 0.9rem;
+  padding-top: 0.6rem;
+  border-radius: 10px;
+  padding-bottom: 0.6rem;
+  font-size: 15px;
+  font-family: "Medium", sans-serif; 
+  text-align: center;
 }
 .subh1{
   color: #170F49;
@@ -289,7 +290,8 @@ margin-left: 0.5rem;
 .box31:hover,.box32:hover,.box33:hover,.box34:hover{
   color: white;
   cursor: pointer;
-  background: linear-gradient(135deg, #2a234b, #7360CE);
+  background-image: linear-gradient(-20deg, #6456ad, #3d3371);
+  box-shadow: 1px 0px 10px 1px #705dca;
   
 .hb1{ 
   font-family:"BoldFont", sans-serif;
@@ -556,22 +558,7 @@ color: white;
     font-size: 12px;
     margin-top: 0.7rem;
   }
-  .bar{
-    display: flex;
-    flex-direction: row;
-    gap: 6px;
-    font-family: "BoldFont", sans-serif;
-    padding-top: 0.6rem;
-    padding-bottom: 0.6rem;
-    padding-left: 1.5rem;
-    width: 75%;
-    font-size: 17px;
-    border-radius: 95px;
-    background-color: #433878;
-    color: #ffffff;
-    margin-top: 0.8rem;
-    margin-bottom: 0.9rem;
-  }
+  
   .subh1{
     color: #170F49;
     font-family: "SemiBold", sans-serif;
@@ -612,7 +599,8 @@ color: white;
   .box31:hover,.box32:hover,.box33:hover,.box34:hover{
     color: white;
     cursor: pointer;
-    background: linear-gradient(135deg, #2a234b, #7360CE);
+    background-image: linear-gradient(-20deg, #6456ad, #3d3371);
+    box-shadow: 1px 0px 10px 1px #705dca;
     
   .hb1{ 
     font-family:"BoldFont", sans-serif;

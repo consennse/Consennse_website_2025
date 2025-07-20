@@ -48,6 +48,11 @@ const Footer = () => {
             Support
             </Link>
             </div>
+            {/* <div className = {st12.botts}>
+          <Link href = '/content/packages'>
+            {t('627')}
+            </Link>
+            </div> */}
         </div>
         </div>
       <div className={st12.bot2}>

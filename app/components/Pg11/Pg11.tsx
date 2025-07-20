@@ -68,16 +68,18 @@ velit esse cillum dolore eu fugiat nulla pariatur. Except.
               <div className = {style.head3}>
               TAILORED TO YOUR NEEDS
               </div>
-              <div className = {style.head4}>Our onboarding packages in comparison</div>
+              <div className = {style.head4}>
+                <h2>
+                Our onboarding packages in comparison </h2></div>
               <div className = {style.line3}></div>
               <div className = {style.parab1}>Below are our four contract models, tailored to meet the diverse needs of our customers. 
 None of them a perfect fit? Contact us – we’ll be happy to provide advice and create a custom package for you.</div>
 <div className = {style.boxes3}>
   <div className = {style.box31}>
     <div className = {style.hb1}>
-    <h2>
+    <h3>
       Basic Package
-     </h2> 
+     </h3> 
       </div>
     <div className = {style.subhead1}>For small teams or CRM beginners</div>
     <div className = {style.bline11}></div>
@@ -93,7 +95,7 @@ None of them a perfect fit? Contact us – we’ll be happy to provide advice an
     <div className = {style.minis}>
       <FaCheck className = {style.check}/>
       <div className = {style.checktext}>
-      Configuration of up to 10 user accounts
+      Configuration of up to 5 user accounts
     </div></div>
     <div className = {style.minis}>
       <FaCheck className = {style.check}/>
@@ -118,9 +120,9 @@ None of them a perfect fit? Contact us – we’ll be happy to provide advice an
   </div>
   <div className = {style.box32}>
     <div className = {style.hb1}>
-      <h2>
+      <h3>
       Standard Package
-      </h2>
+      </h3>
       </div>
     <div className = {style.subhead1}>For growing businesses with defined processes</div>
     <div className = {style.bline1}></div>
@@ -166,9 +168,9 @@ None of them a perfect fit? Contact us – we’ll be happy to provide advice an
   </div>
   <div className = {style.box33}>
     <div className = {style.hb1}>
-      <h2>
+      <h3>
       Premium Package
-      </h2>
+      </h3>
       </div>
     <div className = {style.subhead1}>For advanced teams with multiple roles and integration needs</div>
     <div className = {style.bline1}></div>
@@ -219,9 +221,9 @@ None of them a perfect fit? Contact us – we’ll be happy to provide advice an
   </div>
   <div className = {style.box34}>
     <div className = {style.hb1}>
-      <h2>
+      <h3>
       Individual Package
-      </h2>
+      </h3>
       </div>
     <div className = {style.subhead1}>For complex environments or special business requirements</div>
     <div className = {style.bline1}></div>
