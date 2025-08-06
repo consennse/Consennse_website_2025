@@ -116,17 +116,14 @@ margin-top: 2rem;
 }
 .left3T{ 
   text-transform:uppercase;
-  font-family: 'Noto Sans', sans-serif;
-  font-stretch: condensed;
+  font-family: 'SemiConBold', sans-serif;
   font-weight: 1000;
-  font-size: 13px;
-  transform: scale(1, 1.2);
+  font-size: 16px;
   margin-bottom: 3rem;
 }
 .left3T1{
-  font-family: "BoldFont", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
+  font-family: "SemiBold", sans-serif;
+  font-size: 52px;
 }
 .leftline{
   width: 450px;
@@ -140,6 +137,7 @@ margin-top: 2rem;
   border-bottom: none;
 }
 .left3T2{ 
+  font-family: "Regular", sans-serif;
   font-size: 16px;
   width: 70%;
 }
