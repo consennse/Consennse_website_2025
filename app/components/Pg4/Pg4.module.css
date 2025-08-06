@@ -87,7 +87,7 @@
   padding-bottom: 3rem;
 }
 .ltop { 
-  font-size: 44px;
+  font-size: 45px;
   font-family: 'SemiBoldFont' , sans-serif;
 }
 .lbox{ 
@@ -102,21 +102,20 @@
 }
 .lmid{ 
   width: 90%;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Font", sans-serif;
 }
 .bottop {
 
   font-family: 'SemiConBoldFont' , sans-serif;
   color: #433878;
-  font-weight:bolder; 
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase; 
 }
 .botmid{
   font-family: "SemiBoldFont", sans-serif;
   color: #433878;
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
@@ -129,9 +128,9 @@
   color: #433878;
 }
 .botbot{
-  font-family: 'Font' , sans-serif;
-  width: 43%;
-  font-size: 18px;
+  font-family: 'Regular' , sans-serif;
+  width: 73%;
+  font-size: 20px;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
@@ -566,7 +565,6 @@ font-size: 22px;
   .bottop {
     
     color: #252525;
-    font-weight:bolder; 
     font-size: 14px;
     text-transform: uppercase; 
   }

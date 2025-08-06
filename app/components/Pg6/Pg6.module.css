@@ -148,7 +148,7 @@
 }
 .box1tit,.box2tit{
   font-family: "SemiBold", sans-serif;
-  font-size: 50px;
+  font-size: 46px;
   margin-bottom: 1.5rem;
 }
 .box1line,.box2line{
@@ -357,7 +357,7 @@
 .right2maincon{
   font-family: "Regular", sans-serif;
   width: 85%;
-  font-size: 15px;
+  font-size: 16px;
   color: #FFFFFF;
 
 }
@@ -422,7 +422,7 @@
 
 .fboxmaincon3{
   width: 95%;
-  font-size: 13.5px;
+  font-size: 13px;
 }
 
 
@@ -478,7 +478,7 @@
 .fboxmaincon32{
   font-family: "Regular", sans-serif;
   width: 95%;
-  font-size: 13.5px;
+  font-size: 13px;
 }
 .top4{
   background-color: #433878;
@@ -496,7 +496,7 @@
 }
 .ltit4{
   font-family: "SemiBold", sans-serif;
-  font-size: 53px;
+  font-size: 48px;
 }
 .lline4{
   border: 0.5px;
@@ -509,7 +509,7 @@
 .lstit4{
   position: relative;
   font-family: "Regular", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 .un1{
   width: 650px;
@@ -562,7 +562,7 @@
   border-bottom-right-radius: 12px;
   font-family: "SemiBold",sans-serif;
   width: 87%;
-  font-size: 17px;
+  font-size: 16px;
   padding: 1rem;
 }
 .img41{
@@ -588,11 +588,12 @@
 .contit4{
   color: #433878;
   font-family: "SemiBold", sans-serif;
-  font-size: 26px;
+  font-size: 23px;
 }
 .contxt4{
   font-family: "Regular", sans-serif;
   font-size: 13px;
+  margin-top: 0.5rem;
 
 }
 .arrow1,.arrow2,.arrow3,.arrow4,.arrow5,.arrow6 {
