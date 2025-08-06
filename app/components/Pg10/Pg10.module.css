@@ -82,7 +82,7 @@
 .heading1{
   font-family: "SemiBold", sans-serif;
   color: #433878;
-  font-size: 44px;
+  font-size: 50px;
 }
 .line {
   border: 0.5px;
@@ -94,8 +94,8 @@
 }
 .para {
   font-family: "Regular", sans-serif;
-  font-size: 14px;
-  width: 55%;
+  font-size: 20px;
+  width: 75%;
 }
 .box{
   background-color: white;
