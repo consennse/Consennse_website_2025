@@ -103,11 +103,7 @@ const closeDropdown2 = () => setDropdownVisible2(false);
               </div>
               {/* packages link */}
             </Link>
-            {/* <Link href='/content/packages'>
-              <div className={`${styles.sup} ${isActiveLink('/content/packages')  || isActiveLink('/de/content/packages')}`}>
-                Packages
-              </div>
-            </Link> */}
+          
             <div
   className={`${styles.sol} ${isActiveLink('/sol')}`}
   onMouseEnter={openDropdown2}
@@ -240,9 +236,7 @@ const closeDropdown2 = () => setDropdownVisible2(false);
               <Link href="/content/support">
               Support </Link>
               </li>
-              {/* <li className={`${styles.serv2} ${isActiveLink2('/content/packages') || isActiveLink2('/de/content/packages')}`}>
-              <Link href="/content/packages">
-              Packages</Link> </li> */}
+           
             <li onClick={toggleSubMenu} className={styles.clickable}>
               <div className = {styles.click1}>
               Solutions 
