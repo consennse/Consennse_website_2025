@@ -130,14 +130,14 @@
   margin-bottom: 1rem;
 }
 .lefttop9{ 
-  font-family: "ConBoldFont", sans-serif;
+  font-family: "SemiConBold", sans-serif;
   color: white;
   text-transform: uppercase;
-  font-size: 17px;
+  font-size: 16px;
 }
 .lefttit9 {
-  font-family: "BoldFont", sans-serif;
-  font-size:60px;
+  font-family: "SemiBold", sans-serif;
+  font-size:52px;
   color: white;
 
 }
@@ -145,8 +145,8 @@
 .righttop9{
   color: #433878;
   text-transform: uppercase;
-  font-family: "ConBoldFont", sans-serif;
-  font-size: 17px;
+  font-family: "SemiConBold", sans-serif;
+  font-size: 16px;
   margin-bottom: 0.8rem;
 }
 .righttit9 {
@@ -158,7 +158,7 @@
 }
 .rightmc {
   font-family: "Regular", sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   width: 85%;
   opacity: 0.75;
   margin-bottom: 2rem;
@@ -233,13 +233,10 @@
     margin-bottom: 1rem;
   }
   .lefttop9{ 
-    font-family: "ConBoldFont", sans-serif;
     color: white;
     text-transform: uppercase;
-    font-size: 17px;
   }
   .lefttit9 {
-    font-family: "BoldFont", sans-serif;
     font-size:40px;
     color: white;
   
@@ -248,8 +245,6 @@
   .righttop9{
     color: #433878;
     text-transform: uppercase;
-    font-family: "ConBoldFont", sans-serif;
-    font-size: 17px;
     margin-bottom: 0;
     margin-top: 0.5rem;
     width: 100%;

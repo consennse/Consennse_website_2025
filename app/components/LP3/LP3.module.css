@@ -212,19 +212,13 @@ margin-top: 2rem;
 
 }
 .left3T{ 
-  text-transform:uppercase;
-  font-family: 'Noto Sans', sans-serif;
-  font-stretch: condensed;
-  font-weight: 1000;
   font-size: 13px;
-  transform: scale(1, 1.2);
   margin-bottom: 3rem;
 
 }
 .left3T1{
-  font-family: "BoldFont", sans-serif;
   font-size: 38px;
-  font-weight: 700;
+
 
 }
 .leftline{

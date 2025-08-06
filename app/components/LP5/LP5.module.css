@@ -71,22 +71,23 @@
 
 }
 .mainl1{ 
+  font-family: "SemiBold", sans-serif;
   margin-top: 1.5rem;
   color: #433878;
-  font-size: 60px;
-  font-weight: 700;
+  font-size: 50px;
 }
 .mainl2{ 
   margin-top: 3rem;
 
 }
 .mltr1{
+  font-family: "SemiBold", sans-serif;
   color: #433878;
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 23px;
 }
 .mltr2{ 
-  font-size: 14px;
+  font-family: "Regular", sans-serif;
+  font-size: 15px;
   color: #252525;
   margin-top: 0.5rem;
 }
@@ -182,7 +183,7 @@
     margin-top: 2.5rem;
     color: #433878;
     font-size: 30px;
-    font-weight: 700;
+   
     padding-right: 3rem;
  
   }
@@ -196,7 +197,6 @@
     color: #433878;
     width: 95%;
     font-size: 18px;
-    font-weight: 700;
 
   }
   .mltr2{ 

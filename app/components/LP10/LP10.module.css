@@ -92,20 +92,21 @@
 
 }
 .righttop10{
-  font-family: "ConBoldFont",sans-serif;
-  color: #433878;
+  font-family: "SemiConBold", sans-serif;
+  font-size: 16px;
+    color: #433878;
   text-transform: uppercase;
-  font-size: 17px;
   margin-bottom: 0.8rem;
 }
 .righttit10 {
-  font-size:43px;
-  font-weight: 800;
+  font-size:41px;
+  font-family: "SemiBold", sans-serif;
   color: #433878;
   margin-bottom: 0.5rem;
 }
 .rightmc10 {
-  font-size: 17px;
+  font-family: "Regular", sans-serif;
+  font-size: 16px;
   width: 85%;
   opacity: 0.75;
   margin-bottom: 2rem;
@@ -184,16 +185,13 @@
   padding-right: 2rem;
 }
 .righttop10{
-  font-family: "ConBoldFont",sans-serif;
   color: #433878;
   text-transform: uppercase;
-  font-size: 17px;
   margin-top: 0.5rem;
   margin-bottom: 0rem;
 }
 .righttit10 {
   font-size:33px;
-  font-weight: 800;
   color: #433878;
   margin-bottom: 0.5rem;
 }

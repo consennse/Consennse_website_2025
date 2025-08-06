@@ -97,34 +97,35 @@
   border-radius: 5px;
 }
 .left7top{
-  font-family:"ConBoldFont", sans-serif;
+  font-family:"SemiConBold", sans-serif;
   color: white;
   text-transform: uppercase;
   font-size: 16px;
   margin-bottom: 1rem;
 }
 .left7txt {
-  font-family:"SemiConBold";
-  font-size: 50px;
+  font-family:"SemiBold";
+  font-size: 52px;
 
   color: white;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 .left7txt1,.left7txt2{
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "Regular", sans-serif;
 
 }
 .left7txt2{
-  margin-bottom: 1.4rem;
+  margin-bottom: 1.7rem;
 }
 
 .imgbox{
   height: 100%;
 }
 .brimg{
-  height: 498.8px;
+  height: 473.18px;
   width: 718px;
- 
+ object-fit: cover;
 }
 .right7 {
   width: 50%;
@@ -168,23 +169,17 @@
     border-radius: 5px;
   }
   .left7top{
-    font-family:"ConBoldFont", sans-serif;
     color: white;
     text-transform: uppercase;
-    font-size: 16px;
     margin-bottom: 1rem;
   }
   .left7txt {
-    font-family:"SemiConBold";
-    font-size: 50px;
+    
   
     color: white;
     margin-bottom: 1rem;
   }
-  .left7txt1,.left7txt2{
-    font-size: 18px;
-
-  }
+  
   .brimg{
     height: 390px;
     width: auto;
