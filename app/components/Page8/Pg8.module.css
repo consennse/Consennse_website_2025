@@ -610,7 +610,7 @@
   margin-top: 1rem;
 }
 .lastpage {
-  margin-top: 4rem;
+  margin-top: 3rem;
   color: #433878;
   background-color: #E5E3FF;
   padding-top: 2.5rem;
@@ -642,7 +642,7 @@
   margin-left: 0.2rem;
 }
 .page6{
-  margin-bottom: 80px;
+  margin-bottom: 3rem;
 }
 .box6{
   background-color: white;
@@ -1255,7 +1255,7 @@ margin-left: 2.5rem;
      margin-top: 1rem;
    }
    .lastpage {
-     margin-top: 4rem;
+     margin-top: 2rem;
      color: #433878;
      background-color: #E5E3FF;
      padding-top: 2.5rem;
@@ -1286,7 +1286,7 @@ margin-left: 2.5rem;
      margin-left: 0.2rem;
    }
    .page6{
-     margin-bottom: 80px;
+     margin-bottom: 2rem;
    }
    .box6{
      background-color: white;

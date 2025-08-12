@@ -58,7 +58,7 @@
 .main {
   font-family: "Font", sans-serif;
   background-color: #F7F4FA;
-  padding-bottom: 8rem;
+  padding-bottom: 3rem;
   height: max-content;
 }
 .page1{
@@ -478,7 +478,7 @@ padding-left: 20%;
   width: 86%;
 }
 .lastpage {
-  margin-top: 6rem;
+  margin-top: 3rem;
   color: #433878;
   background-color: #E5E3FF;
   padding-top: 2.5rem;
@@ -581,7 +581,7 @@ padding-left: 20%;
   .main {
     font-family: "Font", sans-serif;
     background-color: #F7F4FA;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     height: max-content;
   }
   .logo1{
@@ -999,7 +999,7 @@ padding-left: 20%;
     width: 86%;
   }
   .lastpage {
-    margin-top: 6rem;
+    margin-top: 2rem;
     color: #433878;
     background-color: #E5E3FF;
     padding-top: 2.5rem;
