@@ -195,3 +195,37 @@
     text-align: justify;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+  .button6{
+    width: max-content;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 14px;
+   margin-top: 1rem;
+   height: 40px;
+  }
+
+.tit8 {
+  font-size: 32px;
+  color: #433878;
+  margin-bottom: 1rem;
+}
+.right8 {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.mc1{
+  color: #433878;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 0.6rem;
+}
+.mc18{ 
+  font-size: 12px;
+  opacity: 0.8;
+  margin-bottom: 1.8rem;
+  text-align: justify;
+}}

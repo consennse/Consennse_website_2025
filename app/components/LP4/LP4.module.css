@@ -48,3 +48,19 @@
     flex-direction: column;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lb1,.lb2{
+    font-size: 13px;
+  }
+  .im1{
+    height : auto;
+    width: 80px;
+    margin-bottom: 0.8rem;
+  }
+  .im2{
+    height: 40px;
+    width: auto;
+    margin-bottom: 1.7rem;
+    border: none;
+  }
+}

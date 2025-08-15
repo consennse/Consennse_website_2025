@@ -124,7 +124,7 @@
   padding-left: 2.5rem; 
   padding-right: 1rem;
   font-weight: 500;
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   cursor: pointer;
   width: 100%;
   transition: top 0.3s ease; /* Smooth hide/show effect */
@@ -187,15 +187,24 @@ padding-bottom: 0.5rem;
 .sol{
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-items: center;
+  gap: 3px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+padding-top: 0.5rem;
+height: 38.5px;
+  margin-right: 1rem;
+  width:max-content;
+
+}
+.fadown{
+  margin-top: 0.4rem;
 }
 
 .serv {
   width:60px;
   overflow-wrap: break-word;
 }
-.serv,.home,.sup,.sol {
+.serv,.home,.sup {
  
   padding-left: 1rem;
   padding-right: 1rem;
@@ -484,7 +493,13 @@ padding-bottom: 0.5rem;
     align-items: center;
     gap: 4px;
     margin-top:0.6rem;
-    margin-left: 11.5rem;
+ 
+  }
+  .rightside {
+    position: absolute; 
+    right: 22;
+    display: flex;
+    flex-direction: row;
   }
   .languageWrapper{
     position: relative;
@@ -583,4 +598,164 @@ padding-bottom: 0.5rem;
     color: black;
   }
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .broimg{
+    height: 18px;
+    width: 125px;
+  }
+  .menu{
+    visibility: visible;
+  }
+  .home,.serv,.sup,.sol,.con1,.con{
+    display: none;
+  }
+  .top{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+  .right{
+    display: none;
+  }
+  .fordesk{
+    padding: 0;
+    margin: 0;
+  }
+  .img{
+    margin-top: 1rem;
+  }
+  .broimg{
+    height: 15px;
+    width: auto;
+  }
   
+  .globe{
+    margin-left: 0;
+    font-size: 22px;
+    margin-top: 0rem;
+    margin-top: 0px;
+    padding-top: 0;
+    padding-bottom: 0rem;
+  }
+  .chevron{
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: larger;
+    margin-top: 0;
+    font-size: 10px;
+  
+  }
+  .languageChanger {
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+    margin-top:0.6rem;
+ 
+  }
+  .rightside {
+    position: absolute; 
+    right: 22;
+    display: flex;
+    flex-direction: row;
+  }
+  .languageWrapper{
+    position: relative;
+  }
+  .top {
+    padding-bottom: 0.8rem;
+    width: calc(100vw - var(--scrollbar-width, 0px));
+  }
+  
+  .dropdownMenu2 {
+    position: fixed; /* fixed to viewport */
+    top: 44.5px;       /* adjust according to your navbar height */
+    left: 0;
+    right: 0;
+    width: 100vw;    /* full viewport width */
+    background-color: white;
+    font-size: 13.5px;
+    color: #5A5A5A;
+    padding-left:  1.5rem;
+    padding-right: 1.5rem; /* padding for inner spacing */
+    z-index: 9999;
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    box-shadow: rgb(109, 109, 109) 1px 0px 0.5px 0px;
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    /* Optional: smooth slide down */
+    transition: all 0.3s ease;
+  }
+  .menustyle{
+    font-size: 19px;
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+  }
+  .menuList {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .menuList li {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .hom{
+    margin-top: 0px;
+  }
+  .subDropdown li{
+    padding-left: 2rem;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+  }
+  .serv3:hover{
+    color: #433878;
+  }
+  .click1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+  }
+  .closeIcon{
+    margin-top: 0.5rem;
+    font-size: 21px;
+    margin-top: 0.7rem;
+    margin-left: 0.6rem;
+    font-weight: 100;
+  }
+  .fadown2{ 
+    height: 14px;
+    margin-top: 0.2rem;
+  }
+  .fadown2 {
+    transition: transform 0.3s ease;
+  }
+  .contactmob{
+    width: 100%;
+    background-color: #433878;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    border-radius: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+  }
+  .rightdiag{
+    margin-left: 8px;
+  }
+  .activeLink2{
+    color: black; }
+}

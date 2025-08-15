@@ -1,6 +1,6 @@
 
 .body{
-  height: 96vh; /* Set container height */
+  height: 96vh; 
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat; /* No repetition */
@@ -29,6 +29,25 @@
   .content {
     width: 1440px; /* Keep the original size */
     margin: auto; /* Center the content */
+  }
+  .footpg{
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* styles apply to both portrait & landscape */
+  .body{
+    height: 75vh; 
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center;
+    margin: 0; /* Remove default margin */
+    overflow-x:hidden
+  }
+  .content{
+    overflow-x:hidden;
+    overflow-y:hidden;
   }
   .footpg{
     width: 100%;

@@ -239,3 +239,89 @@
   }
   
 }
+@media (min-width: 769px) and (max-width: 1024px) {
+  .top5{ 
+    color: #433878;
+   text-transform: uppercase;
+    font-stretch: condensed;
+    font-weight: 1000;
+    font-size: 10px;
+    width: max-content;
+  }
+  .main5 {
+    width: 100%;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    align-items: center;
+  }
+  .mainl {
+    width: 100%; /* change if needed */ 
+
+    
+  }
+  .mainl1{ 
+    margin-top: 1rem;
+    color: #433878;
+    font-size: 32px;
+   
+    padding-right: 3rem;
+ 
+  }
+ 
+  .mltr1{
+    color: #433878;
+    width: 95%;
+    font-size: 18px;
+
+  }
+  .mltr2{ 
+    width: 95%;
+    font-size: 12px;
+    color: #252525;
+    margin-top: 0.5rem;
+  }
+  .mainltr{
+    width: 90%;
+    margin-left: 0rem;
+  }
+  
+  .ic5{
+    padding-left: 0.5rem;
+    font-size: 17px;
+  }
+  .mltr2{
+    text-align: justify;
+  }
+  .mainltr12{
+    width: 90%;
+    margin-left: 0rem;
+  }
+  .maingrid1{ 
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: auto; /* Rows adjust to content height */
+    gap: 5px; /* Space between grid items */
+    width: 100%;
+  
+  }
+  .maingrid2{ 
+    display: grid;
+    grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-columns: auto; /* Rows adjust to content height */
+    gap: 5px; /* Space between grid items */
+    width: 100%;
+    margin-left: 0rem;
+    
+  }
+  .mbody{
+    padding-right: 2rem;
+  }
+  .butt5{
+    width: max-content;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 14px;
+   margin-top: 3rem;
+   height: 40px;
+  }
+}

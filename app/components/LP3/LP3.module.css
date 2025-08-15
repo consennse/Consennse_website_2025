@@ -257,6 +257,7 @@ margin-top: 2rem;
   color: #433878;
 
 }
+
 .boxst{
   font-family:"BoldFont", sans-serif;
   font-size: 20px;
@@ -274,5 +275,70 @@ margin-top: 2rem;
   opacity: 0.7;
   height: 35px;
   margin-top: 0.3rem;
+}
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .lpbox{ 
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-right: 0rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+  }
+.left3T2{
+  width: 100%;
+  font-size: 14px
+}
+.left3T{ 
+  font-size: 10px;
+  margin-bottom: 16px;
+ 
+
+}
+.left3T1{
+  font-size: 32px;
+}
+.Lp3{
+  background-color: #f7f4fa;
+  font-family: 'Font', sans-serif ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: max-content;
+  align-items: center;
+  padding-top: 3rem;
+}
+.boxtext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 34%;
+  color: #433878;
+
+}
+.boxst{
+  font-family:"BoldFont", sans-serif;
+  font-size: 20px;
+
+}
+.boxlt{ 
+  font-size: 12px;
+  opacity: 0.8;
+}
+.boxline { 
+  border: 0.5px;
+  border-style: solid;
+  border-color: #433878;
+  opacity: 0.7;
+  height: 35px;
+  margin-top: 0.3rem;
+}
+.leftline{
+  width: 85%;
+}
+.yellowbox{
+  font-size: 14px;
 }
 }

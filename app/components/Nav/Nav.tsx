@@ -153,12 +153,14 @@ const closeDropdown2 = () => setDropdownVisible2(false);
             </Link>
             
           </div>
+        
           <Link href='/content/contact'>
               <div className={styles.con}>
                 {t('6')}
               </div>
             </Link>
-            <div className={styles.languageWrapper}>
+<div className = {styles.rightside}>
+      <div className={styles.languageWrapper}>
   <div className={styles.languageChanger} onClick={toggleDropdown}
     onMouseEnter={openDropdown}
   //here 
@@ -177,8 +179,8 @@ const closeDropdown2 = () => setDropdownVisible2(false);
       </div>
     </div>
   )}
-</div>
 
+</div>
 {/* lang changer goes here  */}
             {/* <LanguageChanger/> */}
           {/* <div className={styles.but}>
@@ -200,7 +202,7 @@ const closeDropdown2 = () => setDropdownVisible2(false);
           </div> */}
                  
 
-        </div>
+    
         <div className={styles.menu}>
       {/* Only show FaBars when menu is closed */}
       <div className={styles.menuIcon} onClick={toggleMenu}>
@@ -214,6 +216,8 @@ const closeDropdown2 = () => setDropdownVisible2(false);
   ) : (
     <FaTimes className={styles.closeIcon} />
   )}
+</div>
+</div>
 </div>
 
       {/* Only show dropdown when menuOpen is true */}
