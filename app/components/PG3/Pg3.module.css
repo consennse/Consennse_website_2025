@@ -415,3 +415,89 @@ flex-direction: row;
   align-items: center;
 }
 }
+@media (min-width:767px) and (max-width:1024px){
+  .img1{
+    display: none;
+  }
+  
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .fname1{
+    width: 100% ;
+  }
+  .maintop{
+    margin-top: 1rem;
+    font-size: 36px;
+  }
+  .l3{
+    width: 100%;
+  }
+  .maincon{
+    width: 100%;
+    padding: 3rem;
+  }
+  .finput3,.finput2,.finput1{
+    margin-right: 0;
+  padding-right: 0;
+  width: 100%;
+  }
+  .lbutt1{
+    width: 100%;
+  }
+  .leftf{
+    width: 100%;
+  }
+  .l1{
+    width: 100%;
+    gap: 1rem;
+  }
+  .fname1{
+    width: 50%;
+  
+  }
+  .fnametxt,.fnameinp{
+    width: 100%;
+  }
+  .l3{
+    gap:1rem;
+  }
+  .fname1o{
+    width: 100%;
+  }
+  .l6{
+    width: 50%;
+  }
+  .lbutt1{
+   padding-left: 45%;
+  }
+  .right2{
+    display: none;
+    margin-left: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  .right31mob{
+    display: block;
+  }
+  .righttxt3{
+    display: flex;
+    flex-direction: column;
+  }
+  .righttxt31{
+    margin-top: 1rem !important;
+  }
+  .righttxt31,.righttxt32,.righttxt33{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    font-size: 14px;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+  .rt31,.rt32,.rt33{
+    margin-left: 0.5rem;
+  }
+  }
+  

@@ -376,6 +376,25 @@ const Pg8 = () => {
                   <div className = {style.fakebutton}></div>
                 </div>
               </div>
+              <div className={style.hidden1}>
+              <div className = {style.box42}>
+                <div className = {style.titb4}>
+                  <Image src = {frame6} alt = "logo13" className={style.img41}/>
+                  <div className = {style.ttxt4}>
+                    <h3>
+                  {t('294')}
+                  </h3>
+                  </div>
+                </div>
+                <div className = {style.cont4}>
+                <div className={style.maincont4}>
+                  <div className = {style.contxt4}>
+                  {t('295')}
+                  </div></div>
+                  <div className = {style.fakebutton}></div>
+                </div>
+              </div>
+              </div>
             </div>
           </div>
         </div>

@@ -49,7 +49,7 @@ const Pg6 = () => {
             <div className={style.topcont}>{t('204')}</div>
     <div className={style.topboxes}>
       <div className={style.topbox1}>
-        <div className={style.box1img}><Image src = {works} alt = "workspace" /></div>
+        <div className={style.box1img}><Image src = {works} alt = "workspace"  className={style.class}/></div>
         <div className={style.box1right}>
           <div className={style.box1tit}>
           <h2>
@@ -179,7 +179,7 @@ const Pg6 = () => {
             <Image src = {union} alt = "union" height={310} className={style.unimg}/>
           </div>
           <div className={style.shiny}>
-            <Image src = {shiny} alt = "shinycircles" height={345}/>
+            <Image src = {shiny} alt = "shinycircles" height={345} className={style.shinyc}/>
           </div>
           </div>
           <div className={style.right2}>
@@ -333,6 +333,24 @@ const Pg6 = () => {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className = {style.bhidden}>
+            <div className={style.box32}>
+              <div className={style.lbox32}>
+                <div className = {style.fbox32}>
+                  <div className={style.fboxtop32}>
+                    <div>
+                    <Image src ={img10} alt = "image" height={50}/></div>
+                    <div className={style.htxt32}> {t('238')}</div>
+                  </div>
+                  <div className = {style.fboxl32}></div>
+                  <div className={style.fboxtit32}><h3> {t('239')} </h3> </div>
+                  <div className={style.fboxmaincon32}>
+                  {t('240')}
+                  </div>
+                </div>
+              </div>
+            </div>
             </div>
           </div>
         </div>

@@ -1071,3 +1071,512 @@ padding-left: 20%;
     border-radius: 5px;
   }
 }
+@media (min-width:787px) and (max-width:1024px){
+  .main {
+    font-family: "Font", sans-serif;
+    background-color: #F7F4FA;
+    padding-bottom: 2rem;
+    height: max-content;
+  }
+  .logo1{
+    height: 50px;
+    width: max-content;
+  }
+  .ch1{
+    font-family: "SemiConBoldFont", sans-serif;
+    font-size: 28px;
+  }
+  .chl{
+    border: 0.5px;
+    border-style: solid;
+    border-color: white;
+    width: 60%;
+    margin-top: 0.5rem;
+  }
+  .right31{
+    background-color: white;
+  }
+  .chimg1{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    height:52px;
+   width: 38%;
+  }
+  .chtit2,.chtit3{
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 32px;
+    margin-top: 1.3rem;
+    margin-left: 2rem;
+  margin-right: 2rem;
+  }
+  .linech,.chlin3{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    width: 40%;
+    margin-top: 0.5rem;
+    opacity: 0.6;
+    margin-left: 2rem;
+  }
+  .chlin3{
+    margin-bottom: 3rem;
+  }
+  .page1{
+    padding-top: 6rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  .h1{
+    font-family: "SemiBold", sans-serif;
+    color: #433878;
+    font-size: 30px;
+    width: 80%;
+    margin-left: 2rem;
+    margin-right: 0rem;
+  }
+  .line1{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 62%;
+    margin-left: 2rem;
+  }
+  .sub1{
+    color: #433878;
+    width: 86%;
+    font-size: 15px;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .box1{
+    display: flex;
+    flex-direction: row;
+    background-color: #433878;
+    border-radius: 0px;
+    color: white;
+  }
+  .img{
+    height: 100%;
+    border-radius: 0px;
+  width: auto;
+
+  }
+  .img131{
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+  }
+  .img1{
+    width: 50%;
+  }
+  .right1{
+    width: 50%;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    font-family: "Font", sans-serif;
+  }
+  .content1{
+    font-size: 12px;
+    width: 85%;
+    margin-top: 1.5rem;
+  }
+  .box2{
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #433878;
+    border-radius: 18px;
+    color: white;
+  }
+  .l2{
+    width: 50%;
+    padding-top: 2.5rem;
+    padding-left: 1.5rem;
+    padding-right: 3rem;
+    padding-bottom: 1.5rem;
+  }
+  .tit2{
+    font-family: "SemiBold", sans-serif;
+    font-size: 28px;
+   
+  }
+  .hour{
+    height: 100%;
+    margin-bottom: 0rem;
+  }
+  .right2{
+    width: 50%;
+  }
+  .line2{
+    border: 0.5px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 0.9rem;
+    margin-bottom: 0.9rem;
+    width: 70%;
+  }
+  .subtxt2{
+    font-family: "SemiConReg", sans-serif;
+    font-size: 12px;
+  }
+  .page2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .top2{
+    font-family: "SemiConBoldFont", sans-serif;
+    font-size: 32px;
+    padding-top: 2rem;
+    color: #433878;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    background-color: #FDFDFD;
+  }
+  .boxes2{
+    background-color: #FDFDFD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    justify-content: space-between; /* Distributes boxes horizontally */
+  
+  }
+  .box21,.box22,.box23{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    position: relative;
+    border-radius: 30px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    box-shadow: 0px 1.3px 10px rgb(223, 223, 223);
+    background-color: #ECEBFF;
+    width: 300px;
+    height: 28rem;
+    z-index: 2;
+  }
+  .image10{
+    height: 250px;
+    margin: auto;
+  }
+  .botbutt2{
+    background-color: #CBC7FA;
+    height: 13px;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    left: 27.5%;
+  }
+  .bar2{
+    background-color: #CBC7FA;
+    color: #433878;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-family: "SemiBold",sans-serif;
+    width: 92%;
+    font-size: 16px;
+    padding: 1rem;
+  }
+  .txt21{
+    padding: 1rem;
+    width: 100%;
+    font-size: 13px;
+    color: #252525;
+  }
+  .box22:nth-child(2) {
+    margin-left: auto; /* Pushes the third box to the right */
+    margin-right: auto; /* Centers the second box */
+  }
+
+
+  
+  .botbox2{
+    background-color:#ebeafe;
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0rem;
+    border-radius: 20px;
+    text-align: center;
+    color: #433878;
+  }
+  .butbox21{
+    display: flex;
+    flex-direction: column;
+    width: 33.3%;
+  padding-left: 0%;
+  }
+  .buttit21{
+    font-family: "SemiBold", sans-serif;
+    font-size: 33px;
+  }
+  .buttit212{
+    font-size: 13px;
+    opacity: 0.5;
+  }
+  .start2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #FDFDFD;
+    margin-bottom: 2rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .line{
+    display: none;
+  }
+  .page3{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .subsection3{
+    background-color:white;
+  }
+  .box31{
+    display: flex; 
+    flex-direction: row ;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    gap: 0;
+  }
+  .box32{
+    display: flex;
+    flex-direction: row;
+    gap:0;
+  }
+  .left31{
+    background-color: #433878;
+    border-radius: 0px;
+    border-radius: 18px;
+    color: white;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    width:50%;
+  }
+  .right31{
+    background-color: transparent;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    width: 50%;
+  }
+  .box32{
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+  }
+  .lefttit3{
+    font-family: "SemiBold", sans-serif;
+    font-size: 28px;
+    width: 100%;
+  }
+  .line3{
+    border: 0.5px;
+    border-style: solid;
+    border-color: white;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .stxt3{
+    font-family: "SemiConReg", sans-serif;
+    font-size: 12px;
+    width: 100%;
+  }
+  .subsection3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    border-radius: 10px;
+    padding-bottom: 2rem;
+  }
+  .left32{
+    color: #433878;
+    padding-left: 2rem;
+    padding-top: 3rem;
+    padding-right: 6rem;
+  }
+  .tit32{
+    font-family: "SemiBold", sans-serif;
+    font-size: 40px;
+  }
+  .line32{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .stxt32{
+    font-family: "SemiConReg", sans-serif;
+    font-size: 16px;
+    color: black;
+    width: 91%;
+  }
+  .page4{
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  
+  .boxes4{
+    background-color: #FDFDFD;
+    padding-top: 1.5rem ;
+    padding-bottom: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  .boxtop4,.boxtop42{
+    display: flex;
+    flex-direction: row;
+  }
+  .boxtop42{
+    margin-top: 2.7rem;
+  }
+  .box41,.box42{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #ECEBFF;
+    padding-top: 1.5rem;
+    border-radius: 30px;
+    width: 48%;
+    height: 20rem;
+    box-shadow: 0px 3px 6px rgb(211, 211, 211);
+  }
+  .box42{
+    margin-left: auto;
+  }
+  .titb4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #D9D6FF;
+    color: #433878;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    font-family: "SemiBold",sans-serif;
+    width: 87%;
+    font-size: 17px;
+    padding: 1rem;
+  }
+  .img41{
+    height: 60px;
+    margin-right: 0.7rem;
+  }
+  .maincont4{
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    padding-left: 2rem;
+  }
+  .fakebutton{
+    background-color: #CBC7FA;
+    height: 15px;
+    width: 160px;
+    position: absolute;
+    bottom: 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    left: 35%;
+  }
+  
+  .contxt4{
+    font-family: "SemiConReg", sans-serif;
+    font-size: 18px;
+    width: 86%;
+  }
+  .lastpage {
+    margin-top: 2rem;
+    color: #433878;
+    background-color: #E5E3FF;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    border-radius: 16px;
+  }
+  .lasttit{
+    font-family: "SemiBold", sans-serif;
+    font-size: 50px;
+    margin-bottom: 0.6rem;
+  }
+  .but5{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #433878;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  .iconlast{
+    font-size: small;
+    margin-left: 0.2rem;
+  }
+  .bigbody{
+    width: 100%;
+  }
+  .page4{
+    margin-left: 2rem;
+    background-color: white;
+    margin-right: 2rem;
+    border-radius: 16px;
+    padding: 0;
+  }
+  .lastpage {
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    color: #433878;
+    background-color: #E5E3FF;
+    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
+    padding-left: 1.5rem;
+    border-radius: 16px;
+  }
+  .lasttit{
+    font-family: "SemiBold", sans-serif;
+    font-size: 30px;
+    margin-bottom: 0.6rem;
+  }
+  .con5{
+    width: 95%;
+  }
+  .but5{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    background-color: #433878;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+} 

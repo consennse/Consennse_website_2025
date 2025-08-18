@@ -92,6 +92,64 @@ const Pg10 = () => {
                 </div>
               </div>
             </div>
+            <div className = {style.box21hid}>
+              <div className={style.boxtop}>
+              <div className = {style.box1}>
+                <div className = {style.img1}> <Image src = {pfp} alt ="image" className={style.logo10}/>  </div>
+                <div className = {style.head1}>
+                  <h2>
+                  Urs Senn
+                  </h2>
+                  </div>
+                <div className={style.bod1}>{t('502')}</div>
+                <div className = {style.maincon1}><h3> {t('503')}</h3></div>
+                <div className = {style.icon}>
+                  <Link href="mailto:urs.senn@consennse.com" target="_blank" rel="noopener noreferrer">
+                   <Image src = {mail} alt = "email" className={style.mail} /> 
+                   </Link>
+                   </div>
+              </div>
+        
+              <div className = {style.box1}>
+                <div className = {style.img1}> <Image src = {pfp2} alt ="image" className={style.logo10}/>  </div>
+                <div className = {style.head1}>
+                  <h2>
+                  Anna Hormann</h2> </div>
+                <div className={style.bod1}>{t('504')}</div>
+                <div className = {style.maincon1}><h3>{t('505')}</h3> </div>
+                <div className = {style.icon}>
+                <Link href="mailto:servicedesk@consennse.com" target="_blank" rel="noopener noreferrer">
+                   <Image src = {mail} alt = "email" className={style.mail}/>
+                   </Link>
+                   </div>
+              </div>
+              </div>
+              <div className={style.boxtop}>
+              <div className = {style.box1}>
+                <div className = {style.img1}> <Image src = {pfp3} alt ="image" className={style.logo10}/>  </div>
+                <div className = {style.head1}> <h2>Balazs Rubicsek</h2> </div>
+                <div className={style.bod1}>{t('506')}</div>
+                <div className = {style.maincon1}><h3>{t('507')}</h3></div>
+                <div className = {style.icon}>
+                <Link href="mailto:balazs.rubicsek@consennse.com" target="_blank" rel="noopener noreferrer">
+                   <Image src = {mail} alt = "email" className={style.mail}/>
+                   </Link>
+                   </div>
+              </div>
+         
+              <div className = {style.box1}>
+                <div className = {style.img1}> <Image src = {pfp4} alt ="image" className={style.logo10}/>  </div>
+                <div className = {style.head1}><h2>Sarah Spandolf</h2> </div>
+                <div className={style.bod1}>{t('508')}</div>
+                <div className = {style.maincon1}> <h3>{t('509')} </h3></div>
+                <div className = {style.icon}> 
+                <Link href="mailto:sarah.spandolf@consennse.com" target="_blank" rel="noopener noreferrer">
+                <Image src = {mail} alt = "email" className={style.mail}/>
+                </Link>
+                </div>
+              </div>
+              </div>
+            </div>
           </div>
           <div className = {style.bottom}>
             <div className = {style.heading1}><h2>{t('510')}</h2></div>

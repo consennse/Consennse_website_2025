@@ -128,7 +128,7 @@ const Pg3 = () => {
               </div>
             </div>
             <div className = {style.l6}>
-            <div className = {style.fname1}>
+            <div className = {style.fname1o}>
               <div className = {style.fnametxt}>
                 <h2>
                 {t('100')}
