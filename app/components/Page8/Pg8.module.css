@@ -719,7 +719,7 @@ margin-left: 2.5rem;
 .union2{
   width: 75%;
 }
-@media (max-width: 786px){
+@media (max-width: 767px){
   .mainish{
     background-color: #F7F4FA;;
    }
@@ -1371,7 +1371,7 @@ margin-left: 2.5rem;
      width: 75%;
    }
 }
-@media (min-width :789px) and (max-width:1024px){
+@media (min-width :768px) and (max-width:1024px){
   .rigtbox3{
 width: 60%;
   }

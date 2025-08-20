@@ -819,7 +819,7 @@
   width: 32%;
   margin-left: 3rem;
 }
-@media (max-width:786px)
+@media (max-width:767px)
 {
   .mainbody {
     padding-top: 6rem;
@@ -1533,7 +1533,7 @@
   height: 390px !important;
 }
 }
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px){
   .box2img{
     width: 50%;
   }

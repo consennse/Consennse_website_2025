@@ -234,7 +234,7 @@ flex-direction: row;
   font-size: 14px;
   margin-left: 0.5rem;
 }
-@media (max-width :786px){
+@media (max-width :767px){
 
 .bod{
   background-color: #F7F4FA;
@@ -309,7 +309,7 @@ flex-direction: row;
 .right31mob{
   display: block;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .popupss {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -415,7 +415,7 @@ flex-direction: row;
   align-items: center;
 }
 }
-@media (min-width:767px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
   .img1{
     display: none;
   }

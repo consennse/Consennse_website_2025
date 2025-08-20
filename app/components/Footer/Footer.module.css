@@ -159,7 +159,7 @@ line-height: 0.25in;
  
   margin-left: auto;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   .main12{
     margin-top: 0rem;
     font-family: 'Font', sans-serif;
@@ -349,7 +349,7 @@ line-height: 0.25in;
     font-size: 13px;
   }
 }
-  @media (max-width: 768px){
+  @media (max-width: 767px){
     .main12{
       margin-top: 0rem;
       font-family: 'Font', sans-serif;
@@ -475,7 +475,7 @@ line-height: 0.25in;
       margin-left: 0;
     }
   }
-@media (min-width: 769px) and (max-width : 1024px){
+@media (min-width: 768px) and (max-width : 1024px){
 
     .main12{
       margin-top: 0rem;

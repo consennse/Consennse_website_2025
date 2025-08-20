@@ -124,7 +124,7 @@
     padding-top: 6rem;
   }
 }
-@media (max-width:786px){
+@media (max-width:767px){
   .main {
     font-family: "Font", sans-serif;
     margin-top: 6rem;
@@ -187,7 +187,7 @@
   }
 }
 
-@media (min-width:787px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
   .main {
     font-family: "Font", sans-serif;
     margin-top: 6rem;

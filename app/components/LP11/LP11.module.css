@@ -156,7 +156,7 @@ color: #433878;
   padding-left: 2.5rem;
   border-radius: 5px;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   .mainish{
     background-color: #f7f7fa;
     padding-bottom: 3rem;
@@ -247,7 +247,7 @@ color: #433878;
     border-radius: 5px;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .main11{
     padding-left: 2rem;
     height: max-content;

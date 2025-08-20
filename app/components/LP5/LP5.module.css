@@ -124,7 +124,7 @@
   margin-left: 1.3rem;
 }
 
-@media (max-width: 768px)  {
+@media (max-width: 767px)  {
   .mbody { 
     background-color: #f7f4fa;
     font-family: 'Font', sans-serif;
@@ -239,7 +239,7 @@
   }
   
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .top5{ 
     color: #433878;
    text-transform: uppercase;

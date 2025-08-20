@@ -397,7 +397,7 @@ flex-direction: row;
 .righttxt31{
   margin-top: 1.7rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .popupss {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -430,7 +430,7 @@ flex-direction: row;
   padding-left: 65%;
 }
 }
-@media (min-width:767px) and (max-width:1024px){
+@media (min-width:768px) and (max-width:1024px){
 .img1{
   display: none;
 }

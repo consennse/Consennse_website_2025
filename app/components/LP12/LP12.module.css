@@ -186,7 +186,7 @@ line-height: 0.2in;
   font-family: "BoldFont", sans-serif;
   margin-left: auto;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   .main12{
     font-family: 'Font', sans-serif;
     display: flex;

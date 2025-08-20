@@ -453,7 +453,7 @@ font-size: 22px;
   color: #433878;
   font-size: 15px;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
   @font-face {
     font-family: 'Font';
     src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
@@ -724,7 +724,7 @@ font-size: 22px;
     font-size: 12px;
   }
 }
-@media (min-width: 769px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px){
   @font-face {
     font-family: 'Font';
     src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */

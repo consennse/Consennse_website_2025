@@ -181,7 +181,7 @@ margin-top: 2rem;
   height: 45px;
   margin-top: 1.2rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 .Lp3{
   background-color: #f7f4fa;
   font-family: 'Font', sans-serif ;
@@ -277,7 +277,7 @@ margin-top: 2rem;
   margin-top: 0.3rem;
 }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .lpbox{ 
     display: flex;
     flex-direction: row;

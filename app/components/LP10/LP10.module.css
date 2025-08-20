@@ -150,7 +150,7 @@
   padding-left: 2.5rem;
   border-radius: 5px;
 }
-@media (max-width: 768px){
+@media (max-width: 767px){
  .llime{
   border: 0.5px;
   border-style: solid;
@@ -238,7 +238,7 @@
   border-radius: 5px;
 }
 }
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .main10{
     padding-left: 2rem;
   }
