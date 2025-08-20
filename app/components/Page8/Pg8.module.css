@@ -720,6 +720,9 @@ margin-left: 2.5rem;
   width: 75%;
 }
 @media (max-width: 767px){
+  .hidden1{
+    display: none;
+  }
   .mainish{
     background-color: #F7F4FA;;
    }

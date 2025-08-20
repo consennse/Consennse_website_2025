@@ -51,12 +51,16 @@
   background-color: #F7F4FA;
 }
 @media (min-width:1440px){
+ 
   .mainbod{
     width:1440px;
     margin: auto;
   }
   .maincon{
     padding-bottom: 0rem;
+  }
+  .boxess2{
+    display: none !important;
   }
 }
 .mainbod{
@@ -454,6 +458,9 @@ font-size: 22px;
   font-size: 15px;
 }
 @media (max-width: 767px){
+  .boxess2{
+    display: none;
+  }
   @font-face {
     font-family: 'Font';
     src: url('/fonts/NotoSans-VariableFont_wdth,wght.ttf') format('truetype'); /* Adjust format as needed */
