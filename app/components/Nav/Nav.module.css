@@ -659,7 +659,7 @@ padding-bottom: 0.5rem;
   }
   .rightside {
     position: absolute; 
-    right: 22;
+    right: 22px !important;
     display: flex;
     flex-direction: row;
   }
@@ -819,7 +819,7 @@ padding-bottom: 0.5rem;
   }
   .rightside {
     position: absolute; 
-    right: 22;
+    right: 22px !important;
     display: flex;
     flex-direction: row;
   }
