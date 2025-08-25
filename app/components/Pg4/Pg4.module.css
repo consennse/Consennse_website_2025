@@ -1044,13 +1044,16 @@ font-size: 22px;
     font-weight: normal;
     font-style: normal;
   }
+  .newheaddesc{
+    font-size: 20px;
+  }
   .tick3{
     width: 100%;
     display: flex;
     flex-direction: row;
   }
   .tick1,.tick2,.tick3{
-    font-size: 13px;
+    font-size: 15px;
   }
   .tick211{
     display: flex;
@@ -1088,7 +1091,7 @@ font-size: 22px;
   }
   .lasttit{
     font-family: "SemiBold", sans-serif;
-    font-size: 25px;
+    font-size: 40px;
     margin-bottom: 0.6rem;
   }
   .but5{
@@ -1138,13 +1141,13 @@ font-size: 22px;
   .bottop {
     
     color: #252525;
-    font-size: 14px;
+    font-size: 16px;
     text-transform: uppercase; 
   }
   .botmid{
     font-family: 'SemiBoldFont', sans-serif;
     color: #433878;
-    font-size: 30px;
+    font-size: 45px;
     margin-top: 1rem;
     margin-bottom: 0.7rem;
   }
@@ -1157,9 +1160,9 @@ font-size: 22px;
     color: #433878;
   }
   .botbot{
-    font-family: 'SemiConFont' , sans-serif;
+    font-family: 'Regular' , sans-serif;
     width: 90%;
-    font-size: 14px;
+    font-size: 20px;
     margin-top: 0.7rem;
     margin-bottom: 3.5rem;
   }
@@ -1204,16 +1207,16 @@ font-size: 22px;
     font-family: 'BoldFont', sans-serif;
   }
   .down{
-    font-size: 13px;
+    font-size: 15px;
     width: 100%;
     color: #6355C3;
   }
   .down1{
-    font-size: 13px;
+    font-size: 15px;
     width: 90%;
   }
   .down3{
-    font-size: 13px;
+    font-size: 15px;
     width: 100%;
   }
   .donlin{
@@ -1298,12 +1301,12 @@ font-size: 22px;
 
 
   .st{
-    font-weight: 400;
+   
     margin-top: 2rem;
     color: #433878;
-    font-size: 12px;
+    font-size: 14px;
   }
   .st2{
-    font-size: 12px;
+    font-size: 14px;
   }
 }
