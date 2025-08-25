@@ -328,3 +328,134 @@ color: #433878;
     padding-right: 1rem;
   }
 }
+@media (min-width:1025px) and (max-width:1439px){
+  .ofc{
+    height: 230px;
+    width: auto;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 5%;
+ 
+  }
+  .top11{
+    background-color: white;
+    padding-left: 2.5rem;
+    padding-top: 1rem;
+    background-color: #433878;
+    padding-bottom: 2rem;
+  }
+  .mainish{
+      background-color: #f7f4fa;
+  }
+  .main11 {
+    padding-top: 2rem;
+    font-family: 'Font', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    background-color: white;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    height: max-content;
+  }
+  .left11{
+    width: 65%;
+    padding-left: 48px;
+    margin-left: 1.65rem;
+  }
+
+  .right11{
+    width: 45%;
+    padding-left: 3rem;
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    padding-left: 0;
+  }
+  .llime{
+    border: 0.5px;
+    border-style: solid;
+    border-color: white;
+    width: 20%;
+  }
+  .newline9{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  .lefttop9{ 
+    font-family: "SemiConBold", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+  }
+  .lefttit9 {
+    font-family: "SemiBold", sans-serif;
+    font-size:52px;
+    color: white;
+  
+  }
+  
+  .righttop9{
+    color: #433878;
+    text-transform: uppercase;
+    font-family: "SemiConBold", sans-serif;
+    font-size: 16px;
+    margin-bottom: 0.8rem;
+  }
+  .righttit9 {
+    font-family: "SemiBold", sans-serif;
+    font-size:41px;
+    color: #433878;
+    margin-bottom: 0.5rem;
+  }
+  .rightmc {
+    font-family: "Regular", sans-serif;
+    font-size: 16px;
+    width: 85%;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+  }
+  .rightbut9{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #433878;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    width: 200px;
+    height: 50px;
+    padding-left: 2.5rem;
+    border-radius: 5px;
+  }
+  .mainline{
+    border: 0.5px;
+    border-style: solid;
+    border-color: #433878;
+    height: 260px;
+    margin-right: 3%;
+    margin-left: 0%;
+  }
+}
+@media (min-width:1025px) and (max-width:1114px){
+  .ofc{
+    height: 270px;
+    width: auto;
+    margin: auto;
+    object-fit: cover;
+    margin-top: 5%;
+ 
+  }
+}

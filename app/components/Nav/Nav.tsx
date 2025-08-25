@@ -154,12 +154,13 @@ const closeDropdown2 = () => setDropdownVisible2(false);
             
           </div>
         
-          <Link href='/content/contact'>
+         
+<div className = {styles.rightside}>
+<Link href='/content/contact'>
               <div className={styles.con}>
                 {t('6')}
               </div>
             </Link>
-<div className = {styles.rightside}>
       <div className={styles.languageWrapper}>
   <div className={styles.languageChanger} onClick={toggleDropdown}
     onMouseEnter={openDropdown}

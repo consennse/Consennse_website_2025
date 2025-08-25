@@ -4,6 +4,19 @@
   font-weight: normal;
   font-style: normal;
 }
+@media (min-width:1025px) and (max-width:1439px){
+  .con{
+    margin-left: 0rem !important;
+  }
+  .top{
+    /* display: flex !important;  */
+    width: 100vw !important;
+  }
+
+  .rightside{
+    position: absolute;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .broimg{
     height: 18px;
@@ -286,7 +299,7 @@
   padding-left: 2.5rem; 
   padding-right: 1rem;
   font-weight: 500;
-  padding-bottom: 0.5rem;
+  padding-bottom: 1rem;
   cursor: pointer;
   width: 100%;
   transition: top 0.3s ease; /* Smooth hide/show effect */
@@ -376,10 +389,16 @@ padding-bottom: 0.5rem;
   width:max-content;
   overflow-wrap: break-word;
 }
+.rightside{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  right: 22px;
+}
 .con {
 margin-top: 1rem;
   margin-right: 0rem;
-  margin-left: 28rem;;
+  margin-left: 0rem;;
   overflow-wrap: break-word;
   background-color: #433878;
   color: white;
@@ -441,14 +460,19 @@ padding-bottom: 0.5rem;
   transition: transform 5s ease;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1441px) {
   .top{
     width: 100%;
   }
   .fordesk{
     width: 1440px;
     margin: auto;
-    padding-left:3rem;
+    padding-left:0rem;
+    
+  }
+  .rightside{
+    position: relative;
+    margin-left: auto;
   }
   .right{
     margin-left: 0rem;
