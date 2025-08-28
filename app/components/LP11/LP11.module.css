@@ -310,12 +310,15 @@ color: #433878;
   .right11{
     width: 50%;
   padding-right: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
   }
   .ofc{
-    height: 260px;
-    
-    margin: auto;
+    height: 210px;
+    margin-bottom: auto;
+   margin-top: auto;
     width: auto;
+    object-fit: cover;
   }
   .llime{
 

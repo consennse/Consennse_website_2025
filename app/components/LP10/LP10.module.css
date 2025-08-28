@@ -299,13 +299,16 @@
     margin-left: 0%;
   }
   .right10{
+    margin-top:auto;
+    margin-bottom: auto;
     width: 50%;
   padding-right: 32px;
   }
   .ofc{
-    height: 270px;
+    height: 210px;
     width: auto;
-    margin: auto;
+   margin-top:auto;
+   margin-bottom: auto;
     object-fit: cover;
     
   }

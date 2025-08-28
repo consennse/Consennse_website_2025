@@ -9,8 +9,14 @@
   .mg2{
     height: 100%;
     width: auto;
+    object-fit: cover;
+    margin-top: auto;
     
-    
+  }
+  .midbimg{
+margin-top: auto;
+margin-bottom: auto;
+    height: 100%;
   }
 }
 
