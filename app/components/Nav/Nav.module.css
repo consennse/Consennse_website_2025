@@ -197,6 +197,7 @@
 }
 .navmain {
   cursor: pointer;
+  position: sticky;
 }
 
 .sol {

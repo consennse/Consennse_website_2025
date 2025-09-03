@@ -1,6 +1,6 @@
 "use client"; // Ensure the component runs on the client side
 import Link from 'next/link';
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { usePathname } from 'next/navigation'; // Import usePathname hook
 import styles from "./Nav.module.css";
 import Image from 'next/image';
@@ -40,26 +40,60 @@ const closeDropdown2 = () => setDropdownVisible2(false);
 
   const pathname = usePathname(); // Access the current pathname using usePathname
 
-  let lastScrollY = 0;
+
 
   // Handle navbar visibility on scroll
+  const lastScrollYRef = useRef<number>(0);
+
+  // NEW: track if we're on desktop
+  const [isDesktop, setIsDesktop] = useState(false);
+
+  // Setup a matchMedia listener once
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
+    const mq = window.matchMedia('(min-width: 1025px)');
+    const handleChange = () => setIsDesktop(mq.matches);
 
-      if (currentScrollY > lastScrollY) {
-        setIsHidden(true); // Scrolling down
-      } else {
-        setIsHidden(false); // Scrolling up
-      }
+    // initialize
+    handleChange();
 
-      lastScrollY = currentScrollY;
+    // add/remove listener (handles older browsers too)
+    if (mq.addEventListener) mq.addEventListener('change', handleChange);
+    else mq.addListener(handleChange);
+
+    return () => {
+      if (mq.removeEventListener) mq.removeEventListener('change', handleChange);
+      else mq.removeListener(handleChange);
     };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Desktop-only hide/show on scroll
+  useEffect(() => {
+    if (!isDesktop) {
+      // On phones/tablets: always visible, no listener
+      setIsHidden(false);
+      return;
+    }
+
+    const onScroll = () => {
+      const curr = window.scrollY || 0;
+
+      // Hide when scrolling down, show when scrolling up
+      if (curr > lastScrollYRef.current) {
+        setIsHidden(true);
+      } else {
+        setIsHidden(false);
+      }
+
+      lastScrollYRef.current = curr;
+    };
+
+    window.addEventListener('scroll', onScroll, { passive: true });
+
+    // Also reset last scroll when entering desktop
+    lastScrollYRef.current = window.scrollY || 0;
+
+    return () => window.removeEventListener('scroll', onScroll);
+  }, [isDesktop]);
 
 
  
