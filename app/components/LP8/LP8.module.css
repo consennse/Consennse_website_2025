@@ -60,6 +60,10 @@
   font-weight: 1000;
   font-style: normal;
 }
+.mc18{
+  height: 90px;
+}
+
 .main8 {
   background-color: #f7f4fa;
   font-family: 'Font' , sans-serif;
@@ -116,6 +120,7 @@
   font-family: "Regular", sans-serif;
   font-size: 15px;
   margin-bottom: 1.8rem;
+ 
 }
 .button6{
   display: flex;
