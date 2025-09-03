@@ -169,7 +169,7 @@
   display: grid;
   grid-template-rows: repeat(3, 1fr); /* 3 equal columns */
   grid-template-columns: auto; /* Rows adjust to content height */
-  gap: 40px; /* Space between grid items */
+  gap: 15px; /* Space between grid items */
   height: max-content;
   margin-right: 2rem;
   width: 85%;
@@ -183,6 +183,7 @@
   font-family: "Regular", sans-serif
   ;
   font-size: 15px;
+  height:92px ;
 }
 .ctxt1{ 
   color: #433878;
