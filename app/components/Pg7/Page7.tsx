@@ -149,7 +149,7 @@ const Page7 = () => {
             <div className={style.stxt3}>{t('200')}</div>
           </div>
           <div className = {style.right31}>
-            <Image src = {img13} alt = "website" className = {style.img131}/>
+            <Image src = {img13} alt = "website" className = {style.img131b}/>
           </div>
         </div>
         <div className = {style.box32}>

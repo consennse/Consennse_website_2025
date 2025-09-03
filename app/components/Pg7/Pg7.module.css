@@ -1174,7 +1174,17 @@ padding-left: 20%;
     margin-left: auto;
     margin-right: auto;
   }
+  .img131b{
+    height: 78%;
+    width: auto;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
 
+    align-items: center;
+    justify-content: center;
+  }
   .img1{
     width: 50%;
     height: auto;
@@ -1680,7 +1690,7 @@ padding-left: 20%;
   width: auto;
 
   }
-  .img131{
+  .img131,.img131b{
     height: 100%;
     width: auto;
     object-fit: contain;
