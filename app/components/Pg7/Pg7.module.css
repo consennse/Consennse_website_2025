@@ -1164,15 +1164,20 @@ padding-left: 20%;
     height: 100%;
     border-radius: 0px;
   width: auto;
+  object-fit: cover;
 
   }
   .img131{
-    height: 100%;
+    height: 90%;
     width: auto;
-    object-fit: contain;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
   }
+
   .img1{
     width: 50%;
+    height: auto;
   }
   .right1{
     width: 50%;
@@ -1276,12 +1281,12 @@ padding-left: 20%;
   .botbutt2{
     background-color: #CBC7FA;
     height: 13px;
-    width: 100px;
+    width: 95px;
     position: absolute;
     bottom: 0;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    left: 27.5%;
+    left: 32%;
   }
   .bar2{
     background-color: #CBC7FA;
