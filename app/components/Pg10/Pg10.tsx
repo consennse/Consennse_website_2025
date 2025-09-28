@@ -23,6 +23,8 @@ import logo9 from "./Moser Anlageimmobilien AG 1.svg"
 import logo10 from "./NAR - Logo 1.svg"
 import logo11 from "./Nova Casa 1.svg"
 import logo12 from "./logo-website-swiss-homes 1.svg"
+import logo13 from "./MVI - Logo - 900px.jpg"
+import logo14 from "./ROU - Logo.png"
 const Pg10 = () => {
   const {t} = useTranslation();
   return (
@@ -241,12 +243,14 @@ const Pg10 = () => {
               <div className = {style.logoimg}> <Image src = {logo6} alt = "logo" className={style.logo40}/> </div>
               <div className = {style.logoimg}> <Image src = {logo7} alt = "logo" className={style.logo60}/> </div>
               <div className = {style.logoimg3}> <Image src = {logo8} alt = "logo" className={style.logo40}/> </div>
+              <div className = {style.logoimg}> <Image src = {logo13} alt = "logo" className={style.logo90}/> </div>
             </div>
             <div className = {style.row}>
             <div className = {style.logoimg}> <Image src = {logo9} alt = "logo" className={style.logo40}/> </div>
               <div className = {style.logoimg1}> <Image src = {logo10} alt = "logo"className={style.logo40}/> </div>
               <div className = {style.logoimg}> <Image src = {logo11} alt = "logo"className={style.logo70}/> </div>
               <div className = {style.logoimg}> <Image src = {logo12} alt = "logo"className={style.logo80}/> </div>
+              <div className = {style.logoimg}> <Image src = {logo14} alt = "logo" className={style.logo100}/> </div>
             </div>
           </div>
           </div>

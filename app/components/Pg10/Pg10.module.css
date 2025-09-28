@@ -243,6 +243,7 @@
   align-items: center;
   width: 100%;
   gap: 1rem;
+  
 }
 .logoimg,.logoimg1,.logoimg3{
   width: 100%;
@@ -256,6 +257,16 @@
 }
 .logo40{
   height: 105px;
+}
+.logo90{
+  height: 105px;
+  width: 220px;
+  object-fit: contain;
+  margin: auto;
+}
+.logo100{
+  width: 200px;
+  margin: auto;
 }
 .logo70{
   width: 195px;
@@ -440,7 +451,7 @@ margin-left: 4rem;
   }
   .logoimg,.logoimg1,.logoimg3{
     width: 100%;
-    height: 100px;
+    height: 110px;
   }
   .logoimg1{
     padding-left: 0rem;
@@ -453,6 +464,7 @@ margin-left: 4rem;
     margin: auto;
   }
   .logo60{
+    margin: auto;
     height: 130px;
   }
   .logo70{
@@ -462,6 +474,9 @@ margin-left: 4rem;
   .logo80{
     margin: auto;
     margin-top: 1rem;
+  }
+  .logo90,.logo100{
+    margin: auto;
   }
  }
  @media (min-width:768px) and (max-width:1024px){
@@ -536,6 +551,20 @@ margin-left: 4rem;
     flex-direction: column;
     gap: 2rem;
     width: 50%;
+  }
+  .logo90{
+    height: 70px;
+   
+    margin-top: 1rem;
+
+    align-items: center;
+  }
+  .logoimg{
+    align-items: center;
+    justify-content: center;
+  }
+  .logo100{
+    margin: auto;
   }
   .box1{ 
     width: 50%;
