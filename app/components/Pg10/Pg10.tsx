@@ -13,7 +13,6 @@ import shreya from "./Shreya Bhoir - 400px.png"
 import wong from "./James Wong - 400px.png"
 import james from "./JAMES - 400PX.png"
 import Image from 'next/image';
-import mail from "./Group 1597885675-2.svg"
 import logo1 from "./Frame 1249186730-21.svg"
 import logo2 from "./Frame 1249186730-22.svg"
 import logo3 from "./Markstein AG 1.svg"
