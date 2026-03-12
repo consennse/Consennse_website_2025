@@ -15,6 +15,9 @@
 .box21hid{
   display: none;
 }
+.box21hid1{
+  display: none;
+}
 
 @font-face {
   font-family: 'Medium';
@@ -71,6 +74,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .body{
   background-color:#F7F4FA;
 }
@@ -108,12 +112,31 @@
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+
   padding: 2rem;
+  padding-bottom: 1rem;
   border-radius: 16px;
   gap:1rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 
 }
+.boxmid1{
+
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+
+  margin-bottom: 2rem;
+  padding: 2rem;
+  padding-top: 1rem;
+  border-radius: 16px;
+  gap:1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+
+}
+
 .boxes2{
   background-color: white;
   display: flex;
@@ -130,7 +153,10 @@
   flex-direction: row;
   gap: 2rem;
 }
-.box1{ 
+.box1hide{
+  visibility: hidden;
+}
+.box1,.box1hide,.box1hid11{ 
   background-color: #ECEBFF;
   border-radius: 20px;
   padding: 1.2rem;
@@ -143,6 +169,7 @@
   box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
   width: 100%;
 }
+
 .logo10{
   border-radius: 300px;
   height: 99%;
@@ -320,11 +347,30 @@ margin-left: 4rem;
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     padding: 1.5rem;
+    padding-bottom: 0.75rem;
     border-radius: 16px;
     gap:1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
   }
+  .boxmid1{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    padding-top: 0.75rem;
+    border-radius: 16px;
+    gap:1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+.box1hide{
+  display: none;
+}
   .boxes2{
     background-color: white;
     display: flex;
@@ -342,6 +388,19 @@ margin-left: 4rem;
     gap: 2rem;
   }
   .box1{ 
+    background-color: #ECEBFF;
+    border-radius: 20px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
+  }
+  .box1hid11{
+    display: none;
     background-color: #ECEBFF;
     border-radius: 20px;
     padding: 1.2rem;
@@ -492,6 +551,9 @@ margin-left: 4rem;
     padding-right: 1.5rem;
   
   }
+  .boxmid1{
+    display: none;
+  }
   .heading1{
     font-family: "SemiBold", sans-serif;
     color: #433878;
@@ -515,10 +577,26 @@ margin-left: 4rem;
     flex-direction: column;
     background-color: white;
     margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     padding: 1.5rem;
+    padding-bottom: 0.75rem;
     border-radius: 16px;
     gap:1.5rem;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .box21hid1{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    padding-top: 0.75rem;
+    border-radius: 16px;
+    gap:1.5rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
   .boxtop{
   display: flex;
@@ -566,7 +644,7 @@ margin-left: 4rem;
   .logo100{
     margin: auto;
   }
-  .box1{ 
+  .box1,.box1hid11{ 
     width: 50%;
     background-color: #ECEBFF;
     border-radius: 20px;
@@ -579,6 +657,9 @@ margin-left: 4rem;
     padding-bottom: 2rem;
     box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
   }
+.box1hid11{
+  visibility: hidden;
+}
   .logo10{
     height: 210px;
   }
@@ -786,6 +867,20 @@ margin-left: 4rem;
     width: 50%;
   }
   .box1{ 
+    width: 50%;
+    background-color: #ECEBFF;
+    border-radius: 20px;
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-shadow: rgb(198, 198, 198) 2px 4px 6px 0px;
+  }
+  .box1hid11{
+    display: none;
     width: 50%;
     background-color: #ECEBFF;
     border-radius: 20px;
