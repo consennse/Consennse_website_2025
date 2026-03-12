@@ -37,7 +37,7 @@ const CookieConsent = () => {
     >
       <div style={{ margin: 0 }} className = {style.para}>
         {t('453')} 
-        <Link href = '/users/PrivacyPolicy'>
+        <Link href = '/content/privacypolicy'>
         <div className = {style.para2}>{t('454')}</div>
         </Link>
       </div>
