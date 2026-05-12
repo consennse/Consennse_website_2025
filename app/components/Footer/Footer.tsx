@@ -6,18 +6,22 @@ import st12 from "./Footer.module.css"
 import { useTranslation } from 'react-i18next';
 import Link from 'next/link';
 import { useState } from 'react';
+import Frame from "./Frame.png"
 import { FaChevronRight } from 'react-icons/fa';
 import { FormEvent, ChangeEvent } from 'react';
 const Footer = () => {
   const {t,i18n} = useTranslation();
   const [open, setOpen] = useState(false);
+  const [successPopup, setSuccessPopup] = useState(false);
   const [formData, setFormData] = useState({
     Fname: "",
     Lname: "",
     email: "",
     consent: false,
+
   });
 
+  
   const [loading, setLoading] = useState(false);
 
   const handleChange = (
@@ -69,6 +73,11 @@ const Footer = () => {
           consent: false,
         });
         setOpen(false)
+        setSuccessPopup(true);
+        setTimeout(() => {
+          setSuccessPopup(false);
+        }, 2500);
+        
       } else {
         console.log(data.error || "Something went wrong");
       }
@@ -175,9 +184,73 @@ const Footer = () => {
                 <FaChevronRight/> </div>
               </button>
             </form>
+
+
           </div>
         </div>
       )}
+                  {successPopup && (
+  <>
+    <div
+      className={st12.popupss}
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        borderRadius: "10px",
+        position: "fixed",
+        top: "50%",
+        left: "50%",
+        transform: "translate(-50%, -50%)",
+        backgroundColor: "white",
+        padding: "20px",
+        boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
+        zIndex: 1000,
+        paddingLeft: "4rem",
+        paddingRight: "4rem",
+        textAlign: "center",
+        color:"#433878"
+      }}
+    >
+      <Image
+        src={Frame}
+        alt="tick"
+        height={50}
+      />
+
+      <h2
+        style={{
+          fontSize: "17px",
+          fontWeight: "600",
+          marginTop: "0.8rem",
+        }}
+      >
+        {i18n.language === "de"
+          ? "Vielen Dank!"
+          : "Thank You!"}
+      </h2>
+
+      <p style={{ fontSize: "12px" }}>
+        {i18n.language === "de"
+          ? "Sie haben sich erfolgreich für den Newsletter angemeldet."
+          : "You have successfully subscribed to the newsletter."}
+      </p>
+    </div>
+
+    <div
+      style={{
+        position: "fixed",
+        top: 0,
+        left: 0,
+        width: "100%",
+        height: "100%",
+        backgroundColor: "rgba(0, 0, 0, 0.5)",
+        zIndex: 999,
+      }}
+      onClick={() => setSuccessPopup(false)}
+    />
+  </>
+)}
 
       <div className = {st12.img12} >
       <Link href = "https://www.linkedin.com/company/consennse"   target="_blank" 

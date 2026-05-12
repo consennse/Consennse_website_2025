@@ -34,6 +34,7 @@ const Pg2 = () => {
       [name]: value,
     }));
   };
+  
 
   // const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
   //   const { name, value } = e.target;
