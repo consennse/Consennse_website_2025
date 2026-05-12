@@ -126,7 +126,9 @@
   color: #433878;
   cursor: pointer;
 }
-
+.bots112:hover{
+  cursor: pointer;
+}
 .totle{
   font-family: "SemiBold", sans-serif;
   color: black;
