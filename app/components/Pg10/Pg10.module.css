@@ -291,6 +291,12 @@
   object-fit: contain;
   margin-left:3.7rem;
 }
+.logo901{
+  height: 105px;
+  width: 145px;
+  object-fit: contain;
+  margin-left:3.7rem;
+}
 .logo100{
   width: 200px;
   margin: auto;
@@ -537,9 +543,10 @@ margin-left: 4rem;
   .logo100{
     margin: auto;
   }
-  .logo90{
+  .logo90,.logo901{
     margin-left: 5.3rem;
   }
+  
  }
  @media (min-width:768px) and (max-width:1024px){
   .body{
@@ -633,7 +640,7 @@ margin-left: 4rem;
     gap: 2rem;
     width: 50%;
   }
-  .logo90{
+  .logo90,.logo901{
     height: 70px;
    margin-left: 9rem;
     margin-top: 1rem;

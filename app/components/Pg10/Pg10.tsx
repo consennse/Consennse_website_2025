@@ -399,7 +399,7 @@ James Ibañez
     <Image
       src={logoEnglish}
       alt="English Logo"
-      className={style.logo90}
+      className={style.logo901}
     />
   )}
 </div>
