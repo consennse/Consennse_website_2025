@@ -287,9 +287,9 @@
 }
 .logo90{
   height: 105px;
-  width: 220px;
+  width: 200px;
   object-fit: contain;
-  margin-left: auto;
+  margin-left:3.7rem;
 }
 .logo100{
   width: 200px;
@@ -538,7 +538,7 @@ margin-left: 4rem;
     margin: auto;
   }
   .logo90{
-    margin-left: 4.7rem;
+    margin-left: 5.3rem;
   }
  }
  @media (min-width:768px) and (max-width:1024px){
