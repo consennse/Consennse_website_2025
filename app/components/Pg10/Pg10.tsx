@@ -27,7 +27,7 @@ import logo9 from "./Moser Anlageimmobilien AG 1.svg"
 import logo10 from "./NAR - Logo 1.svg"
 import logo11 from "./Nova Casa 1.svg"
 import logo12 from "./logo-website-swiss-homes 1.svg"
-import logo13 from "./MVI - Logo - 900px.jpg"
+
 import logo14 from "./ROU - Logo.png"
 import {Mail} from "lucide-react"
 const Pg10 = () => {
