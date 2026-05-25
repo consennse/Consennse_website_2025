@@ -289,7 +289,7 @@
   height: 105px;
   width: 220px;
   object-fit: contain;
-  margin: auto;
+  margin-left: auto;
 }
 .logo100{
   width: 200px;
@@ -534,8 +534,11 @@ margin-left: 4rem;
     margin: auto;
     margin-top: 1rem;
   }
-  .logo90,.logo100{
+  .logo100{
     margin: auto;
+  }
+  .logo90{
+    margin-left: 4.7rem;
   }
  }
  @media (min-width:768px) and (max-width:1024px){
@@ -634,7 +637,7 @@ margin-left: 4rem;
     height: 70px;
    
     margin-top: 1rem;
-
+    
     align-items: center;
   }
   .logoimg{

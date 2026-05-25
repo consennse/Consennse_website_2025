@@ -3,6 +3,8 @@ import React from 'react'
 import style from "./Pg10.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
+import logoGerman from "./text_only_logo_de.svg"
+import logoEnglish from "./text_only_logo_en.svg"
 import { useTranslation } from 'react-i18next'
 import Link from 'next/link';
 import pfp from "./Urs Senn.png"
@@ -30,6 +32,7 @@ import logo14 from "./ROU - Logo.png"
 import {Mail} from "lucide-react"
 const Pg10 = () => {
   const {t} = useTranslation();
+  const { i18n } = useTranslation();
   return (
     <div className={style.body}>
         <Nav/>
@@ -385,7 +388,21 @@ James Ibañez
               <div className = {style.logoimg}> <Image src = {logo6} alt = "logo" className={style.logo40}/> </div>
               <div className = {style.logoimg}> <Image src = {logo7} alt = "logo" className={style.logo60}/> </div>
               <div className = {style.logoimg3}> <Image src = {logo8} alt = "logo" className={style.logo40}/> </div>
-              <div className = {style.logoimg}> <Image src = {logo13} alt = "logo" className={style.logo90}/> </div>
+              <div className={style.logoimg}>
+  {i18n.language.startsWith("de") ? (
+    <Image
+      src={logoGerman}
+      alt="German Logo"
+      className={style.logo90}
+    />
+  ) : (
+    <Image
+      src={logoEnglish}
+      alt="English Logo"
+      className={style.logo90}
+    />
+  )}
+</div>
             </div>
             <div className = {style.row}>
             <div className = {style.logoimg}> <Image src = {logo9} alt = "logo" className={style.logo40}/> </div>
