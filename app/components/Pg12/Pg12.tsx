@@ -68,7 +68,7 @@ const faqs = [
       "After launch, ongoing costs depend on your setup. Hosting is typically covered by your chosen platform or infrastructure provider. If your CMS requires a commercial license, renewal fees apply annually. We provide a transparent cost breakdown during the project so there are no surprises.",
   },
   {
-    question: "I don&apos;t have Propertybase. Can I still use WEBSITE for Propertybase?",
+    question: "I don't have Propertybase. Can I still use WEBSITE for Propertybase?",
     answer:
       "Ongoing costs may include hosting, domain registration, CMS licensing, and optional maintenance.",
   },
