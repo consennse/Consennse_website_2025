@@ -3,7 +3,7 @@ import React from 'react'
 import style from "./pg12.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
-import { useTranslation } from 'react-i18next'
+// import { useTranslation } from 'react-i18next'
 import { useState } from 'react';
 import Image from 'next/image';
 import { Zap } from "lucide-react";
