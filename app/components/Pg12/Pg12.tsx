@@ -68,7 +68,7 @@ const faqs = [
       "After launch, ongoing costs depend on your setup. Hosting is typically covered by your chosen platform or infrastructure provider. If your CMS requires a commercial license, renewal fees apply annually. We provide a transparent cost breakdown during the project so there are no surprises.",
   },
   {
-    question: "I don't have Propertybase. Can I still use WEBSITE for Propertybase?",
+    question: "I don&apos;t have Propertybase. Can I still use WEBSITE for Propertybase?",
     answer:
       "Ongoing costs may include hosting, domain registration, CMS licensing, and optional maintenance.",
   },
@@ -85,7 +85,7 @@ const Pg12 = () => {
         : [...prev, index]
     );
   };
-  const {t} = useTranslation();
+  // const {t} = useTranslation();
   return (
     <div className={style.body}>
     <Nav/>
@@ -452,7 +452,7 @@ Turn your website into an active part of your sales process. High performance, m
 </div>
 <div className = {style.maint6}>Turn visitors into qualified leads — automatically.
 </div>
-<div className = {style.lcont6}>Let visitors define exactly what they're looking for — region, city, property type, bedrooms, budget, and lifestyle features. Their preferences are captured directly in Propertybase, and they receive a weekly digest of new matching listings.
+<div className = {style.lcont6}>Let visitors define exactly what they&apos;re looking for — region, city, property type, bedrooms, budget, and lifestyle features. Their preferences are captured directly in Propertybase, and they receive a weekly digest of new matching listings.
 </div>
 <div className = {style.pts6}>
   <div className = {style.pt1}>
@@ -525,7 +525,7 @@ Turn your website into an active part of your sales process. High performance, m
      </div>
      <div className = {style.main8}>
       <div className = {style.maint8}>Turn your website into a lead machine.</div>
-      <div className = {style.subt8}>Let's build a website that not only looks great but actively supports your sales and marketing processes in Propertybase.</div>
+      <div className = {style.subt8}>Let&apos;s build a website that not only looks great but actively supports your sales and marketing processes in Propertybase.</div>
       
       <div className = {style.button8}>
       <Link href="/content/contact">
