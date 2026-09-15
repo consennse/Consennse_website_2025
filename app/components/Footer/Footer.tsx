@@ -85,6 +85,11 @@ const Footer = () => {
           EXPOSE for Propertybase
           </Link>
           </div>
+          <div className = {st12.bots22}>
+          <Link href = '/content/website'>
+          WEBSITE for Propertybase
+          </Link>
+          </div>
       </div>
       <div className={st12.bot2}>
         <div className = {st12.bots21}>{t('85')}</div>
