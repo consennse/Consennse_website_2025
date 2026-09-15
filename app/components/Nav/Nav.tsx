@@ -175,6 +175,12 @@ const closeDropdown2 = () => setDropdownVisible2(false);
         <Image src={icon} alt="icon" height={9} className={styles.broimg}  />
         </div>
       </li>
+      <li className={`${styles.eE} ${isActiveLink('/content/website') || isActiveLink('/de/content/website')}`}>
+        <Link href="/content/website">WEBSITE for Propertybase</Link>
+        <div className = {styles.icon1}>
+        <Image src={icon} alt="icon" height={9} className={styles.broimg}  />
+        </div>
+      </li>
     </ul>
   </div>
 )}
@@ -303,7 +309,12 @@ const closeDropdown2 = () => setDropdownVisible2(false);
                   <FontAwesomeIcon icon={faArrowUpRightFromSquare}className={styles.rightdiag}  />
                   </Link>
                   </li>
-
+                  <li className={`${styles.serv3} ${isActiveLink2('/content/website') || isActiveLink2('/de/content/website')}`}>
+              <Link href="/content/website">
+                    WEBSITE for Propertybase 
+                  <FontAwesomeIcon icon={faArrowUpRightFromSquare}className={styles.rightdiag}  />
+                  </Link>
+                  </li>
                   
                 </ul>
               )}
