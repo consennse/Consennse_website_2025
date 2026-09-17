@@ -106,11 +106,25 @@ const Pg12 = () => {
       <div className = {style.dottext}>WEBSITE FOR PROPERTYBASE </div>
       </div>
       <div className={style.hellotxt}>
-  <div>Your real estate website —</div>
-  <div>
-    <span className={style.midtext}>fully connected</span> to
-  </div>
-  <div>Propertybase.</div>
+
+<div>
+  Your real
+  <br className={style.mobileBreak} />
+  estate website
+  <span className={style.desktopDash}> —</span>
+</div>
+
+<div>
+  <span className={style.mobileDash}>— </span>
+  <span className={style.midtext}>fully</span>
+  <br className={style.mobileBreak} />
+  <span className={style.midtext}>connected</span> to
+</div>
+
+<div>
+  Propertybase.
+</div>
+
 </div>
 <div className = {style.mainheading}>
 We design and develop modern real estate websites that integrate seamlessly with Propertybase. Publish listings automatically, capture leads, and manage inquiries directly in your CRM — without manual work or duplicate data.
@@ -129,6 +143,7 @@ We design and develop modern real estate websites that integrate seamlessly with
       </div>
       </div>
       </div>
+      <div className = {style.section2}>
       <div className = {style.main2}> 
       <div className={style.left}>
         <div className={style.lefttit1}>
@@ -148,6 +163,8 @@ Turn your website into an active part of your sales process. High performance, m
           </div>
         </div>
       </div>
+      </div>
+      <div className = {style.section3}>
       <div className = {style.main3}>
         <div className = {style.tit3}>One connected workflow.
 </div>
@@ -169,7 +186,9 @@ Turn your website into an active part of your sales process. High performance, m
     <div className = {style.boxcont}>Deliver the property brochure automatically</div>
   </div>
 </div>
+      </div> 
       </div>
+      <div className = {style.section4}>
      <div className={style.main4}>
      <div className={style.lefttit1}>
      Key Features
@@ -366,6 +385,8 @@ Turn your website into an active part of your sales process. High performance, m
           </div>
         </div>
      </div>
+     </div>
+     <div className = {style.section5}>
      <div className = {style.main5}>
       <div className = {style.left5}>
       <Image src = {villa} alt = "villa" className={style.villa}/>
@@ -446,6 +467,8 @@ Turn your website into an active part of your sales process. High performance, m
 </div>
       </div>
      </div>
+     </div>
+     <div className = {style.section6}>
      <div className = {style.main6}>
       <div className = {style.l6}>
         <div className = {style.small6}>Property Alert
@@ -481,6 +504,7 @@ Turn your website into an active part of your sales process. High performance, m
       <div className = {style.r6}>
       <Image src = {contactform} alt = "contact" className = {style.cf}/>
       </div>
+     </div>
      </div>
      <div className = {style.main7}>
       <div className = {style.smallt7}>Q & A</div>
