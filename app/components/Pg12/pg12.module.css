@@ -102,8 +102,8 @@
 
   background: linear-gradient(
     180deg,
-    oklch(18% 0.02 270 / 0.55),
-    oklch(12% 0.04 280 / 0.85)
+    oklch(25% 0.02 270 / 0.45),
+    oklch(18% 0.04 280 / 0.70)
   );
 }
 .main > *:not(.overlay) {
@@ -122,6 +122,7 @@
   display: inline-block;
 }
 .content1{
+  padding-left: 2.5rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   padding-top: 10%;
@@ -179,7 +180,7 @@
     flex-direction: row;
     gap: 0.6rem;
     align-items: center;
-    color: oklch(48% .2 285);
+    color: #433878;
     margin-top: 2rem;
   
 }
@@ -267,7 +268,7 @@
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .stit5{
@@ -275,7 +276,7 @@
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .leftsubtit{
@@ -344,11 +345,12 @@
   border-color: oklch(92% .01 270);
 }
 .number{ 
-  background: linear-gradient(
-    135deg,
-    oklch(48% 0.2 285),
-    oklch(62% 0.22 290)
-  );
+background: linear-gradient(
+  135deg,
+  #352d62,
+  #433878,
+  #574b91
+);
   color: white;
   width: 40px;
   height: 40px;
@@ -451,11 +453,12 @@ line-height: 2.8rem;
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(
-    135deg,
-    oklch(48% 0.2 285),
-    oklch(62% 0.22 290)
-  );
+background: linear-gradient(
+  135deg,
+  #352d62,
+  #433878,
+  #574b91
+);
   margin-bottom: 0.8rem;
 }
 
@@ -510,7 +513,7 @@ line-height: 2.8rem;
   width: 20px;
   height: 20px;
   stroke-width: 2;
-  color: oklch(48% .2 285)
+  color: #433878
 }
 .icon5{
 
@@ -545,7 +548,7 @@ line-height: 2.8rem;
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .maint6{
@@ -597,7 +600,7 @@ line-height: 2.8rem;
     width: 20px;
   height: 20px;
   stroke-width: 2;
-  color: oklch(48% .2 285)
+  color: #433878
   }
   .pt61{
     font-family: 'Medium', sans-serif;
@@ -635,7 +638,7 @@ line-height: 2.8rem;
     width: 14px;
     height: 2px;
   
-    background: #6246e5;
+    background: #433878;
   
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
@@ -665,7 +668,7 @@ line-height: 2.8rem;
   width: 14px;
   height: 2px;
 
-  background: #6246e5;
+  background: #433878;
 
   transform: translate(-50%, -50%);
   transition: transform 0.3s ease;
@@ -741,7 +744,7 @@ line-height: 2.8rem;
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
   align-items: center;
   text-align: center;
@@ -777,7 +780,7 @@ line-height: 2.8rem;
   align-items: center;
 }
 .but8 {
-  background-color: #6246e5;
+  background-color: #433878;
   font-family: 'Medium', sans-serif;
   border-radius: 30px;
   font-size: 18px;
@@ -790,8 +793,17 @@ line-height: 2.8rem;
   transition: background-color 0.3s ease;
 }
 
-.but8:hover {
-  background-color: #5338c7;
+
+
+/* Arrow */
+.but8 .arrow {
+  display: flex;
+  transition: transform 0.25s ease;
+}
+
+/* Move arrow on hover */
+.but8:hover .arrow {
+  transform: translateX(4px);
 }
 .main6 {
   width: 100%;
@@ -939,7 +951,7 @@ background-color: oklch(97% .01 270);
     flex-direction: row;
     gap: 0.6rem;
     align-items: center;
-    color: oklch(48% .2 285);
+    color: #433878;
     margin-top: 2rem;
   
 }
@@ -1027,7 +1039,7 @@ background-color: oklch(97% .01 270);
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .stit5{
@@ -1035,7 +1047,7 @@ background-color: oklch(97% .01 270);
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .leftsubtit{
@@ -1106,11 +1118,12 @@ background-color: oklch(97% .01 270);
   border-color: oklch(92% .01 270);
 }
 .number{ 
-  background: linear-gradient(
-    135deg,
-    oklch(48% 0.2 285),
-    oklch(62% 0.22 290)
-  );
+background: linear-gradient(
+  135deg,
+  #352d62,
+  #433878,
+  #574b91
+);
   color: white;
   width: 40px;
   height: 40px;
@@ -1215,11 +1228,12 @@ line-height: 2.8rem;
   align-items: center;
   justify-content: center;
 
-  background: linear-gradient(
-    135deg,
-    oklch(48% 0.2 285),
-    oklch(62% 0.22 290)
-  );
+background: linear-gradient(
+  135deg,
+  #352d62,
+  #433878,
+  #574b91
+);
   margin-bottom: 0.8rem;
 }
 
@@ -1275,7 +1289,7 @@ line-height: 2.8rem;
   width: 20px;
   height: 20px;
   stroke-width: 2;
-  color: oklch(48% .2 285)
+  color: #433878
 }
 .icon5{
 
@@ -1310,7 +1324,7 @@ line-height: 2.8rem;
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
 }
 .maint6{
@@ -1362,7 +1376,7 @@ line-height: 2.8rem;
     width: 20px;
   height: 20px;
   stroke-width: 2;
-  color: oklch(48% .2 285)
+  color: #433878
   }
   .pt61{
     font-family: 'Medium', sans-serif;
@@ -1400,7 +1414,7 @@ line-height: 2.8rem;
     width: 14px;
     height: 2px;
   
-    background: #6246e5;
+    background: #433878;
   
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
@@ -1430,7 +1444,7 @@ line-height: 2.8rem;
   width: 14px;
   height: 2px;
 
-  background: #6246e5;
+  background: #433878;
 
   transform: translate(-50%, -50%);
   transition: transform 0.3s ease;
@@ -1506,7 +1520,7 @@ line-height: 2.8rem;
   font-size: 14px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  color: oklch(48% .2 285);
+  color: #433878;
   font-weight: 600;
   align-items: center;
   text-align: center;
@@ -1542,7 +1556,7 @@ line-height: 2.8rem;
   align-items: center;
 }
 .but8 {
-  background-color: #6246e5;
+  background-color: #433878;
   font-family: 'Medium', sans-serif;
   border-radius: 30px;
   font-size: 18px;
@@ -1555,9 +1569,7 @@ line-height: 2.8rem;
   transition: background-color 0.3s ease;
 }
 
-.but8:hover {
-  background-color: #5338c7;
-}
+
 .main6 {
   width: 100%;
   max-width: 1440px;

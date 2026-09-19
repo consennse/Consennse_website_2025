@@ -70,7 +70,7 @@ const faqs = [
   {
     question: "I don't have Propertybase. Can I still use WEBSITE for Propertybase?",
     answer:
-      "Ongoing costs may include hosting, domain registration, CMS licensing, and optional maintenance.",
+      "Yes, absolutely. We can integrate virtually any CRM system. Get in touch with us and let us know which platform you are currently using.",
   },
 ];
 
@@ -108,7 +108,7 @@ const Pg12 = () => {
       <div className={style.hellotxt}>
 
 <div>
-  Your real
+  Your real{' '}
   <br className={style.mobileBreak} />
   estate website
   <span className={style.desktopDash}> —</span>
@@ -116,7 +116,7 @@ const Pg12 = () => {
 
 <div>
   <span className={style.mobileDash}>— </span>
-  <span className={style.midtext}>fully</span>
+  <span className={style.midtext}>fully </span>
   <br className={style.mobileBreak} />
   <span className={style.midtext}>connected</span> to
 </div>
@@ -184,6 +184,17 @@ Turn your website into an active part of your sales process. High performance, m
   <div className = {style.box}>
     <div className = {style.number}>04</div>
     <div className = {style.boxcont}>Deliver the property brochure automatically</div>
+  </div>
+</div>
+<div className = {style.boxes}>
+<div className = {style.box}>
+    <div className = {style.number}>05</div>
+    <div className = {style.boxcont}>Qualify and Engage with Lead: Review, segment, and nurture leads to gauge interest and readiness.
+</div>
+  </div>
+  <div className = {style.box}>
+    <div className = {style.number}>06</div>
+    <div className = {style.boxcont}>Convert and Close the Deal: Coordinate final viewings, handle negotiations, and successfully close the transaction.</div>
   </div>
 </div>
       </div> 
@@ -553,7 +564,7 @@ Turn your website into an active part of your sales process. High performance, m
       
       <div className = {style.button8}>
       <Link href="/content/contact">
-        <button className = {style.but8}>Ready for the next step? <span><FiArrowRight/> </span> </button>
+        <button className = {style.but8}>Ready for the next step? <span className = {style.arrow}> <FiArrowRight/> </span> </button>
         </Link>
       </div>
      </div>
