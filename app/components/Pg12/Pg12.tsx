@@ -3,7 +3,7 @@ import React from 'react'
 import style from "./pg12.module.css"
 import Nav from "@/app/components/Nav/Nav"
 import Footer from '../Footer/Footer'
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import { useState } from 'react';
 import Image from 'next/image';
 import { Zap } from "lucide-react";
@@ -32,46 +32,14 @@ import {
 } from "lucide-react";
 
 const faqs = [
-  {
-    question: "What is WEBSITE for Propertybase?",
-    answer:
-      "WEBSITE for Propertybase is a service that designs and develops modern real estate websites fully integrated with Propertybase. It enables automatic listing publication, lead capture, and CRM synchronisation — eliminating manual work and data duplication",
-  },
-  {
-    question: "How does the integration with Propertybase work?",
-    answer:
-      "We connect your website directly to Propertybase via API. Property listings sync automatically, website inquiries are created as leads in your CRM, and contact data is enriched with user activity — all in real time.",
-  },
-  {
-    question: "Do I need technical knowledge to manage the website?",
-    answer:
-      "No. We build every site with a user-friendly CMS that lets you update content, add pages, and manage listings without any coding knowledge. Our team also provides training and ongoing support.",
-  },
-  {
-    question: "Can the website handle multiple languages?",
-    answer:
-      "Yes. Our websites support multilingual content, allowing you to reach international audiences and expand into new markets with localised property listings and pages.",
-  },
-  {
-    question: "Is the website optimised for search engines?",
-    answer:
-      "Absolutely. Every site is built with SEO best practices — fast loading times, clean code, structured data, and optimised content — to help you rank higher in search results and attract more organic traffic.",
-  },
-  {
-    question: "How long does it take to launch the website?",
-    answer:
-      "A typical project takes 6–10 weeks from kickoff to launch, depending on the scope and complexity. We follow a structured process with clear milestones to keep everything on track.",
-  },
-  {
-    question: "What costs do I have afterwards: Hosting, CMS License?",
-    answer:
-      "After launch, ongoing costs depend on your setup. Hosting is typically covered by your chosen platform or infrastructure provider. If your CMS requires a commercial license, renewal fees apply annually. We provide a transparent cost breakdown during the project so there are no surprises.",
-  },
-  {
-    question: "I don't have Propertybase. Can I still use WEBSITE for Propertybase?",
-    answer:
-      "Yes, absolutely. We can integrate virtually any CRM system. Get in touch with us and let us know which platform you are currently using.",
-  },
+  { question: "769", answer: "770" },
+  { question: "771", answer: "772" },
+  { question: "773", answer: "774" },
+  { question: "775", answer: "776" },
+  { question: "777", answer: "778" },
+  { question: "779", answer: "780" },
+  { question: "781", answer: "782" },
+  { question: "783", answer: "784" },
 ];
 
 
@@ -85,7 +53,7 @@ const Pg12 = () => {
         : [...prev, index]
     );
   };
-  // const {t} = useTranslation();
+  const {t} = useTranslation();
   return (
     <div className={style.body}>
     <Nav/>
@@ -103,36 +71,38 @@ const Pg12 = () => {
           <div className = {style.content1}>
       <div className= {style.transparentbox}>
       <span className={style.yellowDot}></span>
-      <div className = {style.dottext}>WEBSITE FOR PROPERTYBASE </div>
+      <div className = {style.dottext}>
+       {t('700')}
+        </div>
       </div>
       <div className={style.hellotxt}>
 
 <div>
-  Your real{' '}
+{t('701')}{' '}
   <br className={style.mobileBreak} />
-  estate website
+  {t('702')}
   <span className={style.desktopDash}> —</span>
 </div>
 
 <div>
   <span className={style.mobileDash}>— </span>
-  <span className={style.midtext}>fully </span>
+  <span className={style.midtext}>{t('703')} </span>
   <br className={style.mobileBreak} />
-  <span className={style.midtext}>connected</span> to
+  <span className={style.midtext}>{t('704')}</span> {t('705')}
 </div>
 
 <div>
-  Propertybase.
+{t('706')}
 </div>
 
 </div>
 <div className = {style.mainheading}>
-We design and develop modern real estate websites that integrate seamlessly with Propertybase. Publish listings automatically, capture leads, and manage inquiries directly in your CRM — without manual work or duplicate data.
+{t('707')}
   </div>
   <div className = {style.buttondiv}>
   <Link href="/content/contact">
     <button className= {style.button}> 
-      Ready for the next step?
+    {t('708')}
      
 <span className={style.arrow}>
   <FiArrowRight />
@@ -147,12 +117,13 @@ We design and develop modern real estate websites that integrate seamlessly with
       <div className = {style.main2}> 
       <div className={style.left}>
         <div className={style.lefttit1}>
-        Built for real estate agencies
+        {t('709')}
         </div>
-        <div className = {style.leftsubtit}>From website visitor to CRM lead — automatically.
+        <div className = {style.leftsubtit}>
+        {t('710')}
 </div>
 <div className = {style.leftcontent}>
-Turn your website into an active part of your sales process. High performance, modern technology, and a clear focus on lead generation.
+{t('711')}
 </div>
         </div>
         <div className={style.right}>
@@ -166,35 +137,47 @@ Turn your website into an active part of your sales process. High performance, m
       </div>
       <div className = {style.section3}>
       <div className = {style.main3}>
-        <div className = {style.tit3}>One connected workflow.
+        <div className = {style.tit3}>
+        {t('712')}
 </div>
 <div className = {style.boxes}>
   <div className = {style.box}>
     <div className = {style.number}>01</div>
-    <div className = {style.boxcont}>Prepare your Property listings in the CRM</div>
+    <div className = {style.boxcont}>
+    {t('713')}
+      </div>
   </div>
   <div className = {style.box}>
     <div className = {style.number}>02</div>
-    <div className = {style.boxcont}>Property listings sync directly from Propertybase</div>
+    <div className = {style.boxcont}>
+    {t('714')}
+      </div>
   </div>
   <div className = {style.box}>
     <div className = {style.number}>03</div>
-    <div className = {style.boxcont}>Website inquiries are automatically created in the CRM</div>
+    <div className = {style.boxcont}>
+    {t('715')}
+      </div>
   </div>
   <div className = {style.box}>
     <div className = {style.number}>04</div>
-    <div className = {style.boxcont}>Deliver the property brochure automatically</div>
+    <div className = {style.boxcont}>
+    {t('716')}
+      </div>
   </div>
 </div>
 <div className = {style.boxes}>
 <div className = {style.box}>
     <div className = {style.number}>05</div>
-    <div className = {style.boxcont}>Qualify and Engage with Lead: Review, segment, and nurture leads to gauge interest and readiness.
+    <div className = {style.boxcont}>
+    {t('717')}
 </div>
   </div>
   <div className = {style.box}>
     <div className = {style.number}>06</div>
-    <div className = {style.boxcont}>Convert and Close the Deal: Coordinate final viewings, handle negotiations, and successfully close the transaction.</div>
+    <div className = {style.boxcont}>
+    {t('718')}
+      </div>
   </div>
 </div>
       </div> 
@@ -202,12 +185,14 @@ Turn your website into an active part of your sales process. High performance, m
       <div className = {style.section4}>
      <div className={style.main4}>
      <div className={style.lefttit1}>
-     Key Features
+     {t('719')}
         </div>
         <div className = {style.toptitle}>
-          <div className = {style.lefttop}>Everything a modern real estate site needs.
+          <div className = {style.lefttop}>
+          {t('720')}
 </div>
-          <div className = {style.righttop}>Designed for agencies that want speed, structure, and a website that does the heavy lifting in lead generation.
+          <div className = {style.righttop}>
+          {t('721')}
 
 </div>
         </div>
@@ -217,16 +202,18 @@ Turn your website into an active part of your sales process. High performance, m
               <div className = {style.icon4}>
               <Zap className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>Modern technology platform</div>
-              <div className = {style.bcont4}>Built with scalable, high-performance technologies for speed, security, and future readiness.</div>
+              <div className = {style.btit4}>{t('722')}</div>
+              <div className = {style.bcont4}>{t('723')}</div>
             </div>
             <div className = {style.box4}>
               <div className = {style.icon4}>
               <Building2 className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>New developments & units
+              <div className = {style.btit4}>
+              {t('724')}
 </div>
-              <div className = {style.bcont4}>Showcase projects, buildings, and individual units in a clear, structured, and visually appealing way.
+              <div className = {style.bcont4}>
+              {t('725')}
 
 </div>
             </div>
@@ -234,9 +221,11 @@ Turn your website into an active part of your sales process. High performance, m
               <div className = {style.icon4}> 
               <SquarePen className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>User-friendly CMS
+              <div className = {style.btit4}>
+              {t('726')}
 </div>
-              <div className = {style.bcont4}>Easily manage and update your website content — no technical knowledge required.
+              <div className = {style.bcont4}>
+              {t('727')}
 
 </div>
             </div>
@@ -244,10 +233,11 @@ Turn your website into an active part of your sales process. High performance, m
               <div className = {style.icon4}>
               <MapPin className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>Interactive map search
+              <div className = {style.btit4}>
+              {t('728')}
 </div>
-              <div className = {style.bcont4}>Enable intuitive property discovery with interactive maps and location-based search.
-
+              <div className = {style.bcont4}>
+              {t('729')}
 </div>
             </div>
           </div>
@@ -256,10 +246,10 @@ Turn your website into an active part of your sales process. High performance, m
               <div className = {style.icon4}>
               <Search className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>SEO-optimized structure
+              <div className = {style.btit4}>{t('730')}
 </div>
               <div className = {style.bcont4}>
-              Improve search engine visibility with optimized pages, content, and performance.
+              {t('731')}
 
 
                 </div>
@@ -272,12 +262,10 @@ Turn your website into an active part of your sales process. High performance, m
 
 
               </div>
-              <div className = {style.btit4}>Property Alert
-
+              <div className = {style.btit4}>{t('732')}
 </div>
               <div className = {style.bcont4}>
-              Capture client criteria and send weekly updates of matching new listings, automatically.
-
+              {t('733')}
 
 
 </div>
@@ -287,12 +275,11 @@ Turn your website into an active part of your sales process. High performance, m
               <Newspaper className={style.zapIcon} />
               </div>
               <div className = {style.btit4}>
-              Articles & Blogs
+              {t('734')}
 
 </div>
-              <div className = {style.bcont4}>Publish editorial content to grow organic traffic and build authority in your market.
-
-
+              <div className = {style.bcont4}>
+              {t('735')}
 
 </div>
             </div>
@@ -300,11 +287,12 @@ Turn your website into an active part of your sales process. High performance, m
               <div className = {style.icon4}>
               <Languages className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>Multilingual support
+              <div className = {style.btit4}>{t('736')}
 
 </div>
               <div className = {style.bcont4}>
-              Reach international audiences with flexible multilingual capabilities.
+              {t('747')}
+
 
 
 
@@ -318,10 +306,11 @@ Turn your website into an active part of your sales process. High performance, m
 
               </div>
               <div className = {style.btit4}>
-                Property Shortlist
+              {t('738')}
+
 </div>
               <div className = {style.bcont4}>
-              Improve search engine visibility with optimized pages, content, and performance.
+              {t('739')}
 
 
                 </div>
@@ -333,12 +322,12 @@ Turn your website into an active part of your sales process. High performance, m
 
               </div>
               <div className = {style.btit4}>
-                Featured Properties 
+              {t('740')}
+
 
 </div>
               <div className = {style.bcont4}>
-              Capture client criteria and send weekly updates of matching new listings, automatically.
-
+              {t('741')}
 
 
 </div>
@@ -351,10 +340,13 @@ Turn your website into an active part of your sales process. High performance, m
 
               </div>
               <div className = {style.btit4}>
-              Multi-currency Support
+              {t('742')}
+
 
 </div>
-              <div className = {style.bcont4}>Publish editorial content to grow organic traffic and build authority in your market.
+              <div className = {style.bcont4}>
+              {t('743')}
+
 
 
 
@@ -365,11 +357,13 @@ Turn your website into an active part of your sales process. High performance, m
               <FileText className={style.zapIcon} />
 
               </div>
-              <div className = {style.btit4}>Brochure Download
+              <div className = {style.btit4}> {t('744')}
+
+        
 
 </div>
               <div className = {style.bcont4}>
-              Reach international audiences with flexible multilingual capabilities.
+              {t('737')}
 
 
 
@@ -383,13 +377,12 @@ Turn your website into an active part of your sales process. High performance, m
            
 <Mail className={style.zapIcon} />
               </div>
-              <div className = {style.btit4}>Newsletter 
+              <div className = {style.btit4}>{t('746')}
+
 
 </div>
               <div className = {style.bcont4}>
-              Reach international audiences with flexible multilingual capabilities.
-
-
+              {t('745')}
 
 </div>
             </div>
@@ -403,8 +396,10 @@ Turn your website into an active part of your sales process. High performance, m
       <Image src = {villa} alt = "villa" className={style.villa}/>
       </div>
       <div className = {style.right5}>
-        <div className = {style.stit5}>Benefits</div>
-        <div className = {style.maintit5}>Less work. More leads. Better data.
+        <div className = {style.stit5}>
+          {t('748')}
+        </div>
+        <div className = {style.maintit5}>   {t('749')}
 </div>
 <div className = {style.points5}>
   <div className = {style.point1}>
@@ -413,9 +408,11 @@ Turn your website into an active part of your sales process. High performance, m
 
     </div>
     <div className = {style.ptcont5}>
-    <div className = {style.pointit5}>Less manual work
+    <div className = {style.pointit5}>
+    {t('750')}
 </div>
-<div className = {style.contentpt5}>No duplicate data entry between your website and Propertybase.
+<div className = {style.contentpt5}>
+{t('751')}
 </div>
   </div>
   </div>
@@ -426,10 +423,12 @@ Turn your website into an active part of your sales process. High performance, m
 
     </div>
     <div className = {style.ptcont5}>
-    <div className = {style.pointit5}>Faster response times
+    <div className = {style.pointit5}>
+    {t('752')}
 
 </div>
-<div className = {style.contentpt5}>Process incoming leads instantly and respond more efficiently.
+<div className = {style.contentpt5}>
+{t('753')}
 </div>
 
 </div>
@@ -442,11 +441,11 @@ Turn your website into an active part of your sales process. High performance, m
 
     </div>
     <div className = {style.ptcont5}>
-    <div className = {style.pointit5}>Better customer experience
+    <div className = {style.pointit5}>
+    {t('754')}
 
 </div>
-<div className = {style.contentpt5}>Make it easy for visitors to find properties and get in touch.
-
+<div className = {style.contentpt5}>   {t('755')}
 </div>
 </div>
   </div>
@@ -455,10 +454,12 @@ Turn your website into an active part of your sales process. High performance, m
 
 
 </div>  <div className = {style.ptcont5}>
-    <div className = {style.pointit5}>Consistent, reliable data
+    <div className = {style.pointit5}>
+    {t('756')}
 
 </div>
-<div className = {style.contentpt5}>Keep listings, contacts, and inquiries fully synchronised.
+<div className = {style.contentpt5}>
+{t('757')}
 </div>
 
 </div>
@@ -467,10 +468,11 @@ Turn your website into an active part of your sales process. High performance, m
     <div className = {style.icon5}>
     <TrendingUp className={style.zcon} />
       </div>  <div className = {style.ptcont5}>
-    <div className = {style.pointit5}>Scalable solution
+    <div className = {style.pointit5}>   {t('758')}
+      
 
 </div>
-<div className = {style.contentpt5}>Grow your website alongside your business and Propertybase setup.
+<div className = {style.contentpt5}>   {t('759')}
 </div>
 
 </div>
@@ -482,32 +484,38 @@ Turn your website into an active part of your sales process. High performance, m
      <div className = {style.section6}>
      <div className = {style.main6}>
       <div className = {style.l6}>
-        <div className = {style.small6}>Property Alert
+        <div className = {style.small6}>
+        {t('760')}
 </div>
-<div className = {style.maint6}>Turn visitors into qualified leads — automatically.
+<div className = {style.maint6}>
+{t('761')}
 </div>
-<div className = {style.lcont6}>Let visitors define exactly what they&apos;re looking for — region, city, property type, bedrooms, budget, and lifestyle features. Their preferences are captured directly in Propertybase, and they receive a weekly digest of new matching listings.
+<div className = {style.lcont6}>
+{t('762')}
 </div>
 <div className = {style.pts6}>
   <div className = {style.pt1}>
     <div className = {style.ic}>  <CircleCheck className={style.checkIcon} /> </div>
-    <div className = {style.pt61}>Granular criteria: location, type, price, features
+    <div className = {style.pt61}>
+    {t('763')}
 </div>
   </div>
   <div className = {style.pt1}>
     <div className = {style.ic6}>  <CircleCheck className={style.checkIcon} /> </div>
-    <div className = {style.pt61}>Automated weekly email of matching new listings
+    <div className = {style.pt61}>   {t('764')}
 
 </div>
   </div>
   <div className = {style.pt1}>
     <div className = {style.ic6}>  <CircleCheck className={style.checkIcon} /> </div>
-    <div className = {style.pt61}>Leads and preferences synced into Propertybase
+    <div className = {style.pt61}>
+    {t('765')}
 </div>
   </div>
   <div className = {style.pt1}>
     <div className = {style.ic6}>  <CircleCheck className={style.checkIcon} /> </div>
-    <div className = {style.pt61}>GDPR-compliant consent and easy unsubscribe
+    <div className = {style.pt61}>
+    {t('766')}
 </div>
   </div>
 </div>
@@ -518,8 +526,10 @@ Turn your website into an active part of your sales process. High performance, m
      </div>
      </div>
      <div className = {style.main7}>
-      <div className = {style.smallt7}>Q & A</div>
-      <div className = {style.maint7}>Frequently asked questions</div>
+      <div className = {style.smallt7}>   {t('767')}</div>
+      <div className = {style.maint7}>
+      {t('768')}
+      </div>
       <section className={style.faq}>
       {faqs.map((faq, index) => {
         const isOpen = openIndexes.includes(index);
@@ -529,42 +539,33 @@ Turn your website into an active part of your sales process. High performance, m
             className={`${style.item} ${isOpen ? style.open : ""}`}
             key={index}
           >
-            <button
-              className={style.question}
-              onClick={() => toggleFAQ(index)}
-              aria-expanded={isOpen}
-            >
-              <span>{faq.question}</span>
+           <button
+  className={style.question}
+  onClick={() => toggleFAQ(index)}
+  aria-expanded={isOpen}
+>
+  <span>{t(faq.question)}</span>
+  ...
+</button>
 
-              {/* + / × icon */}
-              <span className={style.icon7}>
-                <span className={style.horizontal}></span>
-                <span className={style.vertical}></span>
-              </span>
-            </button>
-
-            <div
-              className={style.answerWrapper}
-              style={{
-                gridTemplateRows: isOpen ? "1fr" : "0fr",
-              }}
-            >
-              <div className={style.answer}>
-                <p>{faq.answer}</p>
-              </div>
-            </div>
+<div className={style.answerWrapper} style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}>
+  <div className={style.answer}>
+    <p>{t(faq.answer)}</p>
+  </div>
+</div>
+          
           </div>
         );
       })}
     </section>
      </div>
      <div className = {style.main8}>
-      <div className = {style.maint8}>Turn your website into a lead machine.</div>
-      <div className = {style.subt8}>Let&apos;s build a website that not only looks great but actively supports your sales and marketing processes in Propertybase.</div>
+      <div className = {style.maint8}>   {t('785')}</div>
+      <div className = {style.subt8}>   {t('786')}</div>
       
       <div className = {style.button8}>
       <Link href="/content/contact">
-        <button className = {style.but8}>Ready for the next step? <span className = {style.arrow}> <FiArrowRight/> </span> </button>
+        <button className = {style.but8}>   {t('708')} <span className = {style.arrow}> <FiArrowRight/> </span> </button>
         </Link>
       </div>
      </div>

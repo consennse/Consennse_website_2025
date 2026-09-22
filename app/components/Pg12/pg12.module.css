@@ -126,6 +126,7 @@
   margin-left: 2.5rem;
   margin-right: 2.5rem;
   padding-top: 10%;
+  
 }
 .transparentbox{
   font-size: 12px;
@@ -363,7 +364,7 @@ background: linear-gradient(
 .boxcont{
   margin-top: 1rem;
   font-size: 16px;
-  width: 85%;
+  width: 100%;
 }
 
 .box {
@@ -894,9 +895,11 @@ background-color: oklch(97% .01 270);
   display: inline-block;
 }
 .content1{
+  padding-left: 0rem;
   margin-left: 2.5rem;
   margin-right: 2.5rem;
-  padding-top: 45%;
+  padding-top: 30%;
+
 }
 .transparentbox{
   font-size: 12px;
