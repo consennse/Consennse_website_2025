@@ -8,13 +8,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale?: 
 
   const locale = (await params)?.locale || 'en'; // Default to English
   const metaDataEN = {
-    title: "Consennse GmbH | Contact us",
-    description: "Get in touch with us quickly and easily - use our contact form for your inquiries, requests, or feedback",
+    title: "Consennse GmbH | WEBSITE for Propertybase",
+    description: "Build a smarter real estate business with Propertybase. Seamlessly connect your website, CRM, listings, and workflows in one powerful digital ecosystem.",
   };
 
   const metaDataDE = {
-    title: "Consennse GmbH | Kontaktaufnahme",
-    description: "Nehmen Sie schnell und unkompliziert Kontakt mit uns auf - nutzen Sie unser Kontaktformular für Ihre Anfragen, Wünsche oder Feedback.",
+    title: "Consennse GmbH | WEBSITE für Propertybase",
+    description: "Immobilien digital neu gedacht mit Propertybase. Verbinden Sie Website, CRM, Immobilienangebote und Workflows nahtlos in einem leistungsstarken digitalen System.",
   };
 
   const selectedMetadata = locale === 'de' ? metaDataDE : metaDataEN;
