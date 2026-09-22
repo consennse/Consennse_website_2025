@@ -110,7 +110,7 @@ const Footer = () => {
       <div className = {st12.botline}></div>
       <footer className={st12.foot1}>
         <div className = {st12.footdiv1}>
-        2025 © Consennse - {t('89')}
+        2026 © Consennse - {t('89')}
         </div>
         <div className = {st12.footdiv2}>
           <Link href = '/content/privacypolicy'>
