@@ -539,13 +539,18 @@ const Pg12 = () => {
             className={`${style.item} ${isOpen ? style.open : ""}`}
             key={index}
           >
-           <button
+<button
   className={style.question}
   onClick={() => toggleFAQ(index)}
   aria-expanded={isOpen}
 >
   <span>{t(faq.question)}</span>
-  ...
+
+  {/* + / × icon */}
+  <span className={style.icon7}>
+    <span className={style.horizontal}></span>
+    <span className={style.vertical}></span>
+  </span>
 </button>
 
 <div className={style.answerWrapper} style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}>
