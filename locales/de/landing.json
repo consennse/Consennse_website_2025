@@ -473,7 +473,6 @@
   "625M" : "/Monat",
   "626":"* Alle Preisangaben verstehen sich exklusive der gesetzlichen MWSt",
   "627" : "Pakete",
-<<<<<<< HEAD
   "633":"Ich unterstütze unsere Kunden dabei, komplexe Abläufe zu vereinfachen und Ihre digitale Strategie messbar zum Erfolg zu führen.",
   "628":"Senior Consultant / Partner",
   "629":"Mit meiner Erfahrung aus vielen Softwareprojekten schlage ich die Brücke zwischen digitalem Wandel und Ihrer Strategie.",
@@ -487,8 +486,7 @@
   "639": "Anmelden",
   "640":"Die mit Stern (*) gekennzeichneten Felder sind Pflichtfelder.",
   "641":"Ja, ich möchte gerne über Neuigkeiten von Consennse per E-Mail informiert werden. Daher willige ich der Verwendung meiner persönlichen Daten durch Consennse ein.",
-  "642":"Lesen Sie unsere Privacy Policy"
-=======
+  "642":"Lesen Sie unsere Privacy Policy",
   "700":"WEBSITE FÜR PROPERTYBASE",
 "701":"Ihre Immobilien-Website",
 "702":"",
@@ -576,5 +574,5 @@
 "784":"Ja, selbstverständlich. Wir können praktisch jedes CRM-System integrieren. Nehmen Sie Kontakt mit uns auf und teilen Sie uns mit, welche Plattform Sie aktuell verwenden.",
 "785":"Machen Sie Ihre Website zur Lead-Maschine.",
 "786":"Lassen Sie uns eine Website bauen, die nicht nur gut aussieht, sondern Ihre Vertriebs- und Marketingprozesse in Propertybase aktiv unterstützt."
->>>>>>> staging
+
 }

@@ -473,7 +473,6 @@
   "625M" : "/month",
   "626":"* All prices are quoted exclusive of statutory Swiss VAT",
   "627" : "Packages",
-<<<<<<< HEAD
   "633":"I simplify complex workflows through deep expertise, turning digital strategy into measurable success.",
   "628":"Senior Consultant / Partner",
   "629":"I bridge the gap between digital transformation and business strategy through my extensive software experience.",
@@ -486,8 +485,7 @@
   "639":"Subscribe",
   "640":"All fields marked with an asterisk (*) are mandatory.",
   "641":"Yes, I would like to receive the latest news from Consennse by email. I therefore consent to the use of my personal data collected by Consennse.",
-  "642":"Read our Privacy Policy"
-=======
+  "642":"Read our Privacy Policy",
   "700":"WEBSITE FOR PROPERTYBASE",
 "701":"Your real",
 "702":"estate website",
@@ -575,7 +573,7 @@
 "784":"Yes, absolutely. We can integrate virtually any CRM system. Get in touch with us and let us know which platform you are currently using.",
 "785":"Turn your website into a lead machine.",
 "786":"Let's build a website that not only looks great but actively supports your sales and marketing processes in Propertybase."
->>>>>>> staging
+
 }
 
 
