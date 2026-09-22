@@ -15,10 +15,19 @@ export default async function initTranslations(
 
   if (!resources) {
     i18nInstance.use(
-      resourcesToBackend(
-        (language, namespace) =>
-          import(`@/locales/${language}/${namespace}.json`)
-      )
+      resourcesToBackend((language, namespace) => {
+        if (language === 'en' && namespace === 'landing') {
+          return import('@/locales/en/landing.json');
+        }
+
+        if (language === 'de' && namespace === 'landing') {
+          return import('@/locales/de/landing.json');
+        }
+
+        throw new Error(
+          `Translation file not found: ${language}/${namespace}`
+        );
+      })
     );
   }
 
